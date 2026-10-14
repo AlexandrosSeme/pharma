@@ -24,3 +24,12 @@ img,
 svg {
   max-width: 100%;
 }
+
+/* Finger-sized (44px) tap targets on phones and tablets. */
+@media (pointer: coarse) {
+  .btn:not(.btn-sm),
+  .form-control,
+  .form-select {
+    min-height: 2.75rem;
+  }
+}

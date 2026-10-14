@@ -11,7 +11,9 @@
     "postalCode": "10563",
     "vatNumber": "EL094512378",
     "status": "active",
-    "createdAt": "2025-02-14T09:30:00Z"
+    "createdAt": "2025-02-14T09:30:00Z",
+    "latitude": 37.976188,
+    "longitude": 23.729384
   },
   {
     "id": "2",
@@ -25,7 +27,9 @@
     "postalCode": "54622",
     "vatNumber": "EL801234567",
     "status": "active",
-    "createdAt": "2025-03-02T11:15:00Z"
+    "createdAt": "2025-03-02T11:15:00Z",
+    "latitude": 40.629232,
+    "longitude": 22.948327
   },
   {
     "id": "3",
@@ -39,7 +43,9 @@
     "postalCode": "15123",
     "vatNumber": "EL998877665",
     "status": "active",
-    "createdAt": "2025-04-21T08:00:00Z"
+    "createdAt": "2025-04-21T08:00:00Z",
+    "latitude": 38.036355,
+    "longitude": 23.798006
   },
   {
     "id": "4",
@@ -53,7 +59,9 @@
     "postalCode": "26221",
     "vatNumber": "EL112233445",
     "status": "active",
-    "createdAt": "2025-05-10T10:45:00Z"
+    "createdAt": "2025-05-10T10:45:00Z",
+    "latitude": 38.247999,
+    "longitude": 21.735828
   },
   {
     "id": "5",
@@ -67,7 +75,9 @@
     "postalCode": "71409",
     "vatNumber": "EL090807060",
     "status": "active",
-    "createdAt": "2025-06-03T07:20:00Z"
+    "createdAt": "2025-06-03T07:20:00Z",
+    "latitude": 35.33908,
+    "longitude": 25.133284
   },
   {
     "id": "6",
@@ -81,7 +91,9 @@
     "postalCode": "18536",
     "vatNumber": "EL556677889",
     "status": "inactive",
-    "createdAt": "2025-07-19T13:00:00Z"
+    "createdAt": "2025-07-19T13:00:00Z",
+    "latitude": 37.939947,
+    "longitude": 23.641232
   },
   {
     "id": "7",
@@ -95,7 +107,9 @@
     "postalCode": "41222",
     "vatNumber": "EL667788990",
     "status": "active",
-    "createdAt": "2025-09-08T09:10:00Z"
+    "createdAt": "2025-09-08T09:10:00Z",
+    "latitude": 39.6372,
+    "longitude": 22.416362
   },
   {
     "id": "8",
@@ -109,7 +123,9 @@
     "postalCode": "45221",
     "vatNumber": "EL334455667",
     "status": "active",
-    "createdAt": "2026-01-12T12:30:00Z"
+    "createdAt": "2026-01-12T12:30:00Z",
+    "latitude": 39.643926,
+    "longitude": 20.850837
   },
   {
     "id": "9",
@@ -123,7 +139,9 @@
     "postalCode": "18542",
     "vatNumber": "EL037487665",
     "status": "active",
-    "createdAt": "2025-12-14T16:15:00Z"
+    "createdAt": "2025-12-14T16:15:00Z",
+    "latitude": 37.944733,
+    "longitude": 23.643691
   },
   {
     "id": "10",
@@ -137,7 +155,9 @@
     "postalCode": "54670",
     "vatNumber": "EL493547245",
     "status": "active",
-    "createdAt": "2025-10-28T18:00:00Z"
+    "createdAt": "2025-10-28T18:00:00Z",
+    "latitude": 40.635461,
+    "longitude": 22.944524
   },
   {
     "id": "11",
@@ -151,7 +171,9 @@
     "postalCode": "62187",
     "vatNumber": "EL692542720",
     "status": "active",
-    "createdAt": "2025-03-18T02:15:00Z"
+    "createdAt": "2025-03-18T02:15:00Z",
+    "latitude": 41.094111,
+    "longitude": 23.55472
   },
   {
     "id": "12",
@@ -165,7 +187,9 @@
     "postalCode": "62174",
     "vatNumber": "EL008134058",
     "status": "active",
-    "createdAt": "2025-02-21T14:30:00Z"
+    "createdAt": "2025-02-21T14:30:00Z",
+    "latitude": 41.089188,
+    "longitude": 23.545164
   },
   {
     "id": "13",
@@ -179,7 +203,9 @@
     "postalCode": "15138",
     "vatNumber": "EL548535309",
     "status": "active",
-    "createdAt": "2025-08-17T17:15:00Z"
+    "createdAt": "2025-08-17T17:15:00Z",
+    "latitude": 38.056116,
+    "longitude": 23.812349
   },
   {
     "id": "14",
@@ -193,7 +219,9 @@
     "postalCode": "73107",
     "vatNumber": "EL848547470",
     "status": "active",
-    "createdAt": "2025-10-10T03:45:00Z"
+    "createdAt": "2025-10-10T03:45:00Z",
+    "latitude": 35.512293,
+    "longitude": 24.013386
   },
   {
     "id": "15",
@@ -207,7 +235,9 @@
     "postalCode": "41226",
     "vatNumber": "EL709727008",
     "status": "active",
-    "createdAt": "2025-05-31T23:00:00Z"
+    "createdAt": "2025-05-31T23:00:00Z",
+    "latitude": 39.637736,
+    "longitude": 22.419224
   },
   {
     "id": "16",
@@ -221,7 +251,9 @@
     "postalCode": "85103",
     "vatNumber": "EL214775907",
     "status": "active",
-    "createdAt": "2024-05-20T06:15:00Z"
+    "createdAt": "2024-05-20T06:15:00Z",
+    "latitude": 36.409026,
+    "longitude": 28.115902
   },
   {
     "id": "17",
@@ -235,7 +267,9 @@
     "postalCode": "24175",
     "vatNumber": "EL410442233",
     "status": "active",
-    "createdAt": "2025-01-08T15:15:00Z"
+    "createdAt": "2025-01-08T15:15:00Z",
+    "latitude": 37.036036,
+    "longitude": 22.114203
   },
   {
     "id": "18",
@@ -249,7 +283,9 @@
     "postalCode": "41292",
     "vatNumber": "EL208034741",
     "status": "active",
-    "createdAt": "2024-05-08T13:45:00Z"
+    "createdAt": "2024-05-08T13:45:00Z",
+    "latitude": 39.6372,
+    "longitude": 22.416362
   },
   {
     "id": "19",
@@ -263,7 +299,9 @@
     "postalCode": "49196",
     "vatNumber": "EL754660273",
     "status": "active",
-    "createdAt": "2025-01-19T12:45:00Z"
+    "createdAt": "2025-01-19T12:45:00Z",
+    "latitude": 39.623522,
+    "longitude": 19.92098
   },
   {
     "id": "20",
@@ -277,7 +315,9 @@
     "postalCode": "24138",
     "vatNumber": "EL673029037",
     "status": "active",
-    "createdAt": "2026-05-04T18:15:00Z"
+    "createdAt": "2026-05-04T18:15:00Z",
+    "latitude": 37.035082,
+    "longitude": 22.113907
   },
   {
     "id": "21",
@@ -291,7 +331,9 @@
     "postalCode": "38230",
     "vatNumber": "EL386454580",
     "status": "inactive",
-    "createdAt": "2026-05-20T17:00:00Z"
+    "createdAt": "2026-05-20T17:00:00Z",
+    "latitude": 39.358818,
+    "longitude": 22.948865
   },
   {
     "id": "22",
@@ -305,7 +347,9 @@
     "postalCode": "73174",
     "vatNumber": "EL167563406",
     "status": "active",
-    "createdAt": "2026-05-12T17:30:00Z"
+    "createdAt": "2026-05-12T17:30:00Z",
+    "latitude": 35.515778,
+    "longitude": 24.017795
   },
   {
     "id": "23",
@@ -319,7 +363,9 @@
     "postalCode": "26245",
     "vatNumber": "EL430869026",
     "status": "active",
-    "createdAt": "2025-05-30T12:00:00Z"
+    "createdAt": "2025-05-30T12:00:00Z",
+    "latitude": 38.249837,
+    "longitude": 21.739123
   },
   {
     "id": "24",
@@ -333,7 +379,9 @@
     "postalCode": "49156",
     "vatNumber": "EL144694013",
     "status": "active",
-    "createdAt": "2024-12-30T03:15:00Z"
+    "createdAt": "2024-12-30T03:15:00Z",
+    "latitude": 39.62522,
+    "longitude": 19.923927
   },
   {
     "id": "25",
@@ -347,7 +395,9 @@
     "postalCode": "54662",
     "vatNumber": "EL809043330",
     "status": "active",
-    "createdAt": "2024-06-12T01:00:00Z"
+    "createdAt": "2024-06-12T01:00:00Z",
+    "latitude": 40.632723,
+    "longitude": 22.943047
   },
   {
     "id": "26",
@@ -361,7 +411,9 @@
     "postalCode": "41274",
     "vatNumber": "EL217007209",
     "status": "active",
-    "createdAt": "2024-09-27T09:30:00Z"
+    "createdAt": "2024-09-27T09:30:00Z",
+    "latitude": 39.6372,
+    "longitude": 22.416362
   },
   {
     "id": "27",
@@ -375,7 +427,9 @@
     "postalCode": "65487",
     "vatNumber": "EL918318593",
     "status": "active",
-    "createdAt": "2025-07-20T10:00:00Z"
+    "createdAt": "2025-07-20T10:00:00Z",
+    "latitude": 40.935999,
+    "longitude": 24.412542
   },
   {
     "id": "28",
@@ -389,7 +443,9 @@
     "postalCode": "15118",
     "vatNumber": "EL122830698",
     "status": "active",
-    "createdAt": "2025-05-28T21:30:00Z"
+    "createdAt": "2025-05-28T21:30:00Z",
+    "latitude": 38.049204,
+    "longitude": 23.800366
   },
   {
     "id": "29",
@@ -403,7 +459,9 @@
     "postalCode": "41246",
     "vatNumber": "EL661850116",
     "status": "active",
-    "createdAt": "2025-02-02T04:15:00Z"
+    "createdAt": "2025-02-02T04:15:00Z",
+    "latitude": 39.637736,
+    "longitude": 22.419224
   },
   {
     "id": "30",
@@ -417,7 +475,9 @@
     "postalCode": "73174",
     "vatNumber": "EL627162437",
     "status": "active",
-    "createdAt": "2025-09-03T14:00:00Z"
+    "createdAt": "2025-09-03T14:00:00Z",
+    "latitude": 35.512304,
+    "longitude": 24.01382
   },
   {
     "id": "31",
@@ -431,7 +491,9 @@
     "postalCode": "62172",
     "vatNumber": "EL285198036",
     "status": "active",
-    "createdAt": "2026-06-06T11:30:00Z"
+    "createdAt": "2026-06-06T11:30:00Z",
+    "latitude": 41.094111,
+    "longitude": 23.55472
   },
   {
     "id": "32",
@@ -445,7 +507,9 @@
     "postalCode": "54607",
     "vatNumber": "EL382104291",
     "status": "active",
-    "createdAt": "2024-01-24T15:45:00Z"
+    "createdAt": "2024-01-24T15:45:00Z",
+    "latitude": 40.721059,
+    "longitude": 22.916432
   },
   {
     "id": "33",
@@ -459,7 +523,9 @@
     "postalCode": "54696",
     "vatNumber": "EL315936849",
     "status": "active",
-    "createdAt": "2026-08-22T09:45:00Z"
+    "createdAt": "2026-08-22T09:45:00Z",
+    "latitude": 40.634398,
+    "longitude": 22.942812
   },
   {
     "id": "34",
@@ -473,7 +539,9 @@
     "postalCode": "49145",
     "vatNumber": "EL297698399",
     "status": "active",
-    "createdAt": "2024-07-30T11:00:00Z"
+    "createdAt": "2024-07-30T11:00:00Z",
+    "latitude": 39.621496,
+    "longitude": 19.918653
   },
   {
     "id": "35",
@@ -487,7 +555,9 @@
     "postalCode": "10527",
     "vatNumber": "EL983011952",
     "status": "inactive",
-    "createdAt": "2025-04-09T00:00:00Z"
+    "createdAt": "2025-04-09T00:00:00Z",
+    "latitude": 37.976893,
+    "longitude": 23.724685
   },
   {
     "id": "36",
@@ -501,7 +571,9 @@
     "postalCode": "71273",
     "vatNumber": "EL182009701",
     "status": "active",
-    "createdAt": "2025-10-22T00:45:00Z"
+    "createdAt": "2025-10-22T00:45:00Z",
+    "latitude": 35.341831,
+    "longitude": 25.131334
   },
   {
     "id": "37",
@@ -515,7 +587,9 @@
     "postalCode": "41205",
     "vatNumber": "EL726134178",
     "status": "active",
-    "createdAt": "2026-02-14T11:15:00Z"
+    "createdAt": "2026-02-14T11:15:00Z",
+    "latitude": 39.637736,
+    "longitude": 22.419224
   },
   {
     "id": "38",
@@ -529,7 +603,9 @@
     "postalCode": "15152",
     "vatNumber": "EL644038304",
     "status": "inactive",
-    "createdAt": "2026-07-13T19:30:00Z"
+    "createdAt": "2026-07-13T19:30:00Z",
+    "latitude": 38.053625,
+    "longitude": 23.811228
   },
   {
     "id": "39",
@@ -543,7 +619,9 @@
     "postalCode": "49140",
     "vatNumber": "EL987556001",
     "status": "inactive",
-    "createdAt": "2024-12-17T14:15:00Z"
+    "createdAt": "2024-12-17T14:15:00Z",
+    "latitude": 39.62522,
+    "longitude": 19.923927
   },
   {
     "id": "40",
@@ -557,7 +635,9 @@
     "postalCode": "73197",
     "vatNumber": "EL967124897",
     "status": "active",
-    "createdAt": "2026-07-27T14:00:00Z"
+    "createdAt": "2026-07-27T14:00:00Z",
+    "latitude": 35.511586,
+    "longitude": 24.020843
   },
   {
     "id": "41",
@@ -571,7 +651,9 @@
     "postalCode": "73177",
     "vatNumber": "EL103998255",
     "status": "active",
-    "createdAt": "2024-08-24T05:45:00Z"
+    "createdAt": "2024-08-24T05:45:00Z",
+    "latitude": 35.512331,
+    "longitude": 24.014486
   },
   {
     "id": "42",
@@ -585,7 +667,9 @@
     "postalCode": "45201",
     "vatNumber": "EL075560607",
     "status": "active",
-    "createdAt": "2024-12-30T09:30:00Z"
+    "createdAt": "2024-12-30T09:30:00Z",
+    "latitude": 39.668097,
+    "longitude": 20.855941
   },
   {
     "id": "43",
@@ -599,7 +683,9 @@
     "postalCode": "10506",
     "vatNumber": "EL655152309",
     "status": "active",
-    "createdAt": "2026-04-17T01:15:00Z"
+    "createdAt": "2026-04-17T01:15:00Z",
+    "latitude": 37.979232,
+    "longitude": 23.736236
   },
   {
     "id": "44",
@@ -613,7 +699,9 @@
     "postalCode": "85103",
     "vatNumber": "EL785899094",
     "status": "active",
-    "createdAt": "2026-07-23T04:15:00Z"
+    "createdAt": "2026-07-23T04:15:00Z",
+    "latitude": 36.292611,
+    "longitude": 28.156498
   },
   {
     "id": "45",
@@ -627,7 +715,9 @@
     "postalCode": "54643",
     "vatNumber": "EL827757564",
     "status": "active",
-    "createdAt": "2026-06-01T22:15:00Z"
+    "createdAt": "2026-06-01T22:15:00Z",
+    "latitude": 40.63252,
+    "longitude": 22.942051
   },
   {
     "id": "46",
@@ -641,7 +731,9 @@
     "postalCode": "10520",
     "vatNumber": "EL528678821",
     "status": "active",
-    "createdAt": "2025-09-21T10:45:00Z"
+    "createdAt": "2025-09-21T10:45:00Z",
+    "latitude": 37.982521,
+    "longitude": 23.735259
   },
   {
     "id": "47",
@@ -655,7 +747,9 @@
     "postalCode": "73168",
     "vatNumber": "EL185368087",
     "status": "active",
-    "createdAt": "2025-10-04T13:00:00Z"
+    "createdAt": "2025-10-04T13:00:00Z",
+    "latitude": 35.515778,
+    "longitude": 24.017795
   },
   {
     "id": "48",
@@ -669,7 +763,9 @@
     "postalCode": "45278",
     "vatNumber": "EL004127151",
     "status": "active",
-    "createdAt": "2026-08-20T08:30:00Z"
+    "createdAt": "2026-08-20T08:30:00Z",
+    "latitude": 39.661792,
+    "longitude": 20.848345
   },
   {
     "id": "49",
@@ -683,7 +779,9 @@
     "postalCode": "71292",
     "vatNumber": "EL209981601",
     "status": "active",
-    "createdAt": "2024-06-23T20:45:00Z"
+    "createdAt": "2024-06-23T20:45:00Z",
+    "latitude": 35.341831,
+    "longitude": 25.131334
   },
   {
     "id": "50",
@@ -697,6 +795,8 @@
     "postalCode": "38274",
     "vatNumber": "EL680340546",
     "status": "active",
-    "createdAt": "2025-05-22T21:00:00Z"
+    "createdAt": "2025-05-22T21:00:00Z",
+    "latitude": 39.36234,
+    "longitude": 22.944677
   }
 ]

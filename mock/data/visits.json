@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "customerId": "1",
+    "repId": "r1",
+    "repName": "Nikos Konstantinou",
+    "checkedInAt": "2026-10-12T07:42:00Z",
+    "latitude": 37.976388,
+    "longitude": 23.729084,
+    "accuracy": 12,
+    "distanceToCustomer": 34
+  },
+  {
+    "id": "2",
+    "customerId": "35",
+    "repId": "r1",
+    "repName": "Nikos Konstantinou",
+    "checkedInAt": "2026-10-12T09:05:00Z",
+    "latitude": 37.976493,
+    "longitude": 23.724885,
+    "accuracy": 18,
+    "distanceToCustomer": 48
+  },
+  {
+    "id": "3",
+    "customerId": "43",
+    "repId": "r1",
+    "repName": "Nikos Konstantinou",
+    "checkedInAt": "2026-10-12T11:30:00Z",
+    "latitude": 37.979332,
+    "longitude": 23.736336,
+    "accuracy": 9,
+    "distanceToCustomer": 14
+  },
+  {
+    "id": "4",
+    "customerId": "46",
+    "repId": "r1",
+    "repName": "Nikos Konstantinou",
+    "checkedInAt": "2026-10-13T08:15:00Z",
+    "latitude": 37.995021,
+    "longitude": 23.729259,
+    "accuracy": 35,
+    "distanceToCustomer": 1486
+  },
+  {
+    "id": "5",
+    "customerId": "2",
+    "repId": "r2",
+    "repName": "Anna Dimou",
+    "checkedInAt": "2026-10-13T07:55:00Z",
+    "latitude": 40.629032,
+    "longitude": 22.948727,
+    "accuracy": 15,
+    "distanceToCustomer": 40
+  },
+  {
+    "id": "6",
+    "customerId": "10",
+    "repId": "r2",
+    "repName": "Anna Dimou",
+    "checkedInAt": "2026-10-13T10:20:00Z",
+    "latitude": 40.635761,
+    "longitude": 22.944324,
+    "accuracy": 22,
+    "distanceToCustomer": 37
+  },
+  {
+    "id": "7",
+    "customerId": "33",
+    "repId": "r2",
+    "repName": "Anna Dimou",
+    "checkedInAt": "2026-10-14T08:40:00Z",
+    "latitude": 40.634398,
+    "longitude": 22.943112,
+    "accuracy": 11,
+    "distanceToCustomer": 25
+  },
+  {
+    "id": "8",
+    "customerId": "45",
+    "repId": "r2",
+    "repName": "Anna Dimou",
+    "checkedInAt": "2026-10-14T12:10:00Z",
+    "latitude": 40.63242,
+    "longitude": 22.941951,
+    "accuracy": 8,
+    "distanceToCustomer": 14
+  }
+]

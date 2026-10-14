@@ -1,0 +1,44 @@
+.icon {
+  --type-color: var(--app-chart-1);
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--bs-border-radius);
+  background-color: var(--type-color);
+  color: var(--app-on-brand);
+  font-size: 1.1rem;
+}
+
+.pharmacy {
+  --type-color: var(--app-chart-1);
+}
+
+.clinic {
+  --type-color: var(--app-chart-2);
+}
+
+.hospital {
+  --type-color: var(--app-chart-4);
+}
+
+.heading {
+  min-width: 0;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.375rem 0.625rem;
+}
+
+.details dt {
+  font-weight: 400;
+  color: var(--bs-secondary-color);
+}
+
+.details dd {
+  min-width: 0;
+  margin: 0;
+}

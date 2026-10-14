@@ -13,6 +13,9 @@ export type Customer = {
   address: string
   city: string
   postalCode: string
+  /** Geocoded from the address; missing for customers that could not be located. */
+  latitude?: number
+  longitude?: number
   vatNumber: string
   status: CustomerStatus
   createdAt: string
