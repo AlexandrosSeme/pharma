@@ -1,0 +1,39 @@
+---
+description: Styling conventions (Bootstrap + theme tokens + CSS Modules, mobile-first)
+globs: src/**/*.{tsx,css}
+alwaysApply: false
+---
+
+# Styling conventions
+
+1. **Bootstrap utilities first** for layout, spacing, flex/grid, typography and colors (`d-flex gap-2 p-3 p-md-4 text-body-secondary`).
+2. **Reuse `@/shared/ui`** (`PageHeader`, `DataTable`, `StatusBadge`, `KpiCard`/`KpiGrid`, `SearchInput`, `Select`, `Logo`, `Avatar`) before writing new markup. Add a shared component once a pattern is used twice.
+   Icons: Bootstrap Icons only (`<i className="bi bi-capsule" aria-hidden="true" />`).
+   Palette "Corporate Blue": primary = blue, success = navy, info = violet, navigation = charcoal (`--app-nav-bg`, with `data-bs-theme="dark"` on the container). No green. Text colors must keep WCAG AA contrast (>= 4.5:1).
+   The app logo is always `<BrandLogo />` from `@/features/branding` (company logo/name), never `<Logo />` directly.
+   Business look: solid colors only — no gradients, glows or decorative shadows.
+   Charts: use `@/shared/ui/charts` (`ChartCard` + `BarChart`/`LineChart`/`DoughnutChart`); never configure Chart.js colors/fonts directly — they come from `--app-chart-1..6` and status tones.
+3. **Design tokens live only in `src/app/styles/theme.css`** (Bootstrap `--bs-*` overrides + `--app-*` tokens). Never hard-code colors, radii or fonts in components.
+4. **Component-specific CSS goes in a co-located `Name.module.css`** and may only use `var(--bs-*)` / `var(--app-*)`. No new global stylesheets.
+5. **Mobile-first**: base styles target phones; enhance with `min-width` queries using Bootstrap breakpoints only (sm 576, md 768, lg 992, xl 1200, xxl 1400), or responsive utilities (`d-none d-md-block`, `row-cols-sm-2`).
+6. **Color modes**: the app is always light (`data-bs-theme="light"` on `<html>`, no OS dark-mode switch). Only the sidebar, the top bar and the login panel are dark, scoped with `data-bs-theme="dark"`. Use semantic classes (`bg-body`, `text-body-secondary`, `border`), not `bg-white`/`text-dark`/`table-light`, so components work inside either scope.
+7. **Status colors** go through `StatusBadge` tones (`success`, `danger`, ...), mapped per feature (see `OrderStatusBadge`).
+
+```tsx
+// ❌ BAD
+<div style={{ display: 'flex', padding: 24, color: '#6b6375' }} className="my-custom-box">
+
+// ✅ GOOD
+<div className="d-flex p-3 p-md-4 text-body-secondary">
+```
+
+```css
+/* ❌ BAD: desktop-first, hard-coded color */
+@media (max-width: 768px) { .panel { color: #dc2626; } }
+
+/* ✅ GOOD: mobile-first, token */
+.panel { color: var(--bs-danger); }
+@media (min-width: 768px) { .panel { display: grid; } }
+```
+
+New tables: pass `mobile: 'title'` on the column that should head each mobile card, and `mobile: 'hidden'` for columns not needed on phones.

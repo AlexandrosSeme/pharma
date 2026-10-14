@@ -1,0 +1,198 @@
+/*
+ * Design tokens. Override Bootstrap variables here instead of hard-coding values in components.
+ * Media queries in *.module.css must be mobile-first (min-width) and use Bootstrap's breakpoints:
+ * sm 576px, md 768px, lg 992px, xl 1200px, xxl 1400px.
+ *
+ * The app is always light (data-bs-theme="light" on <html>); the dark tokens below are only
+ * used by the navy sidebar and the login panel, which set data-bs-theme="dark" on their container.
+ *
+ * Palette "Corporate Blue": blue (brand), charcoal (navigation), slate neutrals,
+ * sky / amber / rose for status. Chart colors are --app-chart-1..6, in order of use.
+ * Accessibility (WCAG 2.1 AA): every text color below has >= 4.5:1 contrast on its background,
+ * and chart colors have >= 3:1 against white.
+ */
+
+:root {
+  --app-topbar-height: 60px;
+  --app-sidebar-width: 248px;
+  --app-offcanvas-width: 280px;
+  --app-on-brand: #ffffff;
+  --app-logo-frame-bg: #ffffff;
+  /* Keep equal to the dark --app-nav-bg below. */
+  --app-logo-dark-tile-bg: #4c4c4c;
+  /* Same brand blue in light and dark areas, so the logo looks identical everywhere. */
+  --app-logo-mark-bg: #1d4ed8;
+  --app-logo-mark-color: #ffffff;
+}
+
+:root,
+[data-bs-theme='light'] {
+  --bs-body-font-family: 'Source Sans 3 Variable', 'Segoe UI', system-ui, Roboto, sans-serif;
+
+  --bs-body-color: #1e293b;
+  --bs-body-color-rgb: 30, 41, 59;
+  --bs-emphasis-color: #0f172a;
+  --bs-emphasis-color-rgb: 15, 23, 42;
+  --bs-secondary-color: #64748b;
+  --bs-secondary-color-rgb: 100, 116, 139;
+  --bs-heading-color: #0f172a;
+  --bs-body-bg: #ffffff;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-tertiary-bg: #f8fafc;
+  --bs-tertiary-bg-rgb: 248, 250, 252;
+  --bs-border-color: #e2e8f0;
+  --bs-border-radius: 0.375rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+
+  --app-canvas: #f4f6f8;
+  --app-nav-bg: #0f2537;
+  --app-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+
+  --bs-primary: #1d4ed8;
+  --bs-primary-rgb: 29, 78, 216;
+  --bs-primary-text-emphasis: #1e3a8a;
+  --bs-primary-bg-subtle: #eaf0fd;
+  --bs-primary-border-subtle: #c3d3f7;
+  --bs-link-color: #1d4ed8;
+  --bs-link-color-rgb: 29, 78, 216;
+  --bs-link-hover-color: #1e3a8a;
+  --bs-link-hover-color-rgb: 30, 58, 138;
+  --bs-focus-ring-color: rgba(29, 78, 216, 0.25);
+
+  /* "Success" (active, delivered, won) is navy instead of green. */
+  --bs-success: #1e3a5f;
+  --bs-success-rgb: 30, 58, 95;
+  --bs-success-text-emphasis: #172b46;
+  --bs-success-bg-subtle: #e7edf4;
+  --bs-success-border-subtle: #c2cfdf;
+
+  --bs-info: #6d28d9;
+  --bs-info-rgb: 109, 40, 217;
+  --bs-info-text-emphasis: #4c1d95;
+  --bs-info-bg-subtle: #f1ebfc;
+  --bs-info-border-subtle: #d8c8f5;
+
+  --bs-warning: #b45309;
+  --bs-warning-rgb: 180, 83, 9;
+  --bs-warning-text-emphasis: #78350f;
+  --bs-warning-bg-subtle: #fdf5e7;
+  --bs-warning-border-subtle: #f2d6a8;
+
+  --bs-danger: #be123c;
+  --bs-danger-rgb: 190, 18, 60;
+  --bs-danger-text-emphasis: #881337;
+  --bs-danger-bg-subtle: #fcecef;
+  --bs-danger-border-subtle: #f3c1cc;
+
+  --brand-on-primary: #ffffff;
+  --brand-hover: #1e40af;
+  --brand-active: #1e3a8a;
+
+  --app-chart-1: #1d4ed8;
+  --app-chart-2: #334155;
+  --app-chart-3: #0284c7;
+  --app-chart-4: #d97706;
+  --app-chart-5: #94a3b8;
+  --app-chart-6: #be123c;
+}
+
+[data-bs-theme='dark'] {
+  --bs-body-color: #cbd5e1;
+  --bs-body-color-rgb: 203, 213, 225;
+  --bs-emphasis-color: #f1f5f9;
+  --bs-emphasis-color-rgb: 241, 245, 249;
+  /* >= 4.5:1 on the charcoal --app-nav-bg. */
+  --bs-secondary-color: #b4bfcc;
+  --bs-secondary-color-rgb: 180, 191, 204;
+  --bs-heading-color: #f1f5f9;
+  --bs-body-bg: #131c27;
+  --bs-body-bg-rgb: 19, 28, 39;
+  --bs-tertiary-bg: #18222f;
+  --bs-tertiary-bg-rgb: 24, 34, 47;
+  --bs-border-color: #263342;
+
+  --app-canvas: #0d141d;
+  --app-nav-bg: #4c4c4c;
+  --app-shadow-sm: none;
+
+  --bs-primary: #93c5fd;
+  --bs-primary-rgb: 147, 197, 253;
+  --bs-primary-text-emphasis: #dbeafe;
+  --bs-primary-bg-subtle: #327acb;
+  --bs-primary-border-subtle: #1e3a8a;
+  --bs-link-color: #93c5fd;
+  --bs-link-color-rgb: 147, 197, 253;
+  --bs-link-hover-color: #bfdbfe;
+  --bs-link-hover-color-rgb: 191, 219, 254;
+  --bs-focus-ring-color: rgba(147, 197, 253, 0.35);
+
+  --bs-success: #b6c6dc;
+  --bs-success-rgb: 182, 198, 220;
+  --bs-success-text-emphasis: #e2e8f0;
+  --bs-success-bg-subtle: #1b2636;
+  --bs-success-border-subtle: #2d3d55;
+
+  --bs-info: #c4b5fd;
+  --bs-info-rgb: 196, 181, 253;
+  --bs-info-text-emphasis: #ede9fe;
+  --bs-info-bg-subtle: #2a1a4a;
+  --bs-info-border-subtle: #4c2f85;
+
+  --bs-warning: #fbbf24;
+  --bs-warning-rgb: 251, 191, 36;
+  --bs-warning-text-emphasis: #fde68a;
+  --bs-warning-bg-subtle: #2e2410;
+  --bs-warning-border-subtle: #5c4615;
+
+  --bs-danger: #fb7185;
+  --bs-danger-rgb: 251, 113, 133;
+  --bs-danger-text-emphasis: #fecdd3;
+  --bs-danger-bg-subtle: #33141c;
+  --bs-danger-border-subtle: #5e2232;
+
+  --brand-on-primary: #0b1220;
+  --brand-hover: #bfdbfe;
+  --brand-active: #60a5fa;
+
+  --app-chart-1: #93c5fd;
+  --app-chart-2: #cbd5e1;
+  --app-chart-3: #38bdf8;
+  --app-chart-4: #fbbf24;
+  --app-chart-5: #94a3b8;
+  --app-chart-6: #fb7185;
+}
+
+.btn-primary {
+  --bs-btn-color: var(--brand-on-primary);
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: var(--brand-on-primary);
+  --bs-btn-hover-bg: var(--brand-hover);
+  --bs-btn-hover-border-color: var(--brand-hover);
+  --bs-btn-active-color: var(--brand-on-primary);
+  --bs-btn-active-bg: var(--brand-active);
+  --bs-btn-active-border-color: var(--brand-active);
+  --bs-btn-disabled-color: var(--brand-on-primary);
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+  font-weight: 500;
+}
+
+.card {
+  --bs-card-border-color: var(--bs-border-color);
+  --bs-card-border-radius: var(--bs-border-radius-lg);
+  --bs-card-inner-border-radius: calc(var(--bs-border-radius-lg) - 1px);
+  box-shadow: var(--app-shadow-sm);
+}
+
+.badge {
+  font-weight: 500;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: rgba(var(--bs-primary-rgb), 0.6);
+  box-shadow: 0 0 0 0.2rem var(--bs-focus-ring-color);
+}

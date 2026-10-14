@@ -1,0 +1,74 @@
+.sidebar {
+  --bs-offcanvas-width: var(--app-offcanvas-width);
+  --bs-offcanvas-bg: var(--app-nav-bg);
+  color: var(--bs-body-color);
+}
+
+.brand {
+  height: var(--app-topbar-height);
+  flex-shrink: 0;
+  border-bottom: var(--bs-border-width) solid rgba(var(--bs-emphasis-color-rgb), 0.08);
+}
+
+.sectionLabel {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--bs-border-radius);
+  font-size: 18px;
+  color: rgba(var(--bs-emphasis-color-rgb), 0.7);
+}
+
+.link:hover,
+.link:focus-visible {
+  color: var(--bs-emphasis-color);
+  background-color: rgba(var(--bs-emphasis-color-rgb), 0.2);
+}
+
+.link:global(.active) {
+  color: var(--bs-emphasis-color);
+  font-weight: 500;
+  background-color: rgba(var(--bs-emphasis-color-rgb), 0.08);
+}
+
+.linkIcon {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.link:global(.active) .linkIcon {
+  color: var(--bs-primary);
+  opacity: 1;
+}
+
+.footer {
+  border-top: var(--bs-border-width) solid rgba(var(--bs-emphasis-color-rgb), 0.08);
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    width: var(--app-sidebar-width);
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    /* Bootstrap's .offcanvas-lg forces a transparent background from lg up. */
+    background-color: var(--app-nav-bg) !important;
+  }
+
+  .sidebar .body {
+    flex: 1;
+    min-height: 0;
+  }
+}

@@ -1,0 +1,28 @@
+.page {
+  display: grid;
+  min-height: 100svh;
+}
+
+.hero {
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 3rem;
+  background-color: var(--app-nav-bg);
+}
+
+.featureIcon {
+  color: var(--bs-primary);
+  font-size: 1.1rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+}
+
+@media (min-width: 992px) {
+  .page {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  }
+}

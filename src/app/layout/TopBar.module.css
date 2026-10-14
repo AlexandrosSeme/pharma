@@ -1,0 +1,6 @@
+.topbar {
+  height: var(--app-topbar-height);
+  color: var(--bs-body-color);
+  background-color: var(--app-nav-bg);
+  border-bottom: var(--bs-border-width) solid rgba(var(--bs-emphasis-color-rgb), 0.08);
+}

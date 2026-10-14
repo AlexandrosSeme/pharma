@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+  .search {
+    flex: 1 1 240px;
+    min-width: 240px;
+  }
+
+  .select {
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .search {
+    flex-grow: 0;
+    width: 280px;
+  }
+}

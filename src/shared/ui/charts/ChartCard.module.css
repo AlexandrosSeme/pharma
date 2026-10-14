@@ -1,0 +1,34 @@
+.canvas {
+  position: relative;
+  min-width: 0;
+}
+
+.sm {
+  height: 200px;
+}
+
+.md {
+  height: 240px;
+}
+
+.lg {
+  height: 260px;
+}
+
+.state {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bs-secondary-color);
+}
+
+@media (min-width: 768px) {
+  .md {
+    height: 280px;
+  }
+
+  .lg {
+    height: 340px;
+  }
+}

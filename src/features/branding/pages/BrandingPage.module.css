@@ -1,0 +1,33 @@
+.preview {
+  display: flex;
+  align-items: center;
+  height: var(--app-topbar-height);
+  padding-inline: 1rem;
+  border-radius: var(--bs-border-radius);
+  background-color: var(--bs-body-bg);
+  overflow: hidden;
+}
+
+/* Same width as the real sidebar, so the preview shows exactly what users will see. */
+.dark {
+  max-width: var(--app-sidebar-width);
+  background-color: var(--app-nav-bg);
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7.5rem;
+  height: 4rem;
+  padding: 0.5rem;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  background-color: var(--bs-tertiary-bg);
+}
+
+.thumbImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

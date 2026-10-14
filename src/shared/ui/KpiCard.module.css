@@ -1,0 +1,10 @@
+.icon {
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+.value {
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+  white-space: nowrap;
+}

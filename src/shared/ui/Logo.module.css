@@ -1,0 +1,148 @@
+/*
+ * Two layouts, chosen from the logo's proportions at upload:
+ * - emblem (square-ish): fixed square box + company name beside it, like the default mark.
+ * - wide (wordmark): fixed height, full width; company name as a small caption underneath.
+ */
+.logo {
+  --logo-size: 2.25rem;
+  --logo-wide-height: 1.75rem;
+  --logo-wide-max-width: 12rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-width: 0;
+  max-width: 100%;
+  color: var(--bs-emphasis-color);
+}
+
+.lg {
+  --logo-size: 3rem;
+  --logo-wide-height: 2.5rem;
+  --logo-wide-max-width: 16rem;
+}
+
+.mark {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: var(--logo-size);
+  height: var(--logo-size);
+  border-radius: var(--bs-border-radius);
+  background-color: var(--app-logo-mark-bg);
+  color: var(--app-logo-mark-color);
+  font-size: calc(var(--logo-size) * 0.5);
+}
+
+.imageBox {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: var(--logo-size);
+  height: var(--logo-size);
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.wide .imageBox {
+  width: auto;
+  height: var(--logo-wide-height);
+  max-width: var(--logo-wide-max-width);
+  justify-content: flex-start;
+}
+
+.wide .image {
+  height: 100%;
+  width: auto;
+}
+
+.stacked {
+  --logo-wide-height: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.stacked.lg {
+  --logo-wide-height: 2.25rem;
+}
+
+.name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-width: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.caption {
+  max-width: 100%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--bs-body-color);
+}
+
+.wordmark {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.accent {
+  font-weight: 400;
+}
+
+.lg .wordmark,
+.lg .name {
+  font-size: 1.3rem;
+}
+
+.lg .caption {
+  font-size: 0.95rem;
+}
+
+/* Light areas: light logos (e.g. white) sit on a tile in the sidebar color so they stay visible. */
+.darkTile .imageBox {
+  padding: 0.25rem;
+  border-radius: var(--bs-border-radius);
+  background-color: var(--app-logo-dark-tile-bg);
+}
+
+.darkTile.wide .imageBox {
+  height: calc(var(--logo-wide-height) + 0.5rem);
+  padding-inline: 0.5rem;
+}
+
+:global([data-bs-theme='dark']) .darkTile .imageBox {
+  padding: 0;
+  background-color: transparent;
+}
+
+:global([data-bs-theme='dark']) .darkTile.wide .imageBox {
+  height: var(--logo-wide-height);
+}
+
+/* Dark areas (sidebar, top bar, login panel); light areas keep the original logo. */
+:global([data-bs-theme='dark']) .white .image {
+  filter: brightness(0) invert(1);
+}
+
+:global([data-bs-theme='dark']) .frame .imageBox {
+  padding: 0.25rem;
+  border-radius: var(--bs-border-radius);
+  background-color: var(--app-logo-frame-bg);
+}
+
+:global([data-bs-theme='dark']) .frame.wide .imageBox {
+  height: calc(var(--logo-wide-height) + 0.5rem);
+  padding-inline: 0.5rem;
+}
