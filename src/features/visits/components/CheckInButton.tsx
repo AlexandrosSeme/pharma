@@ -3,13 +3,15 @@ import type { Customer } from '@/features/customers/types'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { GeoError } from '@/shared/hooks/useGeolocation'
 import { useCheckIn } from '../queries'
+import type { Visit } from '../types'
 
 type CheckInButtonProps = {
   customer: Customer
   className?: string
+  onCheckedIn?: (visit: Visit) => void
 }
 
-export function CheckInButton({ customer, className }: CheckInButtonProps) {
+export function CheckInButton({ customer, className, onCheckedIn }: CheckInButtonProps) {
   const { t } = useTranslation()
   const { formatTime } = useFormatters()
   const checkIn = useCheckIn()
@@ -27,7 +29,7 @@ export function CheckInButton({ customer, className }: CheckInButtonProps) {
         type="button"
         className={`btn w-100 text-nowrap ${visit ? 'btn-outline-success' : 'btn-primary'}`}
         disabled={checkIn.isPending || !!visit}
-        onClick={() => checkIn.mutate(customer)}
+        onClick={() => checkIn.mutate(customer, { onSuccess: onCheckedIn })}
       >
         {checkIn.isPending ? (
           <span className="spinner-border spinner-border-sm me-2" aria-hidden="true" />

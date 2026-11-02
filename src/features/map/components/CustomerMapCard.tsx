@@ -3,7 +3,7 @@ import type { Customer } from '@/features/customers'
 import { CheckInButton } from '@/features/visits'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { googleMaps } from '@/shared/lib/geo'
-import { StatusBadge } from '@/shared/ui'
+import { IconDetails, StatusBadge } from '@/shared/ui'
 import { customerTypeStyle } from '../lib/customerTypeStyle'
 import styles from './CustomerMapCard.module.css'
 
@@ -39,32 +39,39 @@ export function CustomerMapCard({ customer: c, distance, onClose }: CustomerMapC
           <button type="button" className="btn-close" aria-label={t('map.close')} onClick={onClose} />
         </div>
 
-        <dl className={`${styles.details} small mt-3 mb-0`}>
-          <dt>
-            <i className="bi bi-geo-alt" aria-hidden="true" />
-            <span className="visually-hidden">{t('customers.columns.address')}</span>
-          </dt>
-          <dd>
-            {c.address}, {c.postalCode} {c.city}
-            {distance !== undefined && (
-              <span className="fw-semibold text-body-emphasis">
-                {' · '}
-                {t('customers.distanceAway', { distance: formatDistance(distance) })}
-              </span>
-            )}
-          </dd>
-          <dt>
-            <i className="bi bi-person" aria-hidden="true" />
-            <span className="visually-hidden">{t('customers.columns.contact')}</span>
-          </dt>
-          <dd>
-            {c.contactPerson}
-            {' · '}
-            <a href={`tel:${c.phone.replace(/\s/g, '')}`} className="text-decoration-none text-nowrap">
-              {c.phone}
-            </a>
-          </dd>
-        </dl>
+        <IconDetails
+          className="small mt-3 mb-0"
+          items={[
+            {
+              icon: 'bi-geo-alt',
+              label: t('customers.columns.address'),
+              content: (
+                <>
+                  {c.address}, {c.postalCode} {c.city}
+                  {distance !== undefined && (
+                    <span className="fw-semibold text-body-emphasis">
+                      {' · '}
+                      {t('customers.distanceAway', { distance: formatDistance(distance) })}
+                    </span>
+                  )}
+                </>
+              ),
+            },
+            {
+              icon: 'bi-person',
+              label: t('customers.columns.contact'),
+              content: (
+                <>
+                  {c.contactPerson}
+                  {' · '}
+                  <a href={`tel:${c.phone.replace(/\s/g, '')}`} className="text-decoration-none text-nowrap">
+                    {c.phone}
+                  </a>
+                </>
+              ),
+            },
+          ]}
+        />
 
         <div className="d-flex align-items-start gap-2 mt-3">
           <a

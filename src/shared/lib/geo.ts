@@ -28,4 +28,11 @@ export const googleMaps = {
   directions: (destination: string | Coordinates) =>
     `https://www.google.com/maps/dir/?api=1&destination=${toQuery(destination)}`,
   place: (place: string | Coordinates) => `https://www.google.com/maps/search/?api=1&query=${toQuery(place)}`,
+  /** Route from the device's position through `stops` in order. Google allows at most 9 waypoints (3 in mobile browsers). */
+  route: (stops: string[]) => {
+    const destination = stops.at(-1)!
+    const waypoints = stops.slice(0, -1).slice(0, 9)
+    const base = googleMaps.directions(destination)
+    return waypoints.length ? `${base}&waypoints=${waypoints.map(encodeURIComponent).join('%7C')}` : base
+  },
 }

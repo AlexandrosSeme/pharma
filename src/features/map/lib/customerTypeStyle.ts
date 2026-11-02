@@ -1,8 +1,14 @@
 import type { CustomerType } from '@/features/customers'
 
-/** Pin icon and color per customer type; colors live in CustomerMap.module.css as `.pharmacy`, `.clinic`, `.hospital`. */
-export const customerTypeStyle: Record<CustomerType, { icon: string; className: 'pharmacy' | 'clinic' | 'hospital' }> = {
-  Pharmacy: { icon: 'bi-capsule', className: 'pharmacy' },
-  Clinic: { icon: 'bi-heart-pulse', className: 'clinic' },
-  Hospital: { icon: 'bi-hospital', className: 'hospital' },
+type TypeStyle = {
+  icon: string
+  /** Same token as the pin classes `.pharmacy`, `.clinic`, `.hospital` in the map CSS modules. */
+  color: string
+  className: 'pharmacy' | 'clinic' | 'hospital'
+}
+
+export const customerTypeStyle: Record<CustomerType, TypeStyle> = {
+  Pharmacy: { icon: 'bi-capsule', color: 'var(--app-chart-1)', className: 'pharmacy' },
+  Clinic: { icon: 'bi-heart-pulse', color: 'var(--app-chart-2)', className: 'clinic' },
+  Hospital: { icon: 'bi-hospital', color: 'var(--app-chart-4)', className: 'hospital' },
 }

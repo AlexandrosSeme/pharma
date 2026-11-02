@@ -1,0 +1,67 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.title {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+/* Phones: views take a full-width row, weekends and zoom sit on the row below. */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.views {
+  width: 100%;
+}
+
+.viewLabel {
+  font-size: 0.8rem;
+}
+
+.tools {
+  display: flex;
+  gap: 0.5rem;
+  margin-inline-start: auto;
+}
+
+.tools:empty {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .viewLabel {
+    font-size: inherit;
+  }
+}
+
+@media (min-width: 768px) {
+  .controls {
+    flex-wrap: nowrap;
+    width: auto;
+  }
+
+  .views {
+    width: auto;
+  }
+}

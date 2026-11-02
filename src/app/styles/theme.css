@@ -95,6 +95,14 @@
   --app-chart-4: #d97706;
   --app-chart-5: #94a3b8;
   --app-chart-6: #be123c;
+
+  /* Calendar activity types: saturated fills, each >= 4.5:1 against its --app-on-activity-* text. */
+  --app-activity-visit: #1d4ed8;
+  --app-activity-call: #0f766e;
+  --app-activity-meeting: #7c3aed;
+  --app-activity-task: #f59e0b;
+  --app-on-activity: #ffffff;
+  --app-on-activity-task: #0f172a;
 }
 
 [data-bs-theme='dark'] {

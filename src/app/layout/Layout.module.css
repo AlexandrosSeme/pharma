@@ -1,16 +1,30 @@
 .layout {
-  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  height: 100svh;
+  max-height: 100svh;
+  overflow: hidden;
 }
 
 .main {
   flex: 1;
   min-width: 0;
+  min-height: 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+}
+
+.main > :global(main) {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
 }
 
 @media (min-width: 992px) {
   .layout {
-    display: flex;
+    flex-direction: row;
   }
 }

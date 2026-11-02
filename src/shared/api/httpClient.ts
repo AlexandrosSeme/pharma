@@ -1,4 +1,6 @@
-const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3001'
+const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3004'
+
+console.log('API_URL', API_URL)
 
 export class ApiError extends Error {
   readonly status: number

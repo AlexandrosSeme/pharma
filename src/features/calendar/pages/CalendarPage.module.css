@@ -1,0 +1,46 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  min-height: 0;
+}
+
+.workspace {
+  display: flex;
+  gap: 1rem;
+}
+
+.calendarArea {
+  flex: 1;
+  min-width: 0;
+  height: 70svh;
+  min-height: 420px;
+}
+
+/* Desktop and landscape tablets: the calendar fills the remaining viewport height. */
+@media (min-width: 992px) {
+  .page {
+    height: calc(100svh - var(--app-topbar-height) - 3rem);
+    min-height: 640px;
+  }
+
+  .card {
+    flex: 1;
+  }
+
+  .card > :global(.card-body) {
+    min-height: 0;
+  }
+
+  .workspace {
+    flex: 1;
+    min-height: 0;
+  }
+
+  .calendarArea {
+    height: auto;
+    min-height: 0;
+  }
+}

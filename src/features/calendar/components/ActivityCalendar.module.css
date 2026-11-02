@@ -1,0 +1,204 @@
+/* FullCalendar's classic theme, re-pointed at the app's design tokens. */
+.calendar {
+  --fc-classic-primary: var(--bs-primary);
+  --fc-classic-primary-foreground: var(--app-on-brand);
+  --fc-classic-button: var(--bs-body-bg);
+  --fc-classic-button-border: var(--bs-border-color);
+  --fc-classic-button-foreground: var(--bs-body-color);
+  --fc-classic-background: var(--bs-body-bg);
+  --fc-classic-foreground: var(--bs-body-color);
+  --fc-classic-muted-foreground: var(--bs-secondary-color);
+  --fc-classic-faint-foreground: var(--bs-secondary-color);
+  --fc-classic-border: var(--bs-border-color);
+  --fc-classic-strong-border: var(--bs-border-color);
+  --fc-classic-faint: var(--bs-tertiary-bg);
+  --fc-classic-muted: rgba(var(--bs-emphasis-color-rgb), 0.04);
+  --fc-classic-strong: rgba(var(--bs-emphasis-color-rgb), 0.1);
+  --fc-classic-today: rgba(var(--bs-primary-rgb), 0.04);
+  --fc-classic-highlight: rgba(var(--bs-primary-rgb), 0.12);
+  --fc-classic-now: var(--bs-danger);
+  height: 100%;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Pinch gestures zoom the calendar rows instead of the page. */
+.zoomable {
+  touch-action: pan-x pan-y;
+}
+
+/* Quarter-hour lines are faint so the hours stay easy to scan. */
+/* Compact hour labels, so they don't hold the rows open when zoomed out. */
+.slotHeader {
+  line-height: 1;
+}
+
+.slotHeaderInner {
+  padding: 0.0625rem 0.375rem 0 !important;
+  font-size: 0.7rem;
+  line-height: 1;
+  color: var(--bs-secondary-color);
+}
+
+.minorSlot {
+  border-top-color: rgba(var(--bs-emphasis-color-rgb), 0.05) !important;
+}
+
+.event {
+  --event-color: var(--bs-primary);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.375rem;
+  /* A size container has no intrinsic width, so it must be told to fill FullCalendar's flex row. */
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  overflow: hidden;
+  padding: 0.125rem 0.375rem 0.125rem 0.5rem;
+  border-radius: inherit;
+  box-shadow: inset 3px 0 0 var(--event-color);
+  line-height: 1.25;
+  cursor: pointer;
+  container-type: inline-size;
+}
+
+.event > i {
+  flex-shrink: 0;
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--event-color);
+}
+
+.event > .doneIcon {
+  margin-inline-start: auto;
+  color: var(--bs-secondary-color);
+}
+
+.eventText {
+  min-width: 0;
+  flex: 1;
+}
+
+.eventTime {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--bs-secondary-color);
+}
+
+.eventTitle {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+  color: var(--bs-emphasis-color);
+  font-size: 10px;
+}
+
+.eventRep {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  color: var(--bs-secondary-color);
+}
+
+/* Short events and month cells: time and title on a single line. */
+.compact {
+  align-items: center;
+  padding-block: 0;
+}
+
+/* Solid fill: the event's contrast color (white or dark) for everything, no separate edge. */
+.solid {
+  box-shadow: none;
+}
+
+.solid > i,
+.solid .eventTitle {
+  color: inherit;
+}
+
+.solid .eventTime,
+.solid .eventRep {
+  color: inherit;
+  opacity: 0.85;
+}
+
+.solid > .doneIcon {
+  color: inherit;
+}
+
+.compact .eventText {
+  display: flex;
+  align-items: baseline;
+  gap: 0.375rem;
+}
+
+.compact .eventTime {
+  flex-shrink: 0;
+}
+
+/* Agenda rows: a fixed time column, then icon and text. */
+.listEvent {
+  align-items: baseline;
+  gap: 0.625rem;
+  padding: 0;
+  box-shadow: none;
+  font-size: 0.875rem;
+}
+
+.listEvent .eventTime {
+  flex-shrink: 0;
+  width: 5.75rem;
+  font-size: 0.8rem;
+}
+
+.listEvent .eventTitle {
+  white-space: normal;
+}
+
+/* Side-by-side events in a busy day get narrow: keep the title, the rest is in the tooltip. */
+@container (max-width: 6rem) {
+  .event:not(.listEvent) .eventTime,
+  .eventRep,
+  .doneIcon {
+    display: none;
+  }
+
+  .event:not(.compact) .eventTitle {
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+    font-size: 10px;
+  }
+}
+
+/* Too narrow for words: the type icon alone, centered. */
+@container (max-width: 3.5rem) {
+  .event:not(.listEvent) {
+    justify-content: center;
+    padding-inline: 0.25rem 0;
+  }
+
+  .event:not(.listEvent) .eventText {
+    display: none;
+  }
+}
+
+.done {
+  opacity: 0.8;
+}
+
+.cancelled {
+  opacity: 0.55;
+}
+
+.cancelled .eventTitle {
+  text-decoration: line-through;
+}

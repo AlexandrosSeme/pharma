@@ -6,6 +6,7 @@ export type NavItem = {
 
 export const navItems: NavItem[] = [
   { path: '/', labelKey: 'nav.dashboard', icon: 'bi-speedometer2' },
+  { path: '/calendar', labelKey: 'nav.calendar', icon: 'bi-calendar3' },
   { path: '/products', labelKey: 'nav.products', icon: 'bi-capsule' },
   { path: '/orders', labelKey: 'nav.orders', icon: 'bi-receipt' },
   { path: '/customers', labelKey: 'nav.customers', icon: 'bi-building' },

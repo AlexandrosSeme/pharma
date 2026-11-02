@@ -5,7 +5,7 @@ import { useDebounce } from '@/shared/hooks/useDebounce'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { useWatchPosition } from '@/shared/hooks/useGeolocation'
 import { distanceInMeters, hasCoordinates } from '@/shared/lib/geo'
-import { PageHeader, SearchInput } from '@/shared/ui'
+import { FilterChips, PageHeader, SearchInput, type FilterChip } from '@/shared/ui'
 import { CustomerMap } from '../components/CustomerMap'
 import { CustomerMapCard } from '../components/CustomerMapCard'
 import { customerTypeStyle } from '../lib/customerTypeStyle'
@@ -36,13 +36,13 @@ export function MapPage() {
   )
   const selected = visible.find((c) => c.id === selectedId) ?? null
 
-  const chips: { value: CustomerType | null; label: string; count: number; className?: string }[] = [
+  const chips: FilterChip<CustomerType | null>[] = [
     { value: null, label: t('map.all'), count: matching.length },
     ...customerTypes.map((value) => ({
       value,
       label: t(`customers.types.${value}`),
       count: matching.filter((c) => c.type === value).length,
-      className: styles[customerTypeStyle[value].className],
+      color: customerTypeStyle[value].color,
     })),
   ]
 
@@ -54,20 +54,8 @@ export function MapPage() {
         actions={<SearchInput value={search} onChange={setSearch} placeholder={t('customers.searchPlaceholder')} />}
       />
 
-      <div className={styles.filters} role="group" aria-label={t('customers.columns.type')}>
-        {chips.map((chip) => (
-          <button
-            key={chip.value ?? 'all'}
-            type="button"
-            className={`btn ${styles.chip}${type === chip.value ? ' active' : ''}`}
-            aria-pressed={type === chip.value}
-            onClick={() => setType(chip.value)}
-          >
-            {chip.className && <span className={`${styles.dot} ${chip.className}`} aria-hidden="true" />}
-            {chip.label}
-            <span className={styles.count}>{chip.count}</span>
-          </button>
-        ))}
+      <div className="mb-3">
+        <FilterChips chips={chips} value={type} onChange={setType} aria-label={t('customers.columns.type')} />
       </div>
 
       {error && (

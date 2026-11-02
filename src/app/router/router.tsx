@@ -22,6 +22,10 @@ export const router = createBrowserRouter([
         Component: Layout,
         children: [
           { index: true, Component: DashboardPage },
+          {
+            path: 'calendar',
+            lazy: () => import('@/features/calendar').then((m) => ({ Component: m.CalendarPage })),
+          },
           { path: 'products', Component: ProductsPage },
           { path: 'orders', Component: OrdersPage },
           { path: 'customers', Component: CustomersPage },
