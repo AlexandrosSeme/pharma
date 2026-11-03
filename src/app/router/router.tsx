@@ -11,6 +11,7 @@ import { ReportsPage } from '@/features/reports'
 import { VisitsPage } from '@/features/visits'
 import { NotFoundPage } from './NotFoundPage'
 import { RequireAuth } from './RequireAuth'
+import { MedicationPage } from '@/features/regulatory'
 
 export const router = createBrowserRouter([
   { path: '/login', Component: LoginPage },
@@ -34,6 +35,7 @@ export const router = createBrowserRouter([
           { path: 'visits', Component: VisitsPage },
           { path: 'reports', Component: ReportsPage },
           { path: 'settings/branding', Component: BrandingPage },
+          { path: 'medication/:productId?', Component: MedicationPage },
           { path: '*', Component: NotFoundPage },
         ],
       },

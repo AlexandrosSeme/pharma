@@ -1,0 +1,74 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 0.28rem 1fr;
+  width: 100%;
+  text-align: start;
+  border: 1px solid transparent;
+  background: transparent;
+  color: inherit;
+  border-radius: 0.75rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+.item:hover {
+  background: var(--bs-tertiary-bg);
+}
+
+.item[aria-current='true'] {
+  background: var(--bs-primary-bg-subtle);
+  border-color: var(--bs-primary-border-subtle);
+}
+
+.stripe {
+  background: var(--atc-tone, var(--bs-primary));
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  padding: 0.55rem 0.7rem 0.55rem 0.75rem;
+  min-width: 0;
+}
+
+.name {
+  display: block;
+  font-weight: 650;
+  font-size: 0.9rem;
+  line-height: 1.25;
+  color: var(--bs-emphasis-color);
+}
+
+.inn {
+  display: block;
+  margin-top: 0.1rem;
+  font-size: 0.75rem;
+  color: var(--bs-secondary-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+}
+
+.atc {
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: var(--bs-primary-text-emphasis);
+}

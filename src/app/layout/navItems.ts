@@ -14,4 +14,5 @@ export const navItems: NavItem[] = [
   { path: '/leads', labelKey: 'nav.leads', icon: 'bi-funnel' },
   { path: '/visits', labelKey: 'nav.visits', icon: 'bi-geo-alt' },
   { path: '/reports', labelKey: 'nav.reports', icon: 'bi-bar-chart-line' },
+  { path: '/medication', labelKey: 'nav.medication', icon: 'bi-capsule' },
 ]
