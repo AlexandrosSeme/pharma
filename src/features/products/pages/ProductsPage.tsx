@@ -33,7 +33,10 @@ export function ProductsPage() {
               onChange={setCategory}
               options={[
                 { value: '', label: t('products.allCategories') },
-                ...categories.map((c) => ({ value: c, label: c })),
+                ...categories.map((c) => ({
+                  value: c,
+                  label: t(`products.categories.${c}`, { defaultValue: c }),
+                })),
               ]}
             />
           </>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import { useTranslation } from 'react-i18next'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { DataTable, StatusBadge, type Column } from '@/shared/ui'
@@ -15,9 +16,30 @@ export function ProductsTable({ products, isLoading, error }: ProductsTableProps
 
   const columns: Column<Product>[] = [
     { key: 'sku', header: t('products.columns.sku'), render: (p) => p.sku },
-    { key: 'name', header: t('products.columns.name'), render: (p) => p.name, mobile: 'title' },
-    { key: 'category', header: t('products.columns.category'), render: (p) => p.category },
-    { key: 'form', header: t('products.columns.form'), render: (p) => `${p.form} × ${p.packSize}` },
+    {
+      key: 'name',
+      header: t('products.columns.name'),
+      mobile: 'title',
+      render: (p) => (
+        <Link to={`/products/${p.id}`} className="fw-semibold text-decoration-none">
+          {p.name}
+        </Link>
+      ),
+    },
+    {
+      key: 'category',
+      header: t('products.columns.category'),
+      render: (p) => t(`products.categories.${p.category}`, { defaultValue: p.category }),
+    },
+    {
+      key: 'form',
+      header: t('products.columns.form'),
+      render: (p) =>
+        t('products.detail.pack', {
+          form: t(`products.forms.${p.form}`, { defaultValue: p.form }),
+          count: p.packSize,
+        }),
+    },
     {
       key: 'rx',
       header: t('products.columns.rx'),

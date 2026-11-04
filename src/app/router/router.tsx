@@ -6,7 +6,7 @@ import { CustomersPage } from '@/features/customers'
 import { DashboardPage } from '@/features/dashboard'
 import { LeadPage, LeadsPage } from '@/features/leads'
 import { OrdersPage } from '@/features/orders'
-import { ProductsPage } from '@/features/products'
+import { ProductPage, ProductsPage } from '@/features/products'
 import { ReportsPage } from '@/features/reports'
 import { VisitsPage } from '@/features/visits'
 import { NotFoundPage } from './NotFoundPage'
@@ -29,6 +29,7 @@ export const router = createBrowserRouter([
             lazy: () => import('@/features/calendar').then((m) => ({ Component: m.CalendarPage })),
           },
           { path: 'products', Component: ProductsPage },
+          { path: 'products/:id', Component: ProductPage },
           { path: 'orders', Component: OrdersPage },
           { path: 'customers', Component: CustomersPage },
           { path: 'map', lazy: () => import('@/features/map').then((m) => ({ Component: m.MapPage })) },

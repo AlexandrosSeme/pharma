@@ -1,4 +1,5 @@
 export { ProductsPage } from './pages/ProductsPage'
+export { ProductPage } from './pages/ProductPage'
 export { ProductsTable } from './components/ProductsTable'
 export {
   productKeys,
