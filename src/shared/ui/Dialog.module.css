@@ -41,4 +41,8 @@
     border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: var(--bs-border-radius-lg);
   }
+
+  .wide {
+    width: min(100% - 2rem, 42rem);
+  }
 }

@@ -32,14 +32,14 @@
   position: relative;
   display: grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
-  border: 2px solid var(--bs-body-bg);
+  width: 32px;
+  height: 32px;
+  border: 2px solid #fff;
   border-radius: 50%;
-  background-color: var(--pin-color, var(--app-chart-1));
-  color: var(--app-on-brand);
-  font-size: 0.8rem;
-  box-shadow: var(--app-shadow-sm);
+  background-color: var(--pin-color, var(--app-pin-pharmacy));
+  color: #fff;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.35);
 }
 
 .pin::after {
@@ -51,7 +51,7 @@
   transform: translateX(-50%);
   border: 6px solid transparent;
   border-bottom: 0;
-  border-top-color: var(--pin-color, var(--app-chart-1));
+  border-top-color: var(--pin-color, var(--app-pin-pharmacy));
 }
 
 .selected .pin {
@@ -60,15 +60,44 @@
 }
 
 .pharmacy {
-  --pin-color: var(--app-chart-1);
+  --pin-color: var(--app-pin-pharmacy);
+}
+
+.pharmacy .pin > i {
+  display: none;
+}
+
+.pharmacy .pin::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background:
+    linear-gradient(#fff, #fff) center / 15px 4px no-repeat,
+    linear-gradient(#fff, #fff) center / 4px 15px no-repeat;
 }
 
 .clinic {
-  --pin-color: var(--app-chart-2);
+  --pin-color: var(--app-pin-clinic);
+}
+
+.clinic .pin {
+  border-radius: 0.45rem;
 }
 
 .hospital {
-  --pin-color: var(--app-chart-4);
+  --pin-color: var(--app-pin-hospital);
+}
+
+.hospital .pin {
+  border-radius: 0.2rem;
+}
+
+.eopyy {
+  --pin-color: var(--app-pin-eopyy);
+}
+
+.eopyy .pin {
+  border-radius: 0.55rem 0.55rem 0.15rem;
 }
 
 .inactive {

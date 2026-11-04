@@ -96,6 +96,12 @@
   --app-chart-5: #94a3b8;
   --app-chart-6: #be123c;
 
+  /* Account pins. Off the activity palette: visit blue, call teal, meeting violet, task amber. */
+  --app-pin-pharmacy: #27b500;
+  --app-pin-clinic: #ff006e;
+  --app-pin-hospital: #fb5607;
+  --app-pin-eopyy: #1e293b;
+
   /* Calendar activity types: saturated fills, each >= 4.5:1 against its --app-on-activity-* text. */
   --app-activity-visit: #1d4ed8;
   --app-activity-call: #0f766e;
@@ -169,6 +175,11 @@
   --app-chart-4: #fbbf24;
   --app-chart-5: #94a3b8;
   --app-chart-6: #fb7185;
+
+  --app-pin-pharmacy: #39f57e;
+  --app-pin-clinic: #ff0073;
+  --app-pin-hospital: #b91c1c;
+  --app-pin-eopyy: #1e293b;
 }
 
 .btn-primary {

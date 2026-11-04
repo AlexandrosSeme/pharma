@@ -1,7 +1,8 @@
 import { useState, type CSSProperties } from 'react'
 import { Link, useParams } from 'react-router'
 import { useTranslation } from 'react-i18next'
-import { memberById, useVisibleCustomers } from '@/features/team'
+import { memberById, territoryText, useVisibleCustomers } from '@/features/team'
+import { accountsInTerritory, territoryForCity, territoryName, useTerritories } from '@/features/territories'
 import { usePlanOwner } from '@/features/team/usePlanOwner'
 import { useScope } from '@/features/team/useScope'
 import { useFormatters } from '@/shared/hooks/useFormatters'
@@ -42,6 +43,7 @@ export function LeadPage() {
   const owner = usePlanOwner()
   const leadQuery = useLead(id)
   const customers = useVisibleCustomers()
+  const territories = useTerritories()
   const update = useUpdateLead()
   const [kind, setKind] = useState<'call' | 'note'>('call')
   const [text, setText] = useState('')
@@ -50,7 +52,7 @@ export function LeadPage() {
   const lead = leadQuery.data
   const locale = locales[i18n.resolvedLanguage ?? 'en'] ?? 'en-GB'
 
-  if (leadQuery.isLoading || customers.isLoading) {
+  if (leadQuery.isLoading || customers.isLoading || territories.isLoading) {
     return <p className="text-body-secondary">{t('common.loading')}</p>
   }
   if (leadQuery.error || !lead) {
@@ -77,12 +79,10 @@ export function LeadPage() {
   const story = leadStory(lead)
   const inCity = (customers.data ?? []).filter((customer) => customer.city === lead.city)
   const nearby = inCity.slice(0, 6)
-  const covered =
-    scopeRole === 'rep'
-      ? ''
-      : [...new Set(inCity.flatMap((customer) => (customer.repId ? [memberById(customer.repId)?.name ?? ''] : [])))]
-          .filter(Boolean)
-          .join(', ')
+  const brick = territoryForCity(territories.data ?? [], lead.city, customers.data ?? [])
+  const rep = brick ? memberById(brick.repId) : undefined
+  const manager = brick ? memberById(brick.managerId) : undefined
+  const inTerritory = brick ? accountsInTerritory(brick, customers.data ?? []) : []
   const place = googleMaps.place(`${lead.companyName}, ${lead.city}`)
   const round = googleMaps.route([
     ...nearby.map((customer) => `${customer.address}, ${customer.postalCode} ${customer.city}`),
@@ -325,6 +325,41 @@ export function LeadPage() {
         </section>
 
         <div className={styles.side}>
+          <section className={styles.panel} aria-labelledby="lead-territory">
+            <div className={styles.panelHead}>
+              <h2 id="lead-territory">{t('leads.detail.territory')}</h2>
+            </div>
+            {brick && rep ? (
+              <>
+                <div className={styles.patch}>
+                  <p className={styles.patchName}>{territoryName(brick.name, i18n.resolvedLanguage)}</p>
+                  <p className={styles.patchMeta}>
+                    {rep.name}
+                    <span aria-hidden="true"> · </span>
+                    {t(`roles.short.${rep.role}`)}
+                  </p>
+                  {manager && (
+                    <p className={styles.patchMeta}>
+                      {territoryText(manager, i18n.resolvedLanguage)}
+                      <span aria-hidden="true"> · </span>
+                      {manager.name}
+                    </p>
+                  )}
+                </div>
+                <ul className={styles.cities}>
+                  {brick.cities.map((city) => (
+                    <li key={city} className={styles.city} aria-current={city === lead.city ? 'true' : undefined}>
+                      {city}
+                    </li>
+                  ))}
+                </ul>
+                <p className={styles.hint}>{t('leads.detail.inTerritory', { count: inTerritory.length })}</p>
+              </>
+            ) : (
+              <p className={styles.empty}>{t('leads.detail.territoryEmpty')}</p>
+            )}
+          </section>
+
           <section className={styles.panel} aria-labelledby="lead-contact">
             <div className={styles.panelHead}>
               <h2 id="lead-contact">{t('leads.detail.contact')}</h2>
@@ -359,7 +394,6 @@ export function LeadPage() {
             <div className={styles.panelHead}>
               <h2 id="lead-nearby">{t('leads.detail.nearby', { city: lead.city })}</h2>
             </div>
-            {covered && <p className={styles.covered}>{t('leads.detail.covered', { name: covered })}</p>}
             {nearby.length === 0 ? (
               <p className={styles.empty}>{t('leads.detail.nearbyEmpty')}</p>
             ) : (

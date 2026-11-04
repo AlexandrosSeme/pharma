@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { memberById, territoryText, useScope, useVisibleCustomers } from '@/features/team'
+import { territoryForAccount, territoryHasAccount, territoryName, useTerritories } from '@/features/territories'
 import { useWatchSubtitle } from '@/features/team/useWatchSubtitle'
 import { useDebounce } from '@/shared/hooks/useDebounce'
 import { useWatchPosition } from '@/shared/hooks/useGeolocation'
 import { distanceInMeters, hasCoordinates } from '@/shared/lib/geo'
 import { MyLocationButton, PageHeader, SearchInput, Select } from '@/shared/ui'
 import { CustomersTable } from '../components/CustomersTable'
+import { TerritoryBoard } from '../components/TerritoryBoard'
 import { customerTypes, type Customer } from '../types'
 
 const sortOrders = ['name', 'nearest'] as const
@@ -17,9 +19,19 @@ const loadSort = (): SortOrder => (localStorage.getItem(SORT_STORAGE_KEY) === 'n
 
 export function CustomersPage() {
   const { t, i18n } = useTranslation()
-  const { scopeRole } = useScope()
+  const { role, scopeRole, watched } = useScope()
   const { data, isLoading, error } = useVisibleCustomers()
+  const territories = useTerritories()
   const [search, setSearch] = useState('')
+  const [parcelId, setParcelId] = useState<string | null>(null)
+  const watchKey = watched.map((member) => member.id).join('|')
+  const [parcelWatch, setParcelWatch] = useState(watchKey)
+  if (parcelWatch !== watchKey) {
+    setParcelWatch(watchKey)
+    setParcelId(null)
+  }
+  const parcel = territories.data?.find((territory) => territory.id === parcelId)
+  if (parcelId && territories.data && !parcel) setParcelId(null)
   const [type, setType] = useState('')
   const [sort, setSort] = useState<SortOrder>(loadSort)
   const term = useDebounce(search).trim().toLowerCase()
@@ -38,7 +50,8 @@ export function CustomersPage() {
         )
       : undefined
 
-  const rows = data
+  const scoped = parcel ? data?.filter((customer) => territoryHasAccount(parcel, customer)) : data
+  const rows = scoped
     ?.filter(
       (c) =>
         (!type || c.type === type) &&
@@ -94,6 +107,16 @@ export function CustomersPage() {
           </div>
         )}
       </div>
+      {territories.data && data && (
+        <TerritoryBoard
+          territories={territories.data}
+          customers={data}
+          reps={watched.filter((member) => member.role === 'rep')}
+          canManage={role === 'director' || role === 'manager'}
+          selectedId={parcel?.id ?? null}
+          onSelect={setParcelId}
+        />
+      )}
       <CustomersTable
         customers={rows}
         distances={distances}
@@ -102,8 +125,14 @@ export function CustomersPage() {
             ? undefined
             : (customer: Customer) => {
                 const person = customer.repId ? memberById(customer.repId) : undefined
+                const brick = territories.data ? territoryForAccount(territories.data, customer) : undefined
                 return person
-                  ? { name: person.name, territory: territoryText(person, i18n.resolvedLanguage) }
+                  ? {
+                      name: person.name,
+                      territory: brick
+                        ? territoryName(brick.name, i18n.resolvedLanguage)
+                        : territoryText(person, i18n.resolvedLanguage),
+                    }
                   : undefined
               }
         }

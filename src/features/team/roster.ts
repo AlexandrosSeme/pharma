@@ -31,7 +31,7 @@ export const roster: TeamMember[] = [
     email: 'nikos.konstantinou@pharmasales.gr',
     role: 'rep',
     managerId: '1',
-    territory: { en: 'Athens, Piraeus, Marousi', el: 'Αθήνα, Πειραιάς, Μαρούσι' },
+    territory: { en: 'Athens center and south', el: 'Κέντρο και νότια Αθήνα' },
   },
   {
     id: 'r3',
@@ -56,6 +56,22 @@ export const roster: TeamMember[] = [
     role: 'rep',
     managerId: 'm2',
     territory: { en: 'Thessaly and Epirus', el: 'Θεσσαλία και Ήπειρος' },
+  },
+  {
+    id: 'r5',
+    name: 'Christina Nikolaou',
+    email: 'christina.nikolaou@pharmasales.gr',
+    role: 'rep',
+    managerId: '1',
+    territory: { en: 'North Athens', el: 'Βόρεια Αθήνα' },
+  },
+  {
+    id: 'r6',
+    name: 'Andreas Petroulias',
+    email: 'andreas.petroulias@pharmasales.gr',
+    role: 'rep',
+    managerId: '1',
+    territory: { en: 'Piraeus and west Athens', el: 'Πειραιάς και δυτικά' },
   },
 ]
 

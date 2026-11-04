@@ -15,14 +15,16 @@ type SelectProps = {
   onChange: (value: string) => void
   options: SelectOption[]
   groups?: SelectGroup[]
+  disabled?: boolean
   'aria-label'?: string
 }
 
-export function Select({ value, onChange, options, groups = [], ...rest }: SelectProps) {
+export function Select({ value, onChange, options, groups = [], disabled, ...rest }: SelectProps) {
   return (
     <select
       className={`form-select ${styles.select}`}
       value={value}
+      disabled={disabled}
       onChange={(e) => onChange(e.target.value)}
       {...rest}
     >

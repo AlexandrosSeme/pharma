@@ -12,15 +12,22 @@
 }
 
 .pharmacy {
-  --dot-color: var(--app-chart-1);
+  --dot-color: var(--app-pin-pharmacy);
 }
 
 .clinic {
-  --dot-color: var(--app-chart-2);
+  --dot-color: var(--app-pin-clinic);
+  border-radius: 0.15rem;
 }
 
 .hospital {
-  --dot-color: var(--app-chart-4);
+  --dot-color: var(--app-pin-hospital);
+  border-radius: 0.05rem;
+}
+
+.eopyy {
+  --dot-color: var(--app-pin-eopyy);
+  border-radius: 0.15rem 0.15rem 0.02rem;
 }
 
 .body {

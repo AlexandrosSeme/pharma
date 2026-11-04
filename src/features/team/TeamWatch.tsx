@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { territoryName, useTerritories } from '@/features/territories'
 import { accountGroups, territoryText, type WatchFocus } from './scope'
 import type { Role, TeamMember } from './types'
 import { useScope } from './useScope'
@@ -26,6 +27,7 @@ function Mark({ role, name }: { role: Role; name: string }) {
 export function TeamWatch() {
   const { t, i18n } = useTranslation()
   const { user, role, members, focus, setFocus } = useScope()
+  const territories = useTerritories()
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
 
@@ -48,6 +50,13 @@ export function TeamWatch() {
   if (!user || role === 'rep') return null
 
   const lang = i18n.resolvedLanguage
+  const brickLabel = (member: TeamMember) => {
+    if (member.role !== 'rep') return territoryText(member, lang)
+    const names = (territories.data ?? [])
+      .filter((territory) => territory.repId === member.id)
+      .map((territory) => territoryName(territory.name, lang))
+    return names.length ? names.join(' · ') : territoryText(member, lang)
+  }
   const groups = accountGroups(user)
   const directors = role === 'director' ? (groups.find((group) => group.role === 'director')?.members ?? []) : []
   const teams = groups.filter((group) => group.lead)
@@ -122,7 +131,7 @@ export function TeamWatch() {
             <MemberOption
               key={director.id}
               member={director}
-              lang={lang}
+              label={brickLabel(director)}
               selected={focus?.kind === 'person' && focus.id === director.id}
               onChoose={(id) => choose({ kind: 'person', id })}
             />
@@ -155,7 +164,7 @@ export function TeamWatch() {
                 )}
                 <MemberOption
                   member={lead}
-                  lang={lang}
+                  label={brickLabel(lead)}
                   selected={focus?.kind === 'person' && focus.id === lead.id}
                   onChoose={(id) => choose({ kind: 'person', id })}
                 />
@@ -164,7 +173,7 @@ export function TeamWatch() {
                     <MemberOption
                       key={rep.id}
                       member={rep}
-                      lang={lang}
+                      label={brickLabel(rep)}
                       selected={focus?.kind === 'person' && focus.id === rep.id}
                       onChoose={(id) => choose({ kind: 'person', id })}
                     />
@@ -181,12 +190,12 @@ export function TeamWatch() {
 
 function MemberOption({
   member,
-  lang,
+  label,
   selected,
   onChoose,
 }: {
   member: TeamMember
-  lang?: string
+  label: string
   selected: boolean
   onChoose: (id: string) => void
 }) {
@@ -203,7 +212,7 @@ function MemberOption({
       <span className={styles.copy}>
         <span className={styles.name}>{member.name}</span>
         <span className={styles.meta}>
-          {t(`roles.${member.role}`)} · {territoryText(member, lang)}
+          {t(`roles.${member.role}`)} · {label}
         </span>
       </span>
       <span className={`${styles.pill} ${styles[member.role]}`}>{t(`roles.short.${member.role}`)}</span>

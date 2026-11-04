@@ -1,4 +1,4 @@
-export const customerTypes = ['Pharmacy', 'Clinic', 'Hospital'] as const
+export const customerTypes = ['Pharmacy', 'Clinic', 'Hospital', 'Eopyy'] as const
 export type CustomerType = (typeof customerTypes)[number]
 
 export type CustomerStatus = 'active' | 'inactive'

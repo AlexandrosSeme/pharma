@@ -12,15 +12,36 @@
 }
 
 .pharmacy {
-  --type-color: var(--app-chart-1);
+  --type-color: var(--app-pin-pharmacy);
+  border-radius: 50%;
+}
+
+.pharmacy i {
+  display: none;
+}
+
+.pharmacy::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background:
+    linear-gradient(#fff, #fff) center / 16px 4px no-repeat,
+    linear-gradient(#fff, #fff) center / 4px 16px no-repeat;
 }
 
 .clinic {
-  --type-color: var(--app-chart-2);
+  --type-color: var(--app-pin-clinic);
+  border-radius: 0.45rem;
 }
 
 .hospital {
-  --type-color: var(--app-chart-4);
+  --type-color: var(--app-pin-hospital);
+  border-radius: 0.2rem;
+}
+
+.eopyy {
+  --type-color: var(--app-pin-eopyy);
+  border-radius: 0.55rem 0.55rem 0.15rem;
 }
 
 .heading {

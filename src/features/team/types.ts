@@ -10,5 +10,6 @@ export type TeamMember = {
   role: Role
   /** The manager this person reports to. The director has none. */
   managerId?: string
+  /** Region for a manager or director. A rep's bricks live in the territories collection. */
   territory: Territory
 }

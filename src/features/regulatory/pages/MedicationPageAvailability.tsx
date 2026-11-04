@@ -23,7 +23,7 @@ export function MedicationPageAvailability({ item }: { item: Medication }) {
     },
     {
       on: item.availability.hospital,
-      icon: 'bi-hospital',
+      icon: 'bi-h-square',
       label: t('medication.availability.hospital'),
     },
     {

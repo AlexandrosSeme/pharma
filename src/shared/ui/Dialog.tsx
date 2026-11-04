@@ -7,10 +7,12 @@ type DialogProps = {
   onClose: () => void
   children: ReactNode
   footer?: ReactNode
+  /** Wider card, for a list of accounts. */
+  wide?: boolean
 }
 
 /** Modal dialog on the native <dialog>: Esc, focus trapping and the backdrop come from the browser. Mount it to open it. */
-export function Dialog({ title, onClose, children, footer }: DialogProps) {
+export function Dialog({ title, onClose, children, footer, wide }: DialogProps) {
   const { t } = useTranslation()
   const ref = useRef<HTMLDialogElement>(null)
   const titleId = useId()
@@ -24,7 +26,7 @@ export function Dialog({ title, onClose, children, footer }: DialogProps) {
   return (
     <dialog
       ref={ref}
-      className={styles.dialog}
+      className={wide ? `${styles.dialog} ${styles.wide}` : styles.dialog}
       aria-labelledby={titleId}
       onCancel={(e) => {
         e.preventDefault()
