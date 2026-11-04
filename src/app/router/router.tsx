@@ -4,7 +4,7 @@ import { LoginPage } from '@/features/auth'
 import { BrandingPage } from '@/features/branding'
 import { CustomersPage } from '@/features/customers'
 import { DashboardPage } from '@/features/dashboard'
-import { LeadsPage } from '@/features/leads'
+import { LeadPage, LeadsPage } from '@/features/leads'
 import { OrdersPage } from '@/features/orders'
 import { ProductsPage } from '@/features/products'
 import { ReportsPage } from '@/features/reports'
@@ -33,6 +33,7 @@ export const router = createBrowserRouter([
           { path: 'customers', Component: CustomersPage },
           { path: 'map', lazy: () => import('@/features/map').then((m) => ({ Component: m.MapPage })) },
           { path: 'leads', Component: LeadsPage },
+          { path: 'leads/:id', Component: LeadPage },
           { path: 'visits', Component: VisitsPage },
           { path: 'clm', Component: ClmPage },
           { path: 'clm/feedback', Component: ClmFeedbackPage },

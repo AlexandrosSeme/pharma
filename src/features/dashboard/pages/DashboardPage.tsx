@@ -199,7 +199,7 @@ export function DashboardPage() {
                 <ul className={styles.list}>
                   {home.nearbyLeads.map((lead) => (
                     <li key={lead.id}>
-                      <Link to="/leads" className={styles.row}>
+                      <Link to={`/leads/${lead.id}`} className={styles.row}>
                         <span className={styles.stack}>
                           <span className={styles.name}>{lead.companyName}</span>
                           <span className={styles.note}>{lead.city}</span>

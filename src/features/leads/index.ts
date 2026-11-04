@@ -1,4 +1,5 @@
 export { LeadsPage } from './pages/LeadsPage'
+export { LeadPage } from './pages/LeadPage'
 export { LeadsTable } from './components/LeadsTable'
 export { LeadStatusBadge } from './components/LeadStatusBadge'
 export {

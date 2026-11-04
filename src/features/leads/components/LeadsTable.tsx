@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import { useTranslation } from 'react-i18next'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { DataTable, type Column } from '@/shared/ui'
@@ -15,7 +16,16 @@ export function LeadsTable({ leads, isLoading, error }: LeadsTableProps) {
   const { formatDate, formatMoney } = useFormatters()
 
   const columns: Column<Lead>[] = [
-    { key: 'company', header: t('leads.columns.company'), render: (l) => l.companyName },
+    {
+      key: 'company',
+      header: t('leads.columns.company'),
+      mobile: 'title',
+      render: (l) => (
+        <Link to={`/leads/${l.id}`} className="fw-semibold text-decoration-none">
+          {l.companyName}
+        </Link>
+      ),
+    },
     {
       key: 'contact',
       header: t('leads.columns.contact'),
