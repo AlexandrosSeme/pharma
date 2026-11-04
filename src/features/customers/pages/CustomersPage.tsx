@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { memberById, territoryText, useScope, useVisibleCustomers } from '@/features/team'
+import { useWatchSubtitle } from '@/features/team/useWatchSubtitle'
 import { useDebounce } from '@/shared/hooks/useDebounce'
 import { useWatchPosition } from '@/shared/hooks/useGeolocation'
 import { distanceInMeters, hasCoordinates } from '@/shared/lib/geo'
 import { MyLocationButton, PageHeader, SearchInput, Select } from '@/shared/ui'
 import { CustomersTable } from '../components/CustomersTable'
-import { useCustomers } from '../queries'
-import { customerTypes } from '../types'
+import { customerTypes, type Customer } from '../types'
 
 const sortOrders = ['name', 'nearest'] as const
 type SortOrder = (typeof sortOrders)[number]
@@ -15,8 +16,9 @@ const SORT_STORAGE_KEY = 'pharmasales.customers.sort'
 const loadSort = (): SortOrder => (localStorage.getItem(SORT_STORAGE_KEY) === 'nearest' ? 'nearest' : 'name')
 
 export function CustomersPage() {
-  const { t } = useTranslation()
-  const { data, isLoading, error } = useCustomers()
+  const { t, i18n } = useTranslation()
+  const { scopeRole } = useScope()
+  const { data, isLoading, error } = useVisibleCustomers()
   const [search, setSearch] = useState('')
   const [type, setType] = useState('')
   const [sort, setSort] = useState<SortOrder>(loadSort)
@@ -54,7 +56,7 @@ export function CustomersPage() {
     <section>
       <PageHeader
         title={t('customers.title')}
-        subtitle={t('customers.subtitle')}
+        subtitle={useWatchSubtitle('customers')}
         actions={
           <>
             <SearchInput value={search} onChange={setSearch} placeholder={t('customers.searchPlaceholder')} />
@@ -92,7 +94,22 @@ export function CustomersPage() {
           </div>
         )}
       </div>
-      <CustomersTable customers={rows} distances={distances} isLoading={isLoading} error={error} />
+      <CustomersTable
+        customers={rows}
+        distances={distances}
+        owner={
+          scopeRole === 'rep'
+            ? undefined
+            : (customer: Customer) => {
+                const person = customer.repId ? memberById(customer.repId) : undefined
+                return person
+                  ? { name: person.name, territory: territoryText(person, i18n.resolvedLanguage) }
+                  : undefined
+              }
+        }
+        isLoading={isLoading}
+        error={error}
+      />
     </section>
   )
 }

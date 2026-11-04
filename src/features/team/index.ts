@@ -1,0 +1,7 @@
+export { AccountPicker } from './AccountPicker'
+export { roster, memberByEmail, memberById } from './roster'
+export { accountGroups, canSeeCustomer, canSeeName, nameVisible, normalizeRole, recordVisible, subtitleKey, territoryText, visibleMembers } from './scope'
+export type { AccountGroup } from './scope'
+export { useScope } from './useScope'
+export { useVisibleCustomers } from './useVisibleCustomers'
+export type { Role, TeamMember, Territory } from './types'

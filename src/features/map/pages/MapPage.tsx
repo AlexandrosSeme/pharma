@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { customerTypes, useCustomers, type CustomerType } from '@/features/customers'
+import { customerTypes, type CustomerType } from '@/features/customers'
+import { useVisibleCustomers } from '@/features/team'
+import { useWatchSubtitle } from '@/features/team/useWatchSubtitle'
 import { useDebounce } from '@/shared/hooks/useDebounce'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { useWatchPosition } from '@/shared/hooks/useGeolocation'
@@ -14,7 +16,7 @@ import styles from './MapPage.module.css'
 export function MapPage() {
   const { t } = useTranslation()
   const { formatDistance } = useFormatters()
-  const { data, isLoading, error } = useCustomers()
+  const { data, isLoading, error } = useVisibleCustomers()
   const [search, setSearch] = useState('')
   const [type, setType] = useState<CustomerType | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -50,7 +52,7 @@ export function MapPage() {
     <section className={styles.page}>
       <PageHeader
         title={t('map.title')}
-        subtitle={t('map.subtitle')}
+        subtitle={useWatchSubtitle('map')}
         actions={<SearchInput value={search} onChange={setSearch} placeholder={t('customers.searchPlaceholder')} />}
       />
 

@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useScope, useVisibleCustomers } from '@/features/team'
+import { useWatchSubtitle } from '@/features/team/useWatchSubtitle'
 import { useDebounce } from '@/shared/hooks/useDebounce'
 import { PageHeader, SearchInput, Select } from '@/shared/ui'
 import { LeadsTable } from '../components/LeadsTable'
@@ -8,24 +10,31 @@ import { leadStatuses } from '../types'
 
 export function LeadsPage() {
   const { t } = useTranslation()
+  const { scopeRole } = useScope()
+  const customers = useVisibleCustomers()
   const { data, isLoading, error } = useLeads()
   const [search, setSearch] = useState('')
   const [status, setStatus] = useState('')
   const term = useDebounce(search).trim().toLowerCase()
+  const cities = new Set((customers.data ?? []).map((customer) => customer.city))
+  const waiting = isLoading || customers.isLoading
 
-  const rows = data
-    ?.filter(
-      (l) =>
-        (!status || l.status === status) &&
-        [l.companyName, l.contactPerson, l.city].some((field) => field.toLowerCase().includes(term)),
-    )
-    .toSorted((a, b) => b.createdAt.localeCompare(a.createdAt))
+  const rows = waiting
+    ? undefined
+    : data
+        ?.filter(
+          (l) =>
+            (scopeRole === 'director' || cities.has(l.city)) &&
+            (!status || l.status === status) &&
+            [l.companyName, l.contactPerson, l.city].some((field) => field.toLowerCase().includes(term)),
+        )
+        .toSorted((a, b) => b.createdAt.localeCompare(a.createdAt))
 
   return (
     <section>
       <PageHeader
         title={t('leads.title')}
-        subtitle={t('leads.subtitle')}
+        subtitle={useWatchSubtitle('leads')}
         actions={
           <>
             <SearchInput value={search} onChange={setSearch} placeholder={t('leads.searchPlaceholder')} />
@@ -41,7 +50,7 @@ export function LeadsPage() {
           </>
         }
       />
-      <LeadsTable leads={rows} isLoading={isLoading} error={error} />
+      <LeadsTable leads={rows} isLoading={waiting} error={error ?? customers.error} />
     </section>
   )
 }

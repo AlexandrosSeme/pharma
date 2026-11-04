@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react'
 import { Navigate, useLocation } from 'react-router'
 import { useTranslation } from 'react-i18next'
 import { BrandLogo } from '@/features/branding'
+import { AccountPicker } from '@/features/team'
 import { useAuth } from '../useAuth'
 import styles from './LoginPage.module.css'
 
@@ -32,7 +33,8 @@ export function LoginPage() {
     try {
       await login(email, password)
     } catch (err) {
-      setError((err as Error).message)
+      const code = (err as Error).message
+      setError(t(code === 'unknown-user' ? 'auth.unknownUser' : 'auth.required'))
     }
   }
 
@@ -109,9 +111,14 @@ export function LoginPage() {
                 {error}
               </div>
             )}
-            <button type="submit" className="btn btn-primary mt-2">
+            <p className="small text-body-secondary mb-0">{t('auth.anyPassword')}</p>
+            <button type="submit" className="btn btn-primary">
               {t('auth.signIn')}
             </button>
+            <div className="border-top pt-3">
+              <p className="small fw-semibold mb-2">{t('auth.accounts')}</p>
+              <AccountPicker onSelect={(member) => login(member.email, 'demo')} />
+            </div>
           </div>
         </form>
       </main>

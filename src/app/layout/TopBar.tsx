@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { BrandLogo } from '@/features/branding'
+import { TeamWatch } from '@/features/team/TeamWatch'
 import { LanguageSwitch } from './LanguageSwitch'
 import styles from './TopBar.module.css'
 import { UserMenu } from './UserMenu'
@@ -39,6 +40,7 @@ export function TopBar({ menuOpen, onMenuClick }: TopBarProps) {
       </div>
 
       <div className="ms-auto d-flex align-items-center gap-2 gap-md-3">
+        <TeamWatch />
         <span className="d-none d-sm-inline-flex">
           <LanguageSwitch />
         </span>

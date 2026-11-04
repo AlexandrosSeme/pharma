@@ -1,5 +1,6 @@
 import { useCustomers } from '@/features/customers'
 import { useLeads } from '@/features/leads'
+import { canSeeCustomer, useScope } from '@/features/team'
 import { isRevenueOrder, ordersInMonths, revenueByMonth, useOrders } from '@/features/orders'
 import { useProducts } from '@/features/products'
 import { lastMonthKeys, toMonthKey, yearToDateMonthKeys } from '@/shared/lib/months'
@@ -30,6 +31,7 @@ function monthsFor(period: ReportPeriod) {
 }
 
 export function useReportData(period: ReportPeriod) {
+  const { scopeUserId, scopeRole } = useScope()
   const ordersQuery = useOrders()
   const customersQuery = useCustomers()
   const productsQuery = useProducts()
@@ -37,9 +39,17 @@ export function useReportData(period: ReportPeriod) {
 
   const months = monthsFor(period)
   const monthSet = new Set(months)
-  const orders = ordersInMonths(ordersQuery.data ?? [], months)
-  const customers = customersQuery.data ?? []
-  const leads = (leadsQuery.data ?? []).filter((l) => monthSet.has(toMonthKey(l.createdAt)))
+  const customers = (customersQuery.data ?? []).filter(
+    (customer) => scopeRole === 'director' || canSeeCustomer(customer, scopeUserId, scopeRole),
+  )
+  const accountIds = new Set(customers.map((customer) => customer.id))
+  const cities = new Set(customers.map((customer) => customer.city))
+  const orders = ordersInMonths(ordersQuery.data ?? [], months).filter(
+    (order) => scopeRole === 'director' || accountIds.has(order.customerId),
+  )
+  const leads = (leadsQuery.data ?? []).filter(
+    (lead) => monthSet.has(toMonthKey(lead.createdAt)) && (scopeRole === 'director' || cities.has(lead.city)),
+  )
 
   const revenueOrders = orders.filter(isRevenueOrder)
   const revenue = revenueOrders.reduce((sum, o) => sum + o.total, 0)

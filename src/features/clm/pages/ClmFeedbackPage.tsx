@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router'
 import { useTranslation } from 'react-i18next'
+import { nameVisible, useScope } from '@/features/team'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { DataTable, KpiCard, KpiGrid, PageHeader, Select, StatusBadge, type Column } from '@/shared/ui'
 import { BarChart, ChartCard, DoughnutChart, useChartTheme } from '@/shared/ui/charts'
@@ -21,13 +22,17 @@ export function ClmFeedbackPage() {
   const theme = useChartTheme()
   const decks = useClmDecks()
   const sessions = useClmSessions()
+  const { watched, scopeRole, focus } = useScope()
   const [deckId, setDeckId] = useState('')
   const lang = i18n.resolvedLanguage
 
   const loading = decks.isLoading || sessions.isLoading
   const error = decks.error ?? sessions.error
   const deckList = decks.data ?? []
-  const sessionList = sessions.data ?? []
+  const sessionList = useMemo(
+    () => (sessions.data ?? []).filter((session) => nameVisible(session.repName, focus, scopeRole, watched)),
+    [sessions.data, focus, scopeRole, watched],
+  )
 
   const products = useMemo(() => productFeedback(deckList, sessionList, deckId), [deckList, sessionList, deckId])
   const lines = useMemo(

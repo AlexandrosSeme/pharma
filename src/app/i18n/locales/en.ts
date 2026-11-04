@@ -238,7 +238,12 @@ export const en = {
   roles: {
     rep: "Sales representative",
     manager: "Sales manager",
-    admin: "Administrator",
+    director: "Sales director",
+    short: {
+      rep: "Rep",
+      manager: "Manager",
+      director: "Director",
+    },
   },
   auth: {
     signIn: "Sign in",
@@ -246,6 +251,16 @@ export const en = {
     password: "Password",
     logout: "Log out",
     required: "Email and password are required",
+    unknownUser: "No user with this email.",
+    anyPassword: "Any password works in this demo.",
+    accounts: "Or sign in as",
+    switchUser: "Switch user",
+    teamOf: "{{name}}'s team",
+    watch: "Whose records to open",
+    wholeTeam: "Whole team",
+    planningFor: "Planning for {{name}}",
+    watchingPerson: "{{name}} · {{role}} · {{territory}}",
+    watchingTeam: "{{name}}'s team · {{territory}}",
     welcome: "Welcome back",
     subtitle: "Sign in to manage your accounts and orders.",
     tagline: "Field sales, made simple.",
@@ -330,6 +345,8 @@ export const en = {
   customers: {
     title: "Customers",
     subtitle: "Pharmacies, clinics and other accounts.",
+    subtitleManager: "Accounts owned by your team.",
+    subtitleRep: "Your accounts, in your territory.",
     searchPlaceholder: "Search by name, contact, address or city…",
     allTypes: "All types",
     navigate: "Navigate with Google Maps",
@@ -343,6 +360,7 @@ export const en = {
     },
     columns: {
       name: "Name",
+      owner: "Owner",
       type: "Type",
       contact: "Contact",
       phone: "Phone",
@@ -363,7 +381,9 @@ export const en = {
   },
   map: {
     title: "Map",
-    subtitle: "Your customers by location. Select a pin for details and directions.",
+    subtitle: "Every account by location. Select a pin for details and directions.",
+    subtitleManager: "Your team's accounts by location. Select a pin for details and directions.",
+    subtitleRep: "Your accounts by location. Select a pin for details and directions.",
     all: "All",
     onMap_one: "{{count}} customer on the map",
     onMap_other: "{{count}} customers on the map",
@@ -397,8 +417,10 @@ export const en = {
   visits: {
     title: "Visits",
     subtitle: "Check-ins recorded by reps at customer visits.",
+    subtitleManager: "Check-ins recorded by your team.",
     subtitleRep: "Your check-ins at customer visits.",
     allReps: "All reps",
+    myTeam: "My team",
     empty: "No visits recorded yet",
     checkIn: "Check in",
     checkingIn: "Checking in…",
@@ -417,7 +439,8 @@ export const en = {
   },
   calendar: {
     title: "Calendar",
-    subtitle: "Plan visits, calls and follow-ups for your team. Drag an activity to reschedule it.",
+    subtitle: "Plan visits, calls and follow-ups across every team. Drag an activity to reschedule it.",
+    subtitleManager: "Plan visits, calls and follow-ups for your team. Drag an activity to reschedule it.",
     subtitleRep: "Plan your visits, calls and follow-ups. Drag an activity to reschedule it.",
     newActivity: "New activity",
     editActivity: "Edit activity",
@@ -505,6 +528,8 @@ export const en = {
   orders: {
     title: "Orders",
     subtitle: "Track and manage orders.",
+    subtitleManager: "Orders from your team's accounts.",
+    subtitleRep: "Orders from your accounts.",
     allStatuses: "All statuses",
     columns: {
       number: "Order #",
@@ -525,6 +550,8 @@ export const en = {
   leads: {
     title: "Leads",
     subtitle: "Prospective customers in the sales pipeline.",
+    subtitleManager: "Prospects in your team's territories.",
+    subtitleRep: "Prospects in your territory.",
     searchPlaceholder: "Search by company, contact or city…",
     allStatuses: "All statuses",
     columns: {
@@ -547,6 +574,8 @@ export const en = {
   reports: {
     title: "Reports",
     subtitle: "Sales performance and pipeline analytics.",
+    subtitleManager: "Your team's performance.",
+    subtitleRep: "Your accounts and your territory.",
     period: "Period",
     periods: {
       last3: "Last 3 months",

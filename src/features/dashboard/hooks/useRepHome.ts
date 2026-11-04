@@ -1,4 +1,4 @@
-import { useAuth } from '@/features/auth'
+import { canSeeCustomer, useScope } from '@/features/team'
 import { useActivities } from '@/features/calendar'
 import { useClmDecks, useClmSessions } from '@/features/clm/queries'
 import { daysUntil, isExpired, isExpiring } from '@/features/clm/lib/text'
@@ -56,7 +56,7 @@ function startOfDay(date: Date) {
 }
 
 export function useRepHome() {
-  const { user } = useAuth()
+  const { user, focus, watched, scopeUserId, scopeRole } = useScope()
   const activities = useActivities()
   const customers = useCustomers()
   const orders = useOrders()
@@ -69,9 +69,16 @@ export function useRepHome() {
   const tomorrow = new Date(todayStart)
   tomorrow.setDate(tomorrow.getDate() + 1)
 
-  const customerById = new Map((customers.data ?? []).map((customer) => [customer.id, customer]))
+  const customerById = new Map(
+    (customers.data ?? [])
+      .filter((customer) => scopeUserId && canSeeCustomer(customer, scopeUserId, scopeRole))
+      .map((customer) => [customer.id, customer]),
+  )
+  const subjects = focus ? watched : user ? [{ id: user.id, name: user.name }] : []
+  const subjectIds = new Set(subjects.map((person) => person.id))
+  const subjectNames = new Set(subjects.map((person) => person.name))
   const mine = (activities.data ?? []).filter(
-    (activity) => user && (activity.repId === user.id || activity.repName === user.name),
+    (activity) => subjectIds.has(activity.repId) || subjectNames.has(activity.repName),
   )
   const inRange = (activity: Activity, from: Date, to: Date) => {
     const start = new Date(activity.start)
@@ -156,7 +163,7 @@ export function useRepHome() {
 
   const deckById = new Map((decks.data ?? []).map((deck) => [deck.id, deck]))
   const followUpSessions = (sessions.data ?? [])
-    .filter((session) => session.followUp && user && session.repName === user.name)
+    .filter((session) => session.followUp && subjectNames.has(session.repName))
     .sort((a, b) => b.endedAt.localeCompare(a.endedAt))
   const followUps = followUpSessions
     .slice(0, 4)

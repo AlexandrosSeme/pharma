@@ -9,13 +9,15 @@ type CustomersTableProps = {
   customers: Customer[] | undefined
   /** Straight-line meters from the rep, keyed by customer id. */
   distances?: Map<string, number>
+  /** Set for managers and the director, so the table shows who owns the account. */
+  owner?: (customer: Customer) => { name: string; territory: string } | undefined
   isLoading?: boolean
   error?: Error | null
 }
 
 const fullAddress = (c: Customer) => `${c.address}, ${c.postalCode} ${c.city}`
 
-export function CustomersTable({ customers, distances, isLoading, error }: CustomersTableProps) {
+export function CustomersTable({ customers, distances, owner, isLoading, error }: CustomersTableProps) {
   const { t } = useTranslation()
   const { formatDate, formatDistance } = useFormatters()
 
@@ -30,6 +32,24 @@ export function CustomersTable({ customers, distances, isLoading, error }: Custo
         </>
       ),
     },
+    ...(owner
+      ? [
+          {
+            key: 'owner',
+            header: t('customers.columns.owner'),
+            render: (c: Customer) => {
+              const person = owner(c)
+              if (!person) return '—'
+              return (
+                <>
+                  <div>{person.name}</div>
+                  <div className="small fw-normal text-body-secondary">{person.territory}</div>
+                </>
+              )
+            },
+          } satisfies Column<Customer>,
+        ]
+      : []),
     {
       key: 'contact',
       header: t('customers.columns.contact'),

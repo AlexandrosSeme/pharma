@@ -18,6 +18,8 @@ export type Customer = {
   longitude?: number
   vatNumber: string
   status: CustomerStatus
+  /** The sales rep who owns this account. Managers see the reps on their own team. */
+  repId?: string
   createdAt: string
 }
 

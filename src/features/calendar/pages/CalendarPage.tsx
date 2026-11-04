@@ -2,10 +2,12 @@ import type { CalendarRef } from '@fullcalendar/react'
 import { useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '@/features/auth'
-import { useCustomers } from '@/features/customers'
+import { recordVisible, useScope, useVisibleCustomers } from '@/features/team'
+import { usePlanOwner } from '@/features/team/usePlanOwner'
+import { useWatchSubtitle } from '@/features/team/useWatchSubtitle'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { googleMaps } from '@/shared/lib/geo'
-import { PageHeader, Select } from '@/shared/ui'
+import { PageHeader } from '@/shared/ui'
 import { ActionButtons } from '../components/ActionButtons'
 import { ActivityCalendar } from '../components/ActivityCalendar'
 import { ActivityDialog, ActivityEditDialog, DropActionDialog } from '../components/ActivityDialog'
@@ -42,29 +44,24 @@ export function CalendarPage() {
   const { t } = useTranslation()
   const { formatDate } = useFormatters()
   const { user } = useAuth()
+  const { scopeRole, watched, focus } = useScope()
   const { data: activities, isLoading, error } = useActivities()
-  const { data: customers = [] } = useCustomers()
+  const { data: customers = [] } = useVisibleCustomers()
   const update = useUpdateActivity()
   const calendarRef = useRef<CalendarRef>(null)
   const [startView] = useState(initialView)
   const [range, setRange] = useState<CalendarRange | null>(null)
   const [type, setType] = useState<ActivityType | null>(null)
-  const [repId, setRepId] = useState('')
   const [dialog, setDialog] = useState<DialogState>(null)
   const [zoom, setZoom] = useState(initialZoom)
   const [weekends, setWeekends] = useState(() => localStorage.getItem(WEEKENDS_KEY) === 'true')
 
-  const isRep = user?.role === 'rep'
-  const owner = { repId: user!.id, repName: user!.name }
-  const shownRep = isRep ? user!.id : repId
+  const planOwner = usePlanOwner()
+  const watchedIds = new Set(watched.map((member) => member.id))
+  // A new plan is filed under the person who is open, not under whoever is signed in.
+  const planFor = { repId: planOwner?.id ?? user!.id, repName: planOwner?.name ?? user!.name }
 
-  const reps = [
-    ...new Map([[owner.repId, owner.repName], ...(activities?.map((a) => [a.repId, a.repName] as const) ?? [])]),
-  ].toSorted((a, b) => a[1].localeCompare(b[1]))
-  // A manager looking at one rep's calendar plans for that rep, so new activities stay in view.
-  const planFor = repId ? { repId, repName: reps.find(([id]) => id === repId)?.[1] ?? owner.repName } : owner
-
-  const forRep = activities?.filter((a) => !shownRep || a.repId === shownRep) ?? []
+  const forRep = activities?.filter((activity) => recordVisible(activity.repId, focus, scopeRole, watchedIds)) ?? []
   const inRange = range
     ? forRep.filter((a) => new Date(a.start) < range.end && new Date(a.end) > range.start)
     : forRep
@@ -77,7 +74,7 @@ export function CalendarPage() {
   // The day being viewed in Day view, otherwise today; always one person's route.
   const today = new Date()
   const routeDay = range?.view === 'timeGridDay' ? range.start : today
-  const routeRep = shownRep || owner.repId
+  const routeRep = planFor.repId
   const customerById = new Map(customers.map((c) => [c.id, c]))
   const stops = (activities ?? [])
     .filter(
@@ -149,20 +146,9 @@ export function CalendarPage() {
     <section className={styles.page}>
       <PageHeader
         title={t('calendar.title')}
-        subtitle={t(isRep ? 'calendar.subtitleRep' : 'calendar.subtitle')}
+        subtitle={useWatchSubtitle('calendar')}
         actions={
           <>
-            {!isRep && (
-              <Select
-                aria-label={t('visits.columns.rep')}
-                value={repId}
-                onChange={setRepId}
-                options={[
-                  { value: '', label: t('visits.allReps') },
-                  ...reps.map(([value, label]) => ({ value, label })),
-                ]}
-              />
-            )}
             {stops.length > 0 ? (
               <a
                 href={googleMaps.route(stops)}
@@ -228,7 +214,7 @@ export function CalendarPage() {
               <ActivityCalendar
                 ref={calendarRef}
                 activities={visible}
-                showRep={!shownRep}
+                showRep={watched.length > 1}
                 initialView={startView}
                 zoom={zoomLevels[zoom]}
                 weekends={weekends}

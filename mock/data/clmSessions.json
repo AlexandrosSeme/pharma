@@ -4,7 +4,7 @@
     "deckId": "1",
     "customerId": "3",
     "customerName": "Hygeia Medical Clinic",
-    "repName": "Nikos Papadakis",
+    "repName": "Sofia Georgiou",
     "startedAt": "2026-10-28T09:05:00Z",
     "endedAt": "2026-10-28T09:12:00Z",
     "slides": [
@@ -47,7 +47,7 @@
     "deckId": "2",
     "customerId": "7",
     "customerName": "Larissa Care Clinic",
-    "repName": "Eleni Markou",
+    "repName": "Petros Lazaridis",
     "startedAt": "2026-10-29T11:20:00Z",
     "endedAt": "2026-10-29T11:26:00Z",
     "slides": [
@@ -78,7 +78,7 @@
     "deckId": "3",
     "customerId": "1",
     "customerName": "Athens Central Pharmacy",
-    "repName": "Nikos Papadakis",
+    "repName": "Sofia Georgiou",
     "startedAt": "2026-10-30T16:00:00Z",
     "endedAt": "2026-10-30T16:07:00Z",
     "slides": [
@@ -121,7 +121,7 @@
     "deckId": "4",
     "customerId": "4",
     "customerName": "Patras Family Pharmacy",
-    "repName": "Eleni Markou",
+    "repName": "Petros Lazaridis",
     "startedAt": "2026-11-02T10:15:00Z",
     "endedAt": "2026-11-02T10:20:00Z",
     "slides": [

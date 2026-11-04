@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { customerTypes } from '@/features/customers'
+import { useWatchSubtitle } from '@/features/team/useWatchSubtitle'
 import { leadStatusTone, leadStatuses } from '@/features/leads'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { KpiCard, KpiGrid, PageHeader, Select } from '@/shared/ui'
@@ -21,7 +22,7 @@ export function ReportsPage() {
     <section>
       <PageHeader
         title={t('reports.title')}
-        subtitle={t('reports.subtitle')}
+        subtitle={useWatchSubtitle('reports')}
         actions={
           <Select
             aria-label={t('reports.period')}

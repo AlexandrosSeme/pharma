@@ -71,6 +71,7 @@ export function ActivityEditDialog({ activity, owner, draft, customers, onClose,
         </>
       }
     >
+      {owner && <p className="small text-body-secondary mb-3">{t('auth.planningFor', { name: owner.repName })}</p>}
       <ActivityForm id={formId} draft={initial} customers={customers} onSubmit={save} />
       <ErrorAlert error={create.error ?? update.error} />
     </Dialog>
@@ -135,6 +136,7 @@ export function DropActionDialog({ customer, start, owner, onClose }: DropAction
           </span>
         </span>
       </p>
+      <p className="small text-body-secondary mb-2">{t('auth.planningFor', { name: owner.repName })}</p>
       <p className={styles.choose}>{t('calendar.dropChoose')}</p>
       <ActionButtons variant="picker" label={t('calendar.fields.type')} value={type} onChange={setType} />
       <label className={styles.noteLabel}>

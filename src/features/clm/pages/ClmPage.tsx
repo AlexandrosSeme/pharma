@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { useTranslation } from 'react-i18next'
+import { nameVisible, useScope } from '@/features/team'
 import { useDebounce } from '@/shared/hooks/useDebounce'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { FilterChips, PageHeader, SearchInput } from '@/shared/ui'
@@ -17,6 +18,7 @@ export function ClmPage() {
   const { formatDate, formatTime } = useFormatters()
   const decks = useClmDecks()
   const sessions = useClmSessions()
+  const { watched, scopeRole, focus } = useScope()
   const [search, setSearch] = useState('')
   const [filter, setFilter] = useState<AudienceFilter>('all')
   const term = useDebounce(search).trim().toLowerCase()
@@ -24,8 +26,11 @@ export function ClmPage() {
 
   const deckById = useMemo(() => new Map((decks.data ?? []).map((deck) => [deck.id, deck])), [decks.data])
   const recent = useMemo(
-    () => [...(sessions.data ?? [])].sort((a, b) => b.endedAt.localeCompare(a.endedAt)),
-    [sessions.data],
+    () =>
+      [...(sessions.data ?? [])]
+        .filter((session) => nameVisible(session.repName, focus, scopeRole, watched))
+        .sort((a, b) => b.endedAt.localeCompare(a.endedAt)),
+    [sessions.data, focus, scopeRole, watched],
   )
   const days = useMemo(() => groupByDay(recent), [recent])
 

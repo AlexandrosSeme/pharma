@@ -1,10 +1,11 @@
 import { createContext } from 'react'
+import type { Role } from '@/features/team/types'
 
 export type User = {
   id: string
   name: string
   email: string
-  role: 'rep' | 'manager' | 'admin'
+  role: Role
 }
 
 export type AuthContextValue = {

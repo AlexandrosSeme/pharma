@@ -1,0 +1,57 @@
+[
+  {
+    "id": "d1",
+    "name": "Eleni Vasilaki",
+    "email": "eleni.vasilaki@pharmasales.gr",
+    "role": "director",
+    "territory": { "en": "Greece", "el": "Ελλάδα" }
+  },
+  {
+    "id": "1",
+    "name": "Demo User",
+    "email": "demo.user@pharmasales.gr",
+    "role": "manager",
+    "managerId": "d1",
+    "territory": { "en": "Attica and the south", "el": "Αττική και νότια" }
+  },
+  {
+    "id": "m2",
+    "name": "Kostas Ioannou",
+    "email": "kostas.ioannou@pharmasales.gr",
+    "role": "manager",
+    "managerId": "d1",
+    "territory": { "en": "Northern Greece", "el": "Βόρεια Ελλάδα" }
+  },
+  {
+    "id": "r1",
+    "name": "Nikos Konstantinou",
+    "email": "nikos.konstantinou@pharmasales.gr",
+    "role": "rep",
+    "managerId": "1",
+    "territory": { "en": "Athens, Piraeus, Marousi", "el": "Αθήνα, Πειραιάς, Μαρούσι" }
+  },
+  {
+    "id": "r3",
+    "name": "Sofia Georgiou",
+    "email": "sofia.georgiou@pharmasales.gr",
+    "role": "rep",
+    "managerId": "1",
+    "territory": { "en": "Peloponnese and the islands", "el": "Πελοπόννησος και νησιά" }
+  },
+  {
+    "id": "r2",
+    "name": "Anna Dimou",
+    "email": "anna.dimou@pharmasales.gr",
+    "role": "rep",
+    "managerId": "m2",
+    "territory": { "en": "Thessaloniki, Serres, Kavala", "el": "Θεσσαλονίκη, Σέρρες, Καβάλα" }
+  },
+  {
+    "id": "r4",
+    "name": "Petros Lazaridis",
+    "email": "petros.lazaridis@pharmasales.gr",
+    "role": "rep",
+    "managerId": "m2",
+    "territory": { "en": "Thessaly and Epirus", "el": "Θεσσαλία και Ήπειρος" }
+  }
+]

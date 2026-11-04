@@ -58,16 +58,20 @@ export function UserMenu() {
         <div className="d-sm-none px-3 pb-2">
           <LanguageSwitch />
         </div>
-        <hr className="dropdown-divider" />
-        <Link
-          to="/settings/branding"
-          role="menuitem"
-          className="dropdown-item d-flex align-items-center gap-2"
-          onClick={() => setOpen(false)}
-        >
-          <i className="bi bi-image" aria-hidden="true" />
-          {t('nav.branding')}
-        </Link>
+        {user.role !== 'rep' && (
+          <>
+            <hr className="dropdown-divider" />
+            <Link
+              to="/settings/branding"
+              role="menuitem"
+              className="dropdown-item d-flex align-items-center gap-2"
+              onClick={() => setOpen(false)}
+            >
+              <i className="bi bi-image" aria-hidden="true" />
+              {t('nav.branding')}
+            </Link>
+          </>
+        )}
         <hr className="dropdown-divider" />
         <button
           type="button"

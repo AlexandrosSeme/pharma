@@ -2,7 +2,9 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '@/features/auth'
-import { useCustomers, type Customer } from '@/features/customers'
+import type { Customer } from '@/features/customers'
+import { useVisibleCustomers } from '@/features/team'
+import { usePlanOwner } from '@/features/team/usePlanOwner'
 import { useDebounce } from '@/shared/hooks/useDebounce'
 import { Dialog, SearchInput, StatusBadge } from '@/shared/ui'
 import { SlideCanvas } from '../components/SlideCanvas'
@@ -23,8 +25,9 @@ export function ClmStagePage() {
   const { deckId = '' } = useParams()
   const navigate = useNavigate()
   const { user } = useAuth()
+  const owner = usePlanOwner()
   const deckQuery = useClmDeck(deckId)
-  const customers = useCustomers()
+  const customers = useVisibleCustomers()
   const createSession = useCreateClmSession()
   const deck = deckQuery.data
   const lang = i18n.resolvedLanguage
@@ -121,7 +124,7 @@ export function ClmStagePage() {
       deckId: deck.id,
       customerId: customer.id,
       customerName: customer.name,
-      repName: user?.name ?? t('clm.rep'),
+      repName: owner?.name ?? user?.name ?? t('clm.rep'),
       startedAt: startedAt.current,
       endedAt: new Date().toISOString(),
       slides: shown.map((item) => ({

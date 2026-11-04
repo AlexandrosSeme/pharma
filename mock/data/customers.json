@@ -13,7 +13,8 @@
     "status": "active",
     "createdAt": "2025-02-14T09:30:00Z",
     "latitude": 37.976188,
-    "longitude": 23.729384
+    "longitude": 23.729384,
+    "repId": "r1"
   },
   {
     "id": "2",
@@ -29,7 +30,8 @@
     "status": "active",
     "createdAt": "2025-03-02T11:15:00Z",
     "latitude": 40.629232,
-    "longitude": 22.948327
+    "longitude": 22.948327,
+    "repId": "r2"
   },
   {
     "id": "3",
@@ -45,7 +47,8 @@
     "status": "active",
     "createdAt": "2025-04-21T08:00:00Z",
     "latitude": 38.036355,
-    "longitude": 23.798006
+    "longitude": 23.798006,
+    "repId": "r1"
   },
   {
     "id": "4",
@@ -61,7 +64,8 @@
     "status": "active",
     "createdAt": "2025-05-10T10:45:00Z",
     "latitude": 38.247999,
-    "longitude": 21.735828
+    "longitude": 21.735828,
+    "repId": "r3"
   },
   {
     "id": "5",
@@ -77,7 +81,8 @@
     "status": "active",
     "createdAt": "2025-06-03T07:20:00Z",
     "latitude": 35.33908,
-    "longitude": 25.133284
+    "longitude": 25.133284,
+    "repId": "r3"
   },
   {
     "id": "6",
@@ -93,7 +98,8 @@
     "status": "inactive",
     "createdAt": "2025-07-19T13:00:00Z",
     "latitude": 37.939947,
-    "longitude": 23.641232
+    "longitude": 23.641232,
+    "repId": "r1"
   },
   {
     "id": "7",
@@ -109,7 +115,8 @@
     "status": "active",
     "createdAt": "2025-09-08T09:10:00Z",
     "latitude": 39.6372,
-    "longitude": 22.416362
+    "longitude": 22.416362,
+    "repId": "r4"
   },
   {
     "id": "8",
@@ -125,7 +132,8 @@
     "status": "active",
     "createdAt": "2026-01-12T12:30:00Z",
     "latitude": 39.643926,
-    "longitude": 20.850837
+    "longitude": 20.850837,
+    "repId": "r4"
   },
   {
     "id": "9",
@@ -141,7 +149,8 @@
     "status": "active",
     "createdAt": "2025-12-14T16:15:00Z",
     "latitude": 37.944733,
-    "longitude": 23.643691
+    "longitude": 23.643691,
+    "repId": "r1"
   },
   {
     "id": "10",
@@ -157,7 +166,8 @@
     "status": "active",
     "createdAt": "2025-10-28T18:00:00Z",
     "latitude": 40.635461,
-    "longitude": 22.944524
+    "longitude": 22.944524,
+    "repId": "r2"
   },
   {
     "id": "11",
@@ -173,7 +183,8 @@
     "status": "active",
     "createdAt": "2025-03-18T02:15:00Z",
     "latitude": 41.094111,
-    "longitude": 23.55472
+    "longitude": 23.55472,
+    "repId": "r2"
   },
   {
     "id": "12",
@@ -189,7 +200,8 @@
     "status": "active",
     "createdAt": "2025-02-21T14:30:00Z",
     "latitude": 41.089188,
-    "longitude": 23.545164
+    "longitude": 23.545164,
+    "repId": "r2"
   },
   {
     "id": "13",
@@ -205,7 +217,8 @@
     "status": "active",
     "createdAt": "2025-08-17T17:15:00Z",
     "latitude": 38.056116,
-    "longitude": 23.812349
+    "longitude": 23.812349,
+    "repId": "r1"
   },
   {
     "id": "14",
@@ -221,7 +234,8 @@
     "status": "active",
     "createdAt": "2025-10-10T03:45:00Z",
     "latitude": 35.512293,
-    "longitude": 24.013386
+    "longitude": 24.013386,
+    "repId": "r3"
   },
   {
     "id": "15",
@@ -237,7 +251,8 @@
     "status": "active",
     "createdAt": "2025-05-31T23:00:00Z",
     "latitude": 39.637736,
-    "longitude": 22.419224
+    "longitude": 22.419224,
+    "repId": "r4"
   },
   {
     "id": "16",
@@ -253,7 +268,8 @@
     "status": "active",
     "createdAt": "2024-05-20T06:15:00Z",
     "latitude": 36.409026,
-    "longitude": 28.115902
+    "longitude": 28.115902,
+    "repId": "r3"
   },
   {
     "id": "17",
@@ -269,7 +285,8 @@
     "status": "active",
     "createdAt": "2025-01-08T15:15:00Z",
     "latitude": 37.036036,
-    "longitude": 22.114203
+    "longitude": 22.114203,
+    "repId": "r3"
   },
   {
     "id": "18",
@@ -285,7 +302,8 @@
     "status": "active",
     "createdAt": "2024-05-08T13:45:00Z",
     "latitude": 39.6372,
-    "longitude": 22.416362
+    "longitude": 22.416362,
+    "repId": "r4"
   },
   {
     "id": "19",
@@ -301,7 +319,8 @@
     "status": "active",
     "createdAt": "2025-01-19T12:45:00Z",
     "latitude": 39.623522,
-    "longitude": 19.92098
+    "longitude": 19.92098,
+    "repId": "r3"
   },
   {
     "id": "20",
@@ -317,7 +336,8 @@
     "status": "active",
     "createdAt": "2026-05-04T18:15:00Z",
     "latitude": 37.035082,
-    "longitude": 22.113907
+    "longitude": 22.113907,
+    "repId": "r3"
   },
   {
     "id": "21",
@@ -333,7 +353,8 @@
     "status": "inactive",
     "createdAt": "2026-05-20T17:00:00Z",
     "latitude": 39.358818,
-    "longitude": 22.948865
+    "longitude": 22.948865,
+    "repId": "r4"
   },
   {
     "id": "22",
@@ -349,7 +370,8 @@
     "status": "active",
     "createdAt": "2026-05-12T17:30:00Z",
     "latitude": 35.515778,
-    "longitude": 24.017795
+    "longitude": 24.017795,
+    "repId": "r3"
   },
   {
     "id": "23",
@@ -365,7 +387,8 @@
     "status": "active",
     "createdAt": "2025-05-30T12:00:00Z",
     "latitude": 38.249837,
-    "longitude": 21.739123
+    "longitude": 21.739123,
+    "repId": "r3"
   },
   {
     "id": "24",
@@ -381,7 +404,8 @@
     "status": "active",
     "createdAt": "2024-12-30T03:15:00Z",
     "latitude": 39.62522,
-    "longitude": 19.923927
+    "longitude": 19.923927,
+    "repId": "r3"
   },
   {
     "id": "25",
@@ -397,7 +421,8 @@
     "status": "active",
     "createdAt": "2024-06-12T01:00:00Z",
     "latitude": 40.632723,
-    "longitude": 22.943047
+    "longitude": 22.943047,
+    "repId": "r2"
   },
   {
     "id": "26",
@@ -413,7 +438,8 @@
     "status": "active",
     "createdAt": "2024-09-27T09:30:00Z",
     "latitude": 39.6372,
-    "longitude": 22.416362
+    "longitude": 22.416362,
+    "repId": "r4"
   },
   {
     "id": "27",
@@ -429,7 +455,8 @@
     "status": "active",
     "createdAt": "2025-07-20T10:00:00Z",
     "latitude": 40.935999,
-    "longitude": 24.412542
+    "longitude": 24.412542,
+    "repId": "r2"
   },
   {
     "id": "28",
@@ -445,7 +472,8 @@
     "status": "active",
     "createdAt": "2025-05-28T21:30:00Z",
     "latitude": 38.049204,
-    "longitude": 23.800366
+    "longitude": 23.800366,
+    "repId": "r1"
   },
   {
     "id": "29",
@@ -461,7 +489,8 @@
     "status": "active",
     "createdAt": "2025-02-02T04:15:00Z",
     "latitude": 39.637736,
-    "longitude": 22.419224
+    "longitude": 22.419224,
+    "repId": "r4"
   },
   {
     "id": "30",
@@ -477,7 +506,8 @@
     "status": "active",
     "createdAt": "2025-09-03T14:00:00Z",
     "latitude": 35.512304,
-    "longitude": 24.01382
+    "longitude": 24.01382,
+    "repId": "r3"
   },
   {
     "id": "31",
@@ -493,7 +523,8 @@
     "status": "active",
     "createdAt": "2026-06-06T11:30:00Z",
     "latitude": 41.094111,
-    "longitude": 23.55472
+    "longitude": 23.55472,
+    "repId": "r2"
   },
   {
     "id": "32",
@@ -509,7 +540,8 @@
     "status": "active",
     "createdAt": "2024-01-24T15:45:00Z",
     "latitude": 40.721059,
-    "longitude": 22.916432
+    "longitude": 22.916432,
+    "repId": "r2"
   },
   {
     "id": "33",
@@ -525,7 +557,8 @@
     "status": "active",
     "createdAt": "2026-08-22T09:45:00Z",
     "latitude": 40.634398,
-    "longitude": 22.942812
+    "longitude": 22.942812,
+    "repId": "r2"
   },
   {
     "id": "34",
@@ -541,7 +574,8 @@
     "status": "active",
     "createdAt": "2024-07-30T11:00:00Z",
     "latitude": 39.621496,
-    "longitude": 19.918653
+    "longitude": 19.918653,
+    "repId": "r3"
   },
   {
     "id": "35",
@@ -557,7 +591,8 @@
     "status": "inactive",
     "createdAt": "2025-04-09T00:00:00Z",
     "latitude": 37.976893,
-    "longitude": 23.724685
+    "longitude": 23.724685,
+    "repId": "r1"
   },
   {
     "id": "36",
@@ -573,7 +608,8 @@
     "status": "active",
     "createdAt": "2025-10-22T00:45:00Z",
     "latitude": 35.341831,
-    "longitude": 25.131334
+    "longitude": 25.131334,
+    "repId": "r3"
   },
   {
     "id": "37",
@@ -589,7 +625,8 @@
     "status": "active",
     "createdAt": "2026-02-14T11:15:00Z",
     "latitude": 39.637736,
-    "longitude": 22.419224
+    "longitude": 22.419224,
+    "repId": "r4"
   },
   {
     "id": "38",
@@ -605,7 +642,8 @@
     "status": "inactive",
     "createdAt": "2026-07-13T19:30:00Z",
     "latitude": 38.053625,
-    "longitude": 23.811228
+    "longitude": 23.811228,
+    "repId": "r1"
   },
   {
     "id": "39",
@@ -621,7 +659,8 @@
     "status": "inactive",
     "createdAt": "2024-12-17T14:15:00Z",
     "latitude": 39.62522,
-    "longitude": 19.923927
+    "longitude": 19.923927,
+    "repId": "r3"
   },
   {
     "id": "40",
@@ -637,7 +676,8 @@
     "status": "active",
     "createdAt": "2026-07-27T14:00:00Z",
     "latitude": 35.511586,
-    "longitude": 24.020843
+    "longitude": 24.020843,
+    "repId": "r3"
   },
   {
     "id": "41",
@@ -653,7 +693,8 @@
     "status": "active",
     "createdAt": "2024-08-24T05:45:00Z",
     "latitude": 35.512331,
-    "longitude": 24.014486
+    "longitude": 24.014486,
+    "repId": "r3"
   },
   {
     "id": "42",
@@ -669,7 +710,8 @@
     "status": "active",
     "createdAt": "2024-12-30T09:30:00Z",
     "latitude": 39.668097,
-    "longitude": 20.855941
+    "longitude": 20.855941,
+    "repId": "r4"
   },
   {
     "id": "43",
@@ -685,7 +727,8 @@
     "status": "active",
     "createdAt": "2026-04-17T01:15:00Z",
     "latitude": 37.979232,
-    "longitude": 23.736236
+    "longitude": 23.736236,
+    "repId": "r1"
   },
   {
     "id": "44",
@@ -701,7 +744,8 @@
     "status": "active",
     "createdAt": "2026-07-23T04:15:00Z",
     "latitude": 36.292611,
-    "longitude": 28.156498
+    "longitude": 28.156498,
+    "repId": "r3"
   },
   {
     "id": "45",
@@ -717,7 +761,8 @@
     "status": "active",
     "createdAt": "2026-06-01T22:15:00Z",
     "latitude": 40.63252,
-    "longitude": 22.942051
+    "longitude": 22.942051,
+    "repId": "r2"
   },
   {
     "id": "46",
@@ -733,7 +778,8 @@
     "status": "active",
     "createdAt": "2025-09-21T10:45:00Z",
     "latitude": 37.982521,
-    "longitude": 23.735259
+    "longitude": 23.735259,
+    "repId": "r1"
   },
   {
     "id": "47",
@@ -749,7 +795,8 @@
     "status": "active",
     "createdAt": "2025-10-04T13:00:00Z",
     "latitude": 35.515778,
-    "longitude": 24.017795
+    "longitude": 24.017795,
+    "repId": "r3"
   },
   {
     "id": "48",
@@ -765,7 +812,8 @@
     "status": "active",
     "createdAt": "2026-08-20T08:30:00Z",
     "latitude": 39.661792,
-    "longitude": 20.848345
+    "longitude": 20.848345,
+    "repId": "r4"
   },
   {
     "id": "49",
@@ -781,7 +829,8 @@
     "status": "active",
     "createdAt": "2024-06-23T20:45:00Z",
     "latitude": 35.341831,
-    "longitude": 25.131334
+    "longitude": 25.131334,
+    "repId": "r3"
   },
   {
     "id": "50",
@@ -797,6 +846,7 @@
     "status": "active",
     "createdAt": "2025-05-22T21:00:00Z",
     "latitude": 39.36234,
-    "longitude": 22.944677
+    "longitude": 22.944677,
+    "repId": "r4"
   }
 ]

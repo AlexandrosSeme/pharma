@@ -1,5 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useAuth } from '@/features/auth'
+import { usePlanOwner } from '@/features/team/usePlanOwner'
 // Not the customers index: customers renders CheckInButton, which would make the imports circular.
 import { useCustomers } from '@/features/customers/queries'
 import type { Customer } from '@/features/customers/types'
@@ -35,15 +36,17 @@ export function useVisitRows() {
 export function useCheckIn() {
   const qc = useQueryClient()
   const { user } = useAuth()
+  const owner = usePlanOwner()
 
   return useMutation({
     mutationFn: async (customer: Customer) => {
-      if (!user) throw new Error('Not signed in')
+      const person = owner ?? (user ? { id: user.id, name: user.name } : null)
+      if (!person) throw new Error('Not signed in')
       const position = await getCurrentPosition()
       return visitsApi.create({
         customerId: customer.id,
-        repId: user.id,
-        repName: user.name,
+        repId: person.id,
+        repName: person.name,
         checkedInAt: new Date().toISOString(),
         latitude: position.latitude,
         longitude: position.longitude,
