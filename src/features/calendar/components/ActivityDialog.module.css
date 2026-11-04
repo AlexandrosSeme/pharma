@@ -1,14 +1,60 @@
-.type {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--bs-emphasis-color);
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.85rem;
+  margin-bottom: 1.15rem;
 }
 
-.type i {
-  color: var(--type-color);
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+}
+
+.checked {
+  color: var(--bs-secondary-color);
+  font-size: 0.8rem;
+}
+
+.when {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+  color: var(--bs-secondary-color);
+  font-size: 0.9rem;
+}
+
+.when i {
+  margin-top: 0.15rem;
+}
+
+.time {
+  display: block;
+  color: var(--bs-emphasis-color);
+  font-weight: 650;
+}
+
+.choose {
+  margin: 0 0 0.5rem;
+  color: var(--bs-secondary-color);
+  font-size: 0.85rem;
+}
+
+.noteLabel {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.quiet {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: auto;
 }
 
 .notes {

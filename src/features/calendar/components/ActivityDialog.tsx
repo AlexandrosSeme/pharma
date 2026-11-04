@@ -1,13 +1,15 @@
-import { useId, useState, type CSSProperties } from 'react'
+import { useId, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { Customer } from '@/features/customers'
 import { CheckInButton } from '@/features/visits'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { googleMaps } from '@/shared/lib/geo'
 import { Dialog, IconDetails, StatusBadge, type BadgeTone, type IconDetail } from '@/shared/ui'
-import { activityStyle } from '../lib/activityStyle'
+import { actionMinutes } from '../lib/activityStyle'
+import { addMinutes } from '../lib/dates'
 import { useCreateActivity, useDeleteActivity, useUpdateActivity } from '../queries'
-import type { Activity, ActivityStatus, ActivityUpdate } from '../types'
+import type { Activity, ActivityStatus, ActivityType, ActivityUpdate } from '../types'
+import { ActionButtons } from './ActionButtons'
 import { ActivityForm, type ActivityDraft, type ActivityFormValues } from './ActivityForm'
 import styles from './ActivityDialog.module.css'
 
@@ -75,6 +77,82 @@ export function ActivityEditDialog({ activity, owner, draft, customers, onClose,
   )
 }
 
+type DropActionDialogProps = {
+  customer: Customer
+  start: Date
+  owner: Pick<Activity, 'repId' | 'repName'>
+  onClose: () => void
+}
+
+/** Shown after a customer is dropped on a time: the rep picks which action it is. */
+export function DropActionDialog({ customer, start, owner, onClose }: DropActionDialogProps) {
+  const { t } = useTranslation()
+  const { formatLongDate, formatTime } = useFormatters()
+  const create = useCreateActivity()
+  const [type, setType] = useState<ActivityType | null>(null)
+  const [notes, setNotes] = useState('')
+  const end = addMinutes(start, type ? actionMinutes[type] : actionMinutes.visit)
+
+  function save() {
+    if (!type) return
+    create.mutate(
+      {
+        ...owner,
+        type,
+        customerId: customer.id,
+        title: t(`calendar.defaultTitle.${type}`, { customer: customer.name }),
+        start: start.toISOString(),
+        end: addMinutes(start, actionMinutes[type]).toISOString(),
+        status: 'planned',
+        notes: notes.trim() || undefined,
+      },
+      { onSuccess: onClose },
+    )
+  }
+
+  return (
+    <Dialog
+      title={customer.name}
+      onClose={onClose}
+      footer={
+        <>
+          <button type="button" className="btn btn-primary" disabled={!type || create.isPending} onClick={save}>
+            {create.isPending && <Spinner />}
+            {t('calendar.create')}
+          </button>
+          <button type="button" className="btn btn-outline-secondary" onClick={onClose}>
+            {t('calendar.discard')}
+          </button>
+        </>
+      }
+    >
+      <p className={styles.when}>
+        <i className="bi bi-clock" aria-hidden="true" />
+        <span>
+          {formatLongDate(start)}
+          <span className={styles.time}>
+            {formatTime(start.toISOString())}–{formatTime(end.toISOString())}
+          </span>
+        </span>
+      </p>
+      <p className={styles.choose}>{t('calendar.dropChoose')}</p>
+      <ActionButtons variant="picker" label={t('calendar.fields.type')} value={type} onChange={setType} />
+      <label className={styles.noteLabel}>
+        {t('calendar.fields.notes')}
+        <span className="text-body-secondary"> ({t('calendar.optional')})</span>
+        <textarea
+          className="form-control mt-1"
+          rows={2}
+          value={notes}
+          placeholder={type ? t(`calendar.notesPlaceholder.${type}`) : ''}
+          onChange={(e) => setNotes(e.target.value)}
+        />
+      </label>
+      <ErrorAlert error={create.error} />
+    </Dialog>
+  )
+}
+
 type ActivityDialogProps = {
   activity: Activity
   customers: Customer[]
@@ -122,9 +200,16 @@ export function ActivityDialog({ activity: a, customers, onClose }: ActivityDial
   }
 
   const customer = customers.find((c) => c.id === a.customerId)
-  const style = activityStyle[a.type]
   const planned = a.status === 'planned'
   const change = (data: ActivityUpdate) => update.mutate({ id: a.id, data })
+
+  function changeType(next: ActivityType | null) {
+    if (!planned || !next || next === a.type) return
+    const named = customer?.name
+    const previous = named ? t(`calendar.defaultTitle.${a.type}`, { customer: named }) : t(`calendar.types.${a.type}`)
+    const title = named ? t(`calendar.defaultTitle.${next}`, { customer: named }) : t(`calendar.types.${next}`)
+    change({ type: next, title: a.title === previous ? title : a.title })
+  }
 
   const details: IconDetail[] = [
     {
@@ -145,13 +230,7 @@ export function ActivityDialog({ activity: a, customers, onClose }: ActivityDial
       {
         icon: 'bi-building',
         label: t('calendar.fields.customer'),
-        content: (
-          <>
-            <span className="fw-medium text-body-emphasis">{customer.name}</span>
-            <br />
-            {customer.address}, {customer.postalCode} {customer.city}
-          </>
-        ),
+        content: `${customer.address}, ${customer.postalCode} ${customer.city}`,
       },
       {
         icon: 'bi-person',
@@ -178,20 +257,14 @@ export function ActivityDialog({ activity: a, customers, onClose }: ActivityDial
 
   return (
     <Dialog
-      title={a.title}
+      title={customer?.name ?? a.title}
       onClose={onClose}
       footer={
         <>
-          {planned && a.type === 'visit' && customer && (
-            <CheckInButton
-              customer={customer}
-              onCheckedIn={(visit) => change({ status: 'done', visitId: visit.id })}
-            />
-          )}
           {planned ? (
             <button
               type="button"
-              className="btn btn-outline-primary"
+              className="btn btn-primary"
               disabled={update.isPending}
               onClick={() => change({ status: 'done' })}
             >
@@ -215,11 +288,11 @@ export function ActivityDialog({ activity: a, customers, onClose }: ActivityDial
               {t('calendar.edit')}
             </button>
           )}
-          <div className="d-flex flex-wrap gap-2 ms-auto">
+          <div className={styles.quiet}>
             {planned && (
               <button
                 type="button"
-                className="btn btn-outline-secondary"
+                className="btn btn-link link-secondary text-decoration-none"
                 disabled={update.isPending}
                 onClick={() => change({ status: 'cancelled' })}
               >
@@ -239,22 +312,30 @@ export function ActivityDialog({ activity: a, customers, onClose }: ActivityDial
         </>
       }
     >
-      <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
-        <span className={styles.type} style={{ '--type-color': style.color } as CSSProperties}>
-          <i className={`bi ${style.icon}`} aria-hidden="true" />
-          {t(`calendar.types.${a.type}`)}
-        </span>
-        <StatusBadge tone={statusTone[a.status]}>{t(`calendar.status.${a.status}`)}</StatusBadge>
-        {a.visitId && (
-          <span className="small text-body-secondary">
-            <i className="bi bi-person-check me-1" aria-hidden="true" />
-            {t('calendar.checkedIn')}
-          </span>
-        )}
+      <div className={styles.head}>
+        <ActionButtons
+          variant="picker"
+          label={t('calendar.fields.type')}
+          value={a.type}
+          allowEmpty={false}
+          readOnly={!planned}
+          onChange={changeType}
+        />
+        <div className={styles.meta}>
+          <StatusBadge tone={statusTone[a.status]}>{t(`calendar.status.${a.status}`)}</StatusBadge>
+          {a.visitId && <span className={styles.checked}>{t('calendar.checkedIn')}</span>}
+        </div>
       </div>
 
       <IconDetails items={details} className="mb-0" />
 
+      {planned && a.type === 'visit' && customer && (
+        <CheckInButton
+          className="mt-3"
+          customer={customer}
+          onCheckedIn={(visit) => change({ status: 'done', visitId: visit.id })}
+        />
+      )}
       {customer && (
         <a
           href={googleMaps.directions(`${customer.address}, ${customer.postalCode} ${customer.city}`)}

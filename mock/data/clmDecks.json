@@ -1,0 +1,1530 @@
+[
+  {
+    "id": "1",
+    "code": "MLA-2026-014",
+    "productName": "Amoxicillin 500mg",
+    "audience": "hcp",
+    "approvedUntil": "2027-04-30",
+    "version": "3.1",
+    "title": {
+      "en": "When to stay with amoxicillin",
+      "el": "Πότε μένουμε στην αμοξικιλλίνη"
+    },
+    "slides": [
+      {
+        "id": "d1s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Respiratory infections",
+          "el": "Λοιμώξεις αναπνευστικού"
+        },
+        "title": {
+          "en": "A first-line option you can explain in one minute",
+          "el": "Επιλογή πρώτης γραμμής που εξηγείται σε ένα λεπτό"
+        },
+        "body": {
+          "en": "For the adult outpatient visit. Demo visual aid — confirm the live MLA file before use.",
+          "el": "Για επίσκεψη ενήλικα εκτός νοσοκομείου. Δοκιμαστικό βοήθημα — επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with the indication you agreed in cycle planning. Do not jump to dose.",
+          "el": "Ξεκινήστε από την ένδειξη που κλείσατε στο πλάνο κύκλου. Μην πάτε κατευθείαν στη δόση."
+        }
+      },
+      {
+        "id": "d1s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Use it where local guidance still places amoxicillin first.",
+          "el": "Χρησιμοποιήστε το όπου οι τοπικές οδηγίες βάζουν ακόμη πρώτη την αμοξικιλλίνη."
+        },
+        "body": {
+          "en": "The visit is about fit, not about a new claim.",
+          "el": "Η επίσκεψη αφορά την καταλληλότητα, όχι έναν νέο ισχυρισμό."
+        },
+        "note": {
+          "en": "Pause after the sentence. Ask which infections they still start with amoxicillin.",
+          "el": "Κάντε παύση μετά την πρόταση. Ρωτήστε σε ποιες λοιμώξεις ξεκινούν ακόμη με αμοξικιλλίνη."
+        }
+      },
+      {
+        "id": "d1s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "What to leave in the room",
+          "el": "Τι μένει στο ιατρείο"
+        },
+        "points": [
+          {
+            "en": "Matches common outpatient respiratory use when the SmPC allows it.",
+            "el": "Ταιριάζει σε συχνή εξωνοσοκομειακή χρήση αναπνευστικού όταν το επιτρέπει το ΠΧΠ."
+          },
+          {
+            "en": "Capsule the patient already knows how to take.",
+            "el": "Καψάκιο που ο ασθενής ξέρει ήδη πώς να το πάρει."
+          },
+          {
+            "en": "Stop and reassess if the patient does not improve as expected.",
+            "el": "Σταματήστε και επανεκτιμήστε αν ο ασθενής δεν βελτιώνεται όπως αναμένεται."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point the doctor reacts to. Do not read all three.",
+          "el": "Μείνετε μόνο στο σημείο που αντιδρά ο ιατρός. Μην διαβάσετε και τα τρία."
+        }
+      },
+      {
+        "id": "d1s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Say this out loud",
+          "el": "Πείτε το φωναχτά"
+        },
+        "title": {
+          "en": "Do not present past the safety line",
+          "el": "Μην προχωράτε πέρα από τη γραμμή ασφάλειας"
+        },
+        "points": [
+          {
+            "en": "Known penicillin hypersensitivity.",
+            "el": "Γνωστή υπερευαισθησία στην πενικιλλίνη."
+          },
+          {
+            "en": "Not a substitute for culture when the SmPC requires another choice.",
+            "el": "Δεν υποκαθιστά καλλιέργεια όταν το ΠΧΠ απαιτεί άλλη επιλογή."
+          },
+          {
+            "en": "This deck is not the SmPC.",
+            "el": "Αυτή η παρουσίαση δεν είναι το ΠΧΠ."
+          }
+        ],
+        "note": {
+          "en": "If they raise allergy, stop the deck and note a follow-up. Do not argue.",
+          "el": "Αν θέσουν αλλεργία, σταματήστε και σημειώστε follow-up. Μην επιχειρηματολογήσετε."
+        }
+      },
+      {
+        "id": "d1s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Agree the next conversation",
+          "el": "Συμφωνήστε την επόμενη συζήτηση"
+        },
+        "body": {
+          "en": "Ask whether a short resistance card would help the next clinic meeting.",
+          "el": "Ρωτήστε αν μια σύντομη κάρτα αντοχής θα βοηθούσε την επόμενη συνάντηση στην κλινική."
+        },
+        "note": {
+          "en": "Tick follow-up only if they asked for something specific.",
+          "el": "Σημειώστε follow-up μόνο αν ζήτησαν κάτι συγκεκριμένο."
+        }
+      }
+    ],
+    "image": "/clm/amoxicillin.jpg"
+  },
+  {
+    "id": "2",
+    "code": "MLA-2026-031",
+    "productName": "Atorvastatin 20mg",
+    "audience": "hcp",
+    "approvedUntil": "2027-01-15",
+    "version": "2.4",
+    "title": {
+      "en": "Stay on the started dose",
+      "el": "Μείνετε στη δόση εκκίνησης"
+    },
+    "slides": [
+      {
+        "id": "d2s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Lipids",
+          "el": "Λιπίδια"
+        },
+        "title": {
+          "en": "The 20 mg conversation",
+          "el": "Η συζήτηση για τα 20 mg"
+        },
+        "body": {
+          "en": "A call aid for physicians who already start here. Demo only.",
+          "el": "Βοήθημα για ιατρούς που ξεκινούν ήδη από εδώ. Μόνο για επίδειξη."
+        },
+        "note": {
+          "en": "Confirm they treat lipids before you advance.",
+          "el": "Επιβεβαιώστε ότι χειρίζονται λιπίδια πριν προχωρήσετε."
+        }
+      },
+      {
+        "id": "d2s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Start where the SmPC starts, then review — do not stack claims.",
+          "el": "Ξεκινήστε από εκεί που ξεκινά το ΠΧΠ και μετά επανεξετάστε — μην στοιβάζετε ισχυρισμούς."
+        },
+        "note": {
+          "en": "One sentence. Then ask what makes them move a patient off 20 mg.",
+          "el": "Μία πρόταση. Μετά ρωτήστε τι τους κάνει να βγάλουν ασθενή από τα 20 mg."
+        }
+      },
+      {
+        "id": "d2s3",
+        "kind": "points",
+        "kicker": {
+          "en": "For the chart",
+          "el": "Για το ιστορικό"
+        },
+        "title": {
+          "en": "Three checks before the next script",
+          "el": "Τρεις έλεγχοι πριν την επόμενη συνταγή"
+        },
+        "points": [
+          {
+            "en": "Is the treatment goal written down?",
+            "el": "Είναι γραμμένος ο θεραπευτικός στόχος;"
+          },
+          {
+            "en": "Any interacting medicines since the last visit?",
+            "el": "Υπάρχουν αλληλεπιδρώντα φάρμακα από την τελευταία επίσκεψη;"
+          },
+          {
+            "en": "Does the patient actually take it in the evening or as directed?",
+            "el": "Το παίρνει ο ασθενής το βράδυ ή όπως ορίζεται;"
+          }
+        ],
+        "note": {
+          "en": "Let them answer the first check. Skip the rest if time is short.",
+          "el": "Αφήστε τους να απαντήσουν στον πρώτο έλεγχο. Παραλείψτε τα υπόλοιπα αν ο χρόνος είναι λίγος."
+        }
+      },
+      {
+        "id": "d2s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "Name the stop rules",
+          "el": "Πείτε τους κανόνες διακοπής"
+        },
+        "points": [
+          {
+            "en": "Unexplained muscle pain needs a pause and a check, not a stronger claim.",
+            "el": "Ανεξήγητος μυϊκός πόνος θέλει παύση και έλεγχο, όχι ισχυρότερο μήνυμα."
+          },
+          {
+            "en": "Liver disease and pregnancy sit outside this deck.",
+            "el": "Ηπατική νόσος και κύηση είναι εκτός αυτής της παρουσίασης."
+          },
+          {
+            "en": "Send them back to the SmPC for interactions.",
+            "el": "Παραπέμψτε στο ΠΧΠ για αλληλεπιδράσεις."
+          }
+        ],
+        "note": {
+          "en": "Never minimise a muscle symptom to finish the story.",
+          "el": "Μην υποβαθμίζετε μυϊκό σύμπτωμα για να τελειώσετε την ιστορία."
+        }
+      },
+      {
+        "id": "d2s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Offer the one-page goal card",
+          "el": "Προσφέρετε την κάρτα στόχου μίας σελίδας"
+        },
+        "body": {
+          "en": "Useful for the nurse who explains the evening dose.",
+          "el": "Χρήσιμη για τον νοσηλευτή που εξηγεί τη βραδινή δόση."
+        },
+        "note": {
+          "en": "Follow-up = they want the card or a second meeting with the nurse.",
+          "el": "Follow-up = θέλουν την κάρτα ή δεύτερη συνάντηση με τον νοσηλευτή."
+        }
+      }
+    ],
+    "image": "/clm/atorvastatin.jpg"
+  },
+  {
+    "id": "3",
+    "code": "MLA-2026-008",
+    "productName": "Cetirizine 10mg",
+    "audience": "pharmacy",
+    "approvedUntil": "2027-03-01",
+    "version": "1.6",
+    "title": {
+      "en": "The counter question on seasonal allergy",
+      "el": "Η ερώτηση στο ταμείο για την εποχική αλλεργία"
+    },
+    "slides": [
+      {
+        "id": "d3s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Pharmacy",
+          "el": "Φαρμακείο"
+        },
+        "title": {
+          "en": "One question before the recommendation",
+          "el": "Μία ερώτηση πριν τη σύσταση"
+        },
+        "body": {
+          "en": "For the pharmacist conversation, not for a clinical lecture. Demo aid.",
+          "el": "Για τη συζήτηση με τον φαρμακοποιό, όχι για κλινική διάλεξη. Δοκιμαστικό βοήθημα."
+        },
+        "note": {
+          "en": "Stand so both of you can see the screen. Do not hand over your laptop.",
+          "el": "Σταθείτε ώστε να βλέπετε και οι δύο την οθόνη. Μην δώσετε το laptop."
+        }
+      },
+      {
+        "id": "d3s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Ask who the tablet is for before you talk about the brand.",
+          "el": "Ρωτήστε για ποιον είναι το δισκίο πριν μιλήσετε για το εμπορικό όνομα."
+        },
+        "note": {
+          "en": "Child, pregnancy, or drowsy driving are reasons to stop and refer.",
+          "el": "Παιδί, κύηση ή οδήγηση με υπνηλία είναι λόγοι να σταματήσετε και να παραπέμψετε."
+        }
+      },
+      {
+        "id": "d3s3",
+        "kind": "points",
+        "kicker": {
+          "en": "At the counter",
+          "el": "Στον πάγκο"
+        },
+        "title": {
+          "en": "What the pharmacist can say",
+          "el": "Τι μπορεί να πει ο φαρμακοποιός"
+        },
+        "points": [
+          {
+            "en": "Once a day, as the pack says.",
+            "el": "Μία φορά την ημέρα, όπως λέει η συσκευασία."
+          },
+          {
+            "en": "For seasonal symptoms the pack is authorised for.",
+            "el": "Για εποχικά συμπτώματα για τα οποία έχει εγκριθεί η συσκευασία."
+          },
+          {
+            "en": "If symptoms persist, the person should see a physician.",
+            "el": "Αν τα συμπτώματα επιμένουν, το άτομο πρέπει να δει ιατρό."
+          }
+        ],
+        "note": {
+          "en": "This is counselling language, not a comparison with other antihistamines.",
+          "el": "Αυτή είναι γλώσσα συμβουλής, όχι σύγκριση με άλλα αντιισταμινικά."
+        }
+      },
+      {
+        "id": "d3s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Do not skip",
+          "el": "Μην το παραλείψετε"
+        },
+        "title": {
+          "en": "Three reasons to send them on",
+          "el": "Τρεις λόγοι να τους παραπέμψετε"
+        },
+        "points": [
+          {
+            "en": "Symptoms that are not allergic.",
+            "el": "Συμπτώματα που δεν είναι αλλεργικά."
+          },
+          {
+            "en": "Kidney disease — check the pack.",
+            "el": "Νεφρική νόσος — ελέγξτε τη συσκευασία."
+          },
+          {
+            "en": "Any request to use it for a child without checking the age on the box.",
+            "el": "Αίτημα για παιδί χωρίς έλεγχο της ηλικίας στο κουτί."
+          }
+        ],
+        "note": {
+          "en": "Thank them for the referral instinct. Do not push a sale past it.",
+          "el": "Ευχαριστήστε το ένστικτο παραπομπής. Μην πιέσετε πώληση πέρα από αυτό."
+        }
+      },
+      {
+        "id": "d3s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Leave the shelf card, not a speech",
+          "el": "Αφήστε την κάρτα ραφιού, όχι ομιλία"
+        },
+        "body": {
+          "en": "Ask if the seasonal display is going up this week.",
+          "el": "Ρωτήστε αν η εποχική προβολή μπαίνει αυτή την εβδομάδα."
+        },
+        "note": {
+          "en": "Follow-up if they want a second card or a staff briefing.",
+          "el": "Follow-up αν θέλουν δεύτερη κάρτα ή ενημέρωση προσωπικού."
+        }
+      }
+    ],
+    "image": "/clm/cetirizine.jpg"
+  },
+  {
+    "id": "4",
+    "code": "MLA-2026-002",
+    "productName": "Vitamin D3 1000IU",
+    "audience": "pharmacy",
+    "approvedUntil": "2026-11-20",
+    "version": "4.0",
+    "title": {
+      "en": "Winter counselling, without a lecture",
+      "el": "Χειμερινή συμβουλή, χωρίς διάλεξη"
+    },
+    "slides": [
+      {
+        "id": "d4s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Expiring aid",
+          "el": "Βοήθημα που λήγει"
+        },
+        "title": {
+          "en": "A short winter conversation",
+          "el": "Μια σύντομη χειμερινή συζήτηση"
+        },
+        "body": {
+          "en": "Approved only until the date on this deck. Demo aid.",
+          "el": "Εγκεκριμένο μόνο μέχρι την ημερομηνία αυτής της παρουσίασης. Δοκιμαστικό βοήθημα."
+        },
+        "note": {
+          "en": "Mention the expiry if they ask to keep a copy. Do not email the file.",
+          "el": "Αναφέρετε τη λήξη αν ζητήσουν αντίγραφο. Μην στείλετε το αρχείο με email."
+        }
+      },
+      {
+        "id": "d4s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Recommend only the people the pack is meant for.",
+          "el": "Συστήστε το μόνο στα άτομα για τα οποία προορίζεται η συσκευασία."
+        },
+        "note": {
+          "en": "Ask which customers ask for vitamin D without a blood test.",
+          "el": "Ρωτήστε ποιοι πελάτες ζητούν βιταμίνη D χωρίς εξέταση αίματος."
+        }
+      },
+      {
+        "id": "d4s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Counsel",
+          "el": "Συμβουλή"
+        },
+        "title": {
+          "en": "Keep it to the label",
+          "el": "Μείνετε στην επισήμανση"
+        },
+        "points": [
+          {
+            "en": "Dose on the box, not a higher one from memory.",
+            "el": "Δόση από το κουτί, όχι υψηλότερη από μνήμης."
+          },
+          {
+            "en": "With a meal if the pack says so.",
+            "el": "Με γεύμα αν το λέει η συσκευασία."
+          },
+          {
+            "en": "Not a treatment for a diagnosed deficiency unless a physician said so.",
+            "el": "Όχι θεραπεία διαγνωσμένης έλλειψης εκτός αν το είπε ιατρός."
+          }
+        ],
+        "note": {
+          "en": "If they want deficiency protocols, that is a physician deck, not this one.",
+          "el": "Αν θέλουν πρωτόκολλα έλλειψης, αυτό είναι φάκελος ιατρού, όχι αυτός."
+        }
+      },
+      {
+        "id": "d4s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "Too much is still a reason to stop",
+          "el": "Η υπερβολή είναι λόγος να σταματήσετε"
+        },
+        "points": [
+          {
+            "en": "Other vitamin D products in the same basket.",
+            "el": "Άλλα προϊόντα βιταμίνης D στο ίδιο καλάθι."
+          },
+          {
+            "en": "Hypercalcaemia history — refer.",
+            "el": "Ιστορικό υπερασβεστιαιμίας — παραπομπή."
+          },
+          {
+            "en": "This aid expires this month. Do not keep using it after the date.",
+            "el": "Αυτό το βοήθημα λήγει αυτόν τον μήνα. Μην το χρησιμοποιείτε μετά την ημερομηνία."
+          }
+        ],
+        "note": {
+          "en": "Show this slide even on a short call. It is why the deck is marked expiring.",
+          "el": "Δείξτε αυτή τη διαφάνεια ακόμη και σε σύντομη επίσκεψη. Γι' αυτό η παρουσίαση σημειώνεται ως λήγουσα."
+        }
+      },
+      {
+        "id": "d4s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Book the replacement aid",
+          "el": "Κλείστε το επόμενο βοήθημα"
+        },
+        "body": {
+          "en": "Tell them the next approved version arrives after this one expires.",
+          "el": "Πείτε τους ότι η επόμενη εγκεκριμένη έκδοση έρχεται μετά τη λήξη αυτής."
+        },
+        "note": {
+          "en": "Follow-up = they want to be told when the new file is approved.",
+          "el": "Follow-up = θέλουν να ενημερωθούν όταν εγκριθεί το νέο αρχείο."
+        }
+      }
+    ],
+    "image": "/clm/vitamin-d.jpg"
+  },
+  {
+    "id": "5",
+    "code": "MLA-2026-044",
+    "productName": "Omeprazole 20mg",
+    "audience": "hcp",
+    "approvedUntil": "2027-06-30",
+    "version": "2.0",
+    "image": "/clm/atorvastatin.jpg",
+    "title": {
+      "en": "Stay with the morning dose",
+      "el": "Μείνετε στην πρωινή δόση"
+    },
+    "slides": [
+      {
+        "id": "d5s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Acid-related symptoms",
+          "el": "Συμπτώματα από το οξύ"
+        },
+        "title": {
+          "en": "One morning dose, said once",
+          "el": "Μία πρωινή δόση, μία φορά"
+        },
+        "body": {
+          "en": "Demo visual aid for the visit. Confirm the live MLA file before use.",
+          "el": "Δοκιμαστικό βοήθημα για την επίσκεψη. Επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with who the product is for. Do not open with the pack.",
+          "el": "Ξεκινήστε από το για ποιον είναι. Μην ξεκινήσετε από τη συσκευασία."
+        }
+      },
+      {
+        "id": "d5s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Keep the dose they already started, then review.",
+          "el": "Κρατήστε τη δόση που ξεκίνησαν και μετά επανεξετάστε."
+        },
+        "body": {
+          "en": "Pause after the sentence and let them answer.",
+          "el": "Κάντε παύση μετά την πρόταση και αφήστε τους να απαντήσουν."
+        },
+        "note": {
+          "en": "One sentence. Then stop talking.",
+          "el": "Μία πρόταση. Μετά σταματήστε."
+        }
+      },
+      {
+        "id": "d5s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "What to leave on the desk",
+          "el": "Τι μένει στο γραφείο"
+        },
+        "points": [
+          {
+            "en": "Morning dose, before food, as the SmPC describes it.",
+            "el": "Πρωινή δόση, πριν το φαγητό, όπως το περιγράφει το ΠΧΠ."
+          },
+          {
+            "en": "Do not add a second acid medicine in the same visit.",
+            "el": "Μην προσθέσετε δεύτερο φάρμακο για το οξύ στην ίδια επίσκεψη."
+          },
+          {
+            "en": "Name the date they will look at the dose again.",
+            "el": "Πείτε την ημερομηνία που θα ξαναδούν τη δόση."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point they react to.",
+          "el": "Καλύψτε μόνο το σημείο στο οποίο αντιδρούν."
+        }
+      },
+      {
+        "id": "d5s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "Say the review point before you leave",
+          "el": "Πείτε το σημείο επανελέγχου πριν φύγετε"
+        },
+        "body": {
+          "en": "Stay inside the approved safety line. Do not add a claim.",
+          "el": "Μείνετε στη γραμμή ασφάλειας. Μην προσθέσετε ισχυρισμό."
+        },
+        "note": {
+          "en": "If they raise a safety point, stay on this slide.",
+          "el": "Αν θέσουν θέμα ασφάλειας, μείνετε σε αυτή τη διαφάνεια."
+        }
+      },
+      {
+        "id": "d5s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Agree when they will look again",
+          "el": "Συμφωνήστε πότε θα το ξαναδούν"
+        },
+        "body": {
+          "en": "Leave with one next step, written down.",
+          "el": "Φύγετε με ένα επόμενο βήμα, γραμμένο."
+        },
+        "note": {
+          "en": "Do not add a second ask.",
+          "el": "Μην προσθέσετε δεύτερο αίτημα."
+        }
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "code": "MLA-2026-051",
+    "productName": "Metformin 850mg",
+    "audience": "hcp",
+    "approvedUntil": "2027-02-28",
+    "version": "1.4",
+    "image": "/clm/amoxicillin.jpg",
+    "title": {
+      "en": "Start where the patient already is",
+      "el": "Ξεκινήστε από εκεί που είναι ήδη ο ασθενής"
+    },
+    "slides": [
+      {
+        "id": "d6s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Type 2 diabetes",
+          "el": "Σακχαρώδης διαβήτης τύπου 2"
+        },
+        "title": {
+          "en": "A first conversation, not a new regimen",
+          "el": "Πρώτη συζήτηση, όχι νέο σχήμα"
+        },
+        "body": {
+          "en": "Demo visual aid for the visit. Confirm the live MLA file before use.",
+          "el": "Δοκιμαστικό βοήθημα για την επίσκεψη. Επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with who the product is for. Do not open with the pack.",
+          "el": "Ξεκινήστε από το για ποιον είναι. Μην ξεκινήσετε από τη συσκευασία."
+        }
+      },
+      {
+        "id": "d6s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Begin with the tablet they can already explain.",
+          "el": "Ξεκινήστε από το δισκίο που μπορούν ήδη να εξηγήσουν."
+        },
+        "body": {
+          "en": "Pause after the sentence and let them answer.",
+          "el": "Κάντε παύση μετά την πρόταση και αφήστε τους να απαντήσουν."
+        },
+        "note": {
+          "en": "One sentence. Then stop talking.",
+          "el": "Μία πρόταση. Μετά σταματήστε."
+        }
+      },
+      {
+        "id": "d6s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "Three checks before the next visit",
+          "el": "Τρεις έλεγχοι πριν την επόμενη επίσκεψη"
+        },
+        "points": [
+          {
+            "en": "Start from the tablet the patient already recognises.",
+            "el": "Ξεκινήστε από το δισκίο που ο ασθενής αναγνωρίζει ήδη."
+          },
+          {
+            "en": "Say how they take it with food.",
+            "el": "Πείτε πώς το παίρνουν με το φαγητό."
+          },
+          {
+            "en": "Leave one target, not a list of numbers.",
+            "el": "Αφήστε έναν στόχο, όχι λίστα αριθμών."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point they react to.",
+          "el": "Καλύψτε μόνο το σημείο στο οποίο αντιδρούν."
+        }
+      },
+      {
+        "id": "d6s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "Name the stop rules out loud",
+          "el": "Πείτε δυνατά τους κανόνες διακοπής"
+        },
+        "body": {
+          "en": "Stay inside the approved safety line. Do not add a claim.",
+          "el": "Μείνετε στη γραμμή ασφάλειας. Μην προσθέσετε ισχυρισμό."
+        },
+        "note": {
+          "en": "If they raise a safety point, stay on this slide.",
+          "el": "Αν θέσουν θέμα ασφάλειας, μείνετε σε αυτή τη διαφάνεια."
+        }
+      },
+      {
+        "id": "d6s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Offer the one-page target card",
+          "el": "Προσφέρετε την κάρτα στόχου μίας σελίδας"
+        },
+        "body": {
+          "en": "Leave with one next step, written down.",
+          "el": "Φύγετε με ένα επόμενο βήμα, γραμμένο."
+        },
+        "note": {
+          "en": "Do not add a second ask.",
+          "el": "Μην προσθέσετε δεύτερο αίτημα."
+        }
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "code": "MLA-2026-019",
+    "productName": "Ibuprofen 400mg",
+    "audience": "pharmacy",
+    "approvedUntil": "2027-05-15",
+    "version": "2.2",
+    "image": "/clm/cetirizine.jpg",
+    "title": {
+      "en": "Ask who the tablet is for",
+      "el": "Ρωτήστε για ποιον είναι το δισκίο"
+    },
+    "slides": [
+      {
+        "id": "d7s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Counter pain",
+          "el": "Πόνος στο ταμείο"
+        },
+        "title": {
+          "en": "A question before the pack",
+          "el": "Μία ερώτηση πριν τη συσκευασία"
+        },
+        "body": {
+          "en": "Demo visual aid for the visit. Confirm the live MLA file before use.",
+          "el": "Δοκιμαστικό βοήθημα για την επίσκεψη. Επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with who the product is for. Do not open with the pack.",
+          "el": "Ξεκινήστε από το για ποιον είναι. Μην ξεκινήσετε από τη συσκευασία."
+        }
+      },
+      {
+        "id": "d7s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Ask who it is for before you name the strength.",
+          "el": "Ρωτήστε για ποιον είναι πριν πείτε την περιεκτικότητα."
+        },
+        "body": {
+          "en": "Pause after the sentence and let them answer.",
+          "el": "Κάντε παύση μετά την πρόταση και αφήστε τους να απαντήσουν."
+        },
+        "note": {
+          "en": "One sentence. Then stop talking.",
+          "el": "Μία πρόταση. Μετά σταματήστε."
+        }
+      },
+      {
+        "id": "d7s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "What the pharmacist can say",
+          "el": "Τι μπορεί να πει ο φαρμακοποιός"
+        },
+        "points": [
+          {
+            "en": "Ask who the tablet is for before the strength.",
+            "el": "Ρωτήστε για ποιον είναι το δισκίο πριν την περιεκτικότητα."
+          },
+          {
+            "en": "Mention food, and a short course.",
+            "el": "Αναφέρετε το φαγητό και το σύντομο διάστημα."
+          },
+          {
+            "en": "Send them on if the pain is not the usual kind.",
+            "el": "Παραπέμψτε τους αν ο πόνος δεν είναι ο συνηθισμένος."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point they react to.",
+          "el": "Καλύψτε μόνο το σημείο στο οποίο αντιδρούν."
+        }
+      },
+      {
+        "id": "d7s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "Food, and when to stop",
+          "el": "Φαγητό, και πότε να σταματήσουν"
+        },
+        "body": {
+          "en": "Stay inside the approved safety line. Do not add a claim.",
+          "el": "Μείνετε στη γραμμή ασφάλειας. Μην προσθέσετε ισχυρισμό."
+        },
+        "note": {
+          "en": "If they raise a safety point, stay on this slide.",
+          "el": "Αν θέσουν θέμα ασφάλειας, μείνετε σε αυτή τη διαφάνεια."
+        }
+      },
+      {
+        "id": "d7s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Leave the shelf card, not a talk",
+          "el": "Αφήστε την κάρτα ραφιού, όχι ομιλία"
+        },
+        "body": {
+          "en": "Leave with one next step, written down.",
+          "el": "Φύγετε με ένα επόμενο βήμα, γραμμένο."
+        },
+        "note": {
+          "en": "Do not add a second ask.",
+          "el": "Μην προσθέσετε δεύτερο αίτημα."
+        }
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "code": "MLA-2026-007",
+    "productName": "Paracetamol 500mg",
+    "audience": "pharmacy",
+    "approvedUntil": "2027-08-01",
+    "version": "4.0",
+    "image": "/clm/amoxicillin.jpg",
+    "title": {
+      "en": "The counter question on fever",
+      "el": "Η ερώτηση στο ταμείο για τον πυρετό"
+    },
+    "slides": [
+      {
+        "id": "d8s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Fever and pain",
+          "el": "Πυρετός και πόνος"
+        },
+        "title": {
+          "en": "Who is it for, and for how long",
+          "el": "Για ποιον είναι, και για πόσο"
+        },
+        "body": {
+          "en": "Demo visual aid for the visit. Confirm the live MLA file before use.",
+          "el": "Δοκιμαστικό βοήθημα για την επίσκεψη. Επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with who the product is for. Do not open with the pack.",
+          "el": "Ξεκινήστε από το για ποιον είναι. Μην ξεκινήσετε από τη συσκευασία."
+        }
+      },
+      {
+        "id": "d8s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "The visit is the question, not the brand line.",
+          "el": "Η επίσκεψη είναι η ερώτηση, όχι η γραμμή του ονόματος."
+        },
+        "body": {
+          "en": "Pause after the sentence and let them answer.",
+          "el": "Κάντε παύση μετά την πρόταση και αφήστε τους να απαντήσουν."
+        },
+        "note": {
+          "en": "One sentence. Then stop talking.",
+          "el": "Μία πρόταση. Μετά σταματήστε."
+        }
+      },
+      {
+        "id": "d8s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "Three things to confirm",
+          "el": "Τρία πράγματα να επιβεβαιώσετε"
+        },
+        "points": [
+          {
+            "en": "Ask the age before you talk about the pack.",
+            "el": "Ρωτήστε την ηλικία πριν μιλήσετε για τη συσκευασία."
+          },
+          {
+            "en": "Check what else they are already giving.",
+            "el": "Ελέγξτε τι άλλο δίνουν ήδη."
+          },
+          {
+            "en": "Keep the course short and say so.",
+            "el": "Κρατήστε το διάστημα σύντομο και πείτε το."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point they react to.",
+          "el": "Καλύψτε μόνο το σημείο στο οποίο αντιδρούν."
+        }
+      },
+      {
+        "id": "d8s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "Other products that already contain it",
+          "el": "Άλλα προϊόντα που το περιέχουν ήδη"
+        },
+        "body": {
+          "en": "Stay inside the approved safety line. Do not add a claim.",
+          "el": "Μείνετε στη γραμμή ασφάλειας. Μην προσθέσετε ισχυρισμό."
+        },
+        "note": {
+          "en": "If they raise a safety point, stay on this slide.",
+          "el": "Αν θέσουν θέμα ασφάλειας, μείνετε σε αυτή τη διαφάνεια."
+        }
+      },
+      {
+        "id": "d8s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Agree the next question they will ask",
+          "el": "Συμφωνήστε την επόμενη ερώτηση που θα κάνουν"
+        },
+        "body": {
+          "en": "Leave with one next step, written down.",
+          "el": "Φύγετε με ένα επόμενο βήμα, γραμμένο."
+        },
+        "note": {
+          "en": "Do not add a second ask.",
+          "el": "Μην προσθέσετε δεύτερο αίτημα."
+        }
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "code": "MLA-2026-062",
+    "productName": "Losartan 50mg",
+    "audience": "hcp",
+    "approvedUntil": "2027-01-31",
+    "version": "1.1",
+    "image": "/clm/atorvastatin.jpg",
+    "title": {
+      "en": "One change, then review",
+      "el": "Μία αλλαγή και μετά επανέλεγχος"
+    },
+    "slides": [
+      {
+        "id": "d9s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Blood pressure",
+          "el": "Αρτηριακή πίεση"
+        },
+        "title": {
+          "en": "Change one thing in the visit",
+          "el": "Αλλάξτε ένα πράγμα στην επίσκεψη"
+        },
+        "body": {
+          "en": "Demo visual aid for the visit. Confirm the live MLA file before use.",
+          "el": "Δοκιμαστικό βοήθημα για την επίσκεψη. Επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with who the product is for. Do not open with the pack.",
+          "el": "Ξεκινήστε από το για ποιον είναι. Μην ξεκινήσετε από τη συσκευασία."
+        }
+      },
+      {
+        "id": "d9s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Do not stack a second change on the same day.",
+          "el": "Μην στοιβάζετε δεύτερη αλλαγή την ίδια μέρα."
+        },
+        "body": {
+          "en": "Pause after the sentence and let them answer.",
+          "el": "Κάντε παύση μετά την πρόταση και αφήστε τους να απαντήσουν."
+        },
+        "note": {
+          "en": "One sentence. Then stop talking.",
+          "el": "Μία πρόταση. Μετά σταματήστε."
+        }
+      },
+      {
+        "id": "d9s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "What to write in the notes",
+          "el": "Τι να γράψετε στις σημειώσεις"
+        },
+        "points": [
+          {
+            "en": "One change in this visit.",
+            "el": "Μία αλλαγή σε αυτή την επίσκεψη."
+          },
+          {
+            "en": "Write the review date before you stand up.",
+            "el": "Γράψτε την ημερομηνία επανελέγχου πριν σηκωθείτε."
+          },
+          {
+            "en": "Do not open a second medicine on the same day.",
+            "el": "Μην ανοίξετε δεύτερο φάρμακο την ίδια μέρα."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point they react to.",
+          "el": "Καλύψτε μόνο το σημείο στο οποίο αντιδρούν."
+        }
+      },
+      {
+        "id": "d9s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "The check before the next prescription",
+          "el": "Ο έλεγχος πριν την επόμενη συνταγή"
+        },
+        "body": {
+          "en": "Stay inside the approved safety line. Do not add a claim.",
+          "el": "Μείνετε στη γραμμή ασφάλειας. Μην προσθέσετε ισχυρισμό."
+        },
+        "note": {
+          "en": "If they raise a safety point, stay on this slide.",
+          "el": "Αν θέσουν θέμα ασφάλειας, μείνετε σε αυτή τη διαφάνεια."
+        }
+      },
+      {
+        "id": "d9s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Book the review before you close",
+          "el": "Κλείστε τον επανέλεγχο πριν φύγετε"
+        },
+        "body": {
+          "en": "Leave with one next step, written down.",
+          "el": "Φύγετε με ένα επόμενο βήμα, γραμμένο."
+        },
+        "note": {
+          "en": "Do not add a second ask.",
+          "el": "Μην προσθέσετε δεύτερο αίτημα."
+        }
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "code": "MLA-2026-028",
+    "productName": "Azithromycin 500mg",
+    "audience": "hcp",
+    "approvedUntil": "2026-12-12",
+    "version": "1.0",
+    "image": "/clm/amoxicillin.jpg",
+    "title": {
+      "en": "When a short course is the point",
+      "el": "Όταν το νόημα είναι το σύντομο σχήμα"
+    },
+    "slides": [
+      {
+        "id": "d10s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Short antibiotic course",
+          "el": "Σύντομο σχήμα αντιβιοτικού"
+        },
+        "title": {
+          "en": "A short course, with a reason",
+          "el": "Σύντομο σχήμα, με λόγο"
+        },
+        "body": {
+          "en": "Demo visual aid for the visit. Confirm the live MLA file before use.",
+          "el": "Δοκιμαστικό βοήθημα για την επίσκεψη. Επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with who the product is for. Do not open with the pack.",
+          "el": "Ξεκινήστε από το για ποιον είναι. Μην ξεκινήσετε από τη συσκευασία."
+        }
+      },
+      {
+        "id": "d10s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Use it where a short course is already the local choice.",
+          "el": "Χρησιμοποιήστε το όπου το σύντομο σχήμα είναι ήδη η τοπική επιλογή."
+        },
+        "body": {
+          "en": "Pause after the sentence and let them answer.",
+          "el": "Κάντε παύση μετά την πρόταση και αφήστε τους να απαντήσουν."
+        },
+        "note": {
+          "en": "One sentence. Then stop talking.",
+          "el": "Μία πρόταση. Μετά σταματήστε."
+        }
+      },
+      {
+        "id": "d10s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "What to leave in the room",
+          "el": "Τι μένει στο ιατρείο"
+        },
+        "points": [
+          {
+            "en": "The point is the short course, not a new claim.",
+            "el": "Το νόημα είναι το σύντομο σχήμα, όχι νέος ισχυρισμός."
+          },
+          {
+            "en": "Say who it is not for.",
+            "el": "Πείτε για ποιον δεν είναι."
+          },
+          {
+            "en": "Stop if they raise a safety point.",
+            "el": "Σταματήστε αν θέσουν θέμα ασφάλειας."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point they react to.",
+          "el": "Καλύψτε μόνο το σημείο στο οποίο αντιδρούν."
+        }
+      },
+      {
+        "id": "d10s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "Do not present past the safety line",
+          "el": "Μην προχωράτε πέρα από τη γραμμή ασφάλειας"
+        },
+        "body": {
+          "en": "Stay inside the approved safety line. Do not add a claim.",
+          "el": "Μείνετε στη γραμμή ασφάλειας. Μην προσθέσετε ισχυρισμό."
+        },
+        "note": {
+          "en": "If they raise a safety point, stay on this slide.",
+          "el": "Αν θέσουν θέμα ασφάλειας, μείνετε σε αυτή τη διαφάνεια."
+        }
+      },
+      {
+        "id": "d10s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Agree the next conversation",
+          "el": "Συμφωνήστε την επόμενη συζήτηση"
+        },
+        "body": {
+          "en": "Leave with one next step, written down.",
+          "el": "Φύγετε με ένα επόμενο βήμα, γραμμένο."
+        },
+        "note": {
+          "en": "Do not add a second ask.",
+          "el": "Μην προσθέσετε δεύτερο αίτημα."
+        }
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "code": "MLA-2026-033",
+    "productName": "Loratadine 10mg",
+    "audience": "pharmacy",
+    "approvedUntil": "2027-03-20",
+    "version": "2.1",
+    "image": "/clm/cetirizine.jpg",
+    "title": {
+      "en": "Daytime allergy, without the lecture",
+      "el": "Ημερήσια αλλεργία, χωρίς διάλεξη"
+    },
+    "slides": [
+      {
+        "id": "d11s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Seasonal allergy",
+          "el": "Εποχική αλλεργία"
+        },
+        "title": {
+          "en": "A daytime option they can explain",
+          "el": "Ημερήσια επιλογή που μπορούν να εξηγήσουν"
+        },
+        "body": {
+          "en": "Demo visual aid for the visit. Confirm the live MLA file before use.",
+          "el": "Δοκιμαστικό βοήθημα για την επίσκεψη. Επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with who the product is for. Do not open with the pack.",
+          "el": "Ξεκινήστε από το για ποιον είναι. Μην ξεκινήσετε από τη συσκευασία."
+        }
+      },
+      {
+        "id": "d11s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Ask who is sneezing before you talk about the day.",
+          "el": "Ρωτήστε ποιος φτερνίζεται πριν μιλήσετε για την ημέρα."
+        },
+        "body": {
+          "en": "Pause after the sentence and let them answer.",
+          "el": "Κάντε παύση μετά την πρόταση και αφήστε τους να απαντήσουν."
+        },
+        "note": {
+          "en": "One sentence. Then stop talking.",
+          "el": "Μία πρόταση. Μετά σταματήστε."
+        }
+      },
+      {
+        "id": "d11s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "What the pharmacist can say",
+          "el": "Τι μπορεί να πει ο φαρμακοποιός"
+        },
+        "points": [
+          {
+            "en": "Daytime, for the person who needs to stay alert.",
+            "el": "Ημερήσια, για όποιον χρειάζεται να μείνει σε εγρήγορση."
+          },
+          {
+            "en": "Ask who is sneezing before the brand line.",
+            "el": "Ρωτήστε ποιος φτερνίζεται πριν το όνομα."
+          },
+          {
+            "en": "Send them on if the eyes or breathing are the main issue.",
+            "el": "Παραπέμψτε τους αν το κύριο θέμα είναι τα μάτια ή η αναπνοή."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point they react to.",
+          "el": "Καλύψτε μόνο το σημείο στο οποίο αντιδρούν."
+        }
+      },
+      {
+        "id": "d11s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "When to send them on",
+          "el": "Πότε να τους παραπέμψετε"
+        },
+        "body": {
+          "en": "Stay inside the approved safety line. Do not add a claim.",
+          "el": "Μείνετε στη γραμμή ασφάλειας. Μην προσθέσετε ισχυρισμό."
+        },
+        "note": {
+          "en": "If they raise a safety point, stay on this slide.",
+          "el": "Αν θέσουν θέμα ασφάλειας, μείνετε σε αυτή τη διαφάνεια."
+        }
+      },
+      {
+        "id": "d11s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Leave the shelf card",
+          "el": "Αφήστε την κάρτα ραφιού"
+        },
+        "body": {
+          "en": "Leave with one next step, written down.",
+          "el": "Φύγετε με ένα επόμενο βήμα, γραμμένο."
+        },
+        "note": {
+          "en": "Do not add a second ask.",
+          "el": "Μην προσθέσετε δεύτερο αίτημα."
+        }
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "code": "MLA-2026-041",
+    "productName": "Salbutamol 100mcg",
+    "audience": "hcp",
+    "approvedUntil": "2027-07-01",
+    "version": "3.0",
+    "image": "/clm/vitamin-d.jpg",
+    "title": {
+      "en": "Check the device before the claim",
+      "el": "Ελέγξτε τη συσκευή πριν τον ισχυρισμό"
+    },
+    "slides": [
+      {
+        "id": "d12s1",
+        "kind": "cover",
+        "kicker": {
+          "en": "Reliever inhaler",
+          "el": "Εισπνεόμενο ανακούφισης"
+        },
+        "title": {
+          "en": "The device, then the sentence",
+          "el": "Η συσκευή, μετά η πρόταση"
+        },
+        "body": {
+          "en": "Demo visual aid for the visit. Confirm the live MLA file before use.",
+          "el": "Δοκιμαστικό βοήθημα για την επίσκεψη. Επιβεβαιώστε το ισχύον αρχείο MLA πριν τη χρήση."
+        },
+        "note": {
+          "en": "Open with who the product is for. Do not open with the pack.",
+          "el": "Ξεκινήστε από το για ποιον είναι. Μην ξεκινήσετε από τη συσκευασία."
+        }
+      },
+      {
+        "id": "d12s2",
+        "kind": "message",
+        "kicker": {
+          "en": "Key message",
+          "el": "Κεντρικό μήνυμα"
+        },
+        "title": {
+          "en": "Watch them use it before you talk about control.",
+          "el": "Δείτε πώς το χρησιμοποιούν πριν μιλήσετε για έλεγχο."
+        },
+        "body": {
+          "en": "Pause after the sentence and let them answer.",
+          "el": "Κάντε παύση μετά την πρόταση και αφήστε τους να απαντήσουν."
+        },
+        "note": {
+          "en": "One sentence. Then stop talking.",
+          "el": "Μία πρόταση. Μετά σταματήστε."
+        }
+      },
+      {
+        "id": "d12s3",
+        "kind": "points",
+        "kicker": {
+          "en": "Three points",
+          "el": "Τρία σημεία"
+        },
+        "title": {
+          "en": "Three things to watch",
+          "el": "Τρία πράγματα να προσέξετε"
+        },
+        "points": [
+          {
+            "en": "Watch one puff before any sentence about control.",
+            "el": "Δείτε μία εισπνοή πριν οποιαδήποτε πρόταση για έλεγχο."
+          },
+          {
+            "en": "Say what “enough relief” does not cover.",
+            "el": "Πείτε τι δεν καλύπτει η «αρκετή ανακούφιση»."
+          },
+          {
+            "en": "Book the next technique check, not a second claim.",
+            "el": "Κλείστε τον επόμενο έλεγχο τεχνικής, όχι δεύτερο ισχυρισμό."
+          }
+        ],
+        "note": {
+          "en": "Cover only the point they react to.",
+          "el": "Καλύψτε μόνο το σημείο στο οποίο αντιδρούν."
+        }
+      },
+      {
+        "id": "d12s4",
+        "kind": "safety",
+        "kicker": {
+          "en": "Safety",
+          "el": "Ασφάλεια"
+        },
+        "title": {
+          "en": "When the reliever is not enough",
+          "el": "Όταν το ανακουφιστικό δεν φτάνει"
+        },
+        "body": {
+          "en": "Stay inside the approved safety line. Do not add a claim.",
+          "el": "Μείνετε στη γραμμή ασφάλειας. Μην προσθέσετε ισχυρισμό."
+        },
+        "note": {
+          "en": "If they raise a safety point, stay on this slide.",
+          "el": "Αν θέσουν θέμα ασφάλειας, μείνετε σε αυτή τη διαφάνεια."
+        }
+      },
+      {
+        "id": "d12s5",
+        "kind": "ask",
+        "kicker": {
+          "en": "Close",
+          "el": "Κλείσιμο"
+        },
+        "title": {
+          "en": "Agree the next check of technique",
+          "el": "Συμφωνήστε τον επόμενο έλεγχο τεχνικής"
+        },
+        "body": {
+          "en": "Leave with one next step, written down.",
+          "el": "Φύγετε με ένα επόμενο βήμα, γραμμένο."
+        },
+        "note": {
+          "en": "Do not add a second ask.",
+          "el": "Μην προσθέσετε δεύτερο αίτημα."
+        }
+      }
+    ]
+  }
+]

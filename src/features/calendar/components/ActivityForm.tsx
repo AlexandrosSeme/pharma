@@ -1,9 +1,9 @@
 import { useId, useState, type FormEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { Customer } from '@/features/customers'
-import { activityStyle } from '../lib/activityStyle'
 import { addMinutes, fromInputs, toDateInput, toTimeInput } from '../lib/dates'
-import { activityTypes, type ActivityType } from '../types'
+import type { ActivityType } from '../types'
+import { ActionButtons } from './ActionButtons'
 
 export type ActivityDraft = {
   type: ActivityType
@@ -80,28 +80,16 @@ export function ActivityForm({ id, draft, customers, onSubmit }: ActivityFormPro
 
   return (
     <form id={id} noValidate onSubmit={submit} className="d-grid gap-3">
-      <fieldset>
-        <legend className="form-label fs-6">{t('calendar.fields.type')}</legend>
-        <div className="row g-2">
-          {activityTypes.map((value) => (
-            <div key={value} className="col-6 col-sm-3">
-              <input
-                id={`${fieldId}-type-${value}`}
-                type="radio"
-                className="btn-check"
-                name={`${fieldId}-type`}
-                value={value}
-                checked={value === type}
-                onChange={() => setType(value)}
-              />
-              <label htmlFor={`${fieldId}-type-${value}`} className="btn btn-outline-primary w-100 text-nowrap">
-                <i className={`bi ${activityStyle[value].icon} me-1`} aria-hidden="true" />
-                {t(`calendar.types.${value}`)}
-              </label>
-            </div>
-          ))}
-        </div>
-      </fieldset>
+      <div>
+        <div className="form-label">{t('calendar.fields.type')}</div>
+        <ActionButtons
+          variant="picker"
+          label={t('calendar.fields.type')}
+          value={type}
+          allowEmpty={false}
+          onChange={(next) => next && setType(next)}
+        />
+      </div>
 
       <div>
         <label htmlFor={`${fieldId}-customer`} className="form-label">

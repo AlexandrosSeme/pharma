@@ -12,6 +12,7 @@ import { VisitsPage } from '@/features/visits'
 import { NotFoundPage } from './NotFoundPage'
 import { RequireAuth } from './RequireAuth'
 import { MedicationPage } from '@/features/regulatory'
+import { ClmFeedbackPage, ClmPage, ClmStagePage } from '@/features/clm'
 
 export const router = createBrowserRouter([
   { path: '/login', Component: LoginPage },
@@ -33,6 +34,9 @@ export const router = createBrowserRouter([
           { path: 'map', lazy: () => import('@/features/map').then((m) => ({ Component: m.MapPage })) },
           { path: 'leads', Component: LeadsPage },
           { path: 'visits', Component: VisitsPage },
+          { path: 'clm', Component: ClmPage },
+          { path: 'clm/feedback', Component: ClmFeedbackPage },
+          { path: 'clm/:deckId', Component: ClmStagePage },
           { path: 'reports', Component: ReportsPage },
           { path: 'settings/branding', Component: BrandingPage },
           { path: 'medication/:productId?', Component: MedicationPage },

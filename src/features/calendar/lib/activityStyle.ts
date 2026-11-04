@@ -17,12 +17,19 @@ export const activityStyle: Record<ActivityType, ActivityStyle> = {
 /** Length of a visit planned by dropping a customer on the calendar. */
 export const VISIT_MINUTES = 45
 
-/** Event data for a customer dragged onto the calendar: shows a solid visit while dragging. */
-export const visitDragData = (title: string) => ({
+/** How long each action occupies when it is dropped onto a time. */
+export const actionMinutes: Record<ActivityType, number> = {
+  visit: VISIT_MINUTES,
+  call: 30,
+  meeting: 60,
+  task: 30,
+}
+
+/** Ghost shown while a customer is dragged. The action is chosen after the drop. */
+export const customerDragData = (title: string) => ({
   title,
   duration: { minutes: VISIT_MINUTES },
   create: false,
-  color: activityStyle.visit.color,
-  contrastColor: activityStyle.visit.contrastColor,
-  extendedProps: { type: 'visit' },
+  color: 'var(--app-chart-2)',
+  contrastColor: 'var(--app-on-activity)',
 })

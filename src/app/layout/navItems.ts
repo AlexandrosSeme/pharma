@@ -1,7 +1,13 @@
+export type NavChild = {
+  path: string
+  labelKey: string
+}
+
 export type NavItem = {
   path: string
   labelKey: string
   icon: string
+  children?: NavChild[]
 }
 
 export const navItems: NavItem[] = [
@@ -13,6 +19,12 @@ export const navItems: NavItem[] = [
   { path: '/map', labelKey: 'nav.map', icon: 'bi-map' },
   { path: '/leads', labelKey: 'nav.leads', icon: 'bi-funnel' },
   { path: '/visits', labelKey: 'nav.visits', icon: 'bi-geo-alt' },
+  {
+    path: '/clm',
+    labelKey: 'nav.clm',
+    icon: 'bi-easel2',
+    children: [{ path: '/clm/feedback', labelKey: 'nav.clmFeedback' }],
+  },
   { path: '/reports', labelKey: 'nav.reports', icon: 'bi-bar-chart-line' },
   { path: '/medication', labelKey: 'nav.medication', icon: 'bi-capsule' },
 ]

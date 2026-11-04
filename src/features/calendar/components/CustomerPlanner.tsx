@@ -3,7 +3,7 @@ import { useEffect, useId, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { Customer } from '@/features/customers'
 import { useFormatters } from '@/shared/hooks/useFormatters'
-import { visitDragData } from '../lib/activityStyle'
+import { customerDragData } from '../lib/activityStyle'
 import type { Activity } from '../types'
 import styles from './CustomerPlanner.module.css'
 
@@ -26,7 +26,7 @@ export function CustomerPlanner({ customers, activities, onPick, className = '' 
   useEffect(() => {
     const draggable = new Draggable(listRef.current!, {
       itemSelector: '[data-customer-id]',
-      eventData: (el) => visitDragData(el.dataset.title!),
+      eventData: (el) => customerDragData(el.dataset.title!),
       longPressDelay: 300,
     })
     return () => draggable.destroy()
@@ -84,7 +84,7 @@ export function CustomerPlanner({ customers, activities, onPick, className = '' 
                 type="button"
                 className={styles.item}
                 data-customer-id={c.id}
-                data-title={t('calendar.defaultTitle.visit', { customer: c.name })}
+                data-title={c.name}
                 onClick={() => onPick(c)}
               >
                 <i className={`bi bi-grip-vertical ${styles.grip}`} aria-hidden="true" />

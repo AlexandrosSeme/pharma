@@ -5,13 +5,13 @@ import { useAuth } from '@/features/auth'
 import { useCustomers } from '@/features/customers'
 import { useFormatters } from '@/shared/hooks/useFormatters'
 import { googleMaps } from '@/shared/lib/geo'
-import { FilterChips, PageHeader, Select, type FilterChip } from '@/shared/ui'
+import { PageHeader, Select } from '@/shared/ui'
+import { ActionButtons } from '../components/ActionButtons'
 import { ActivityCalendar } from '../components/ActivityCalendar'
-import { ActivityDialog, ActivityEditDialog } from '../components/ActivityDialog'
+import { ActivityDialog, ActivityEditDialog, DropActionDialog } from '../components/ActivityDialog'
 import type { ActivityDraft } from '../components/ActivityForm'
 import { CalendarToolbar } from '../components/CalendarToolbar'
 import { CustomerPlanner } from '../components/CustomerPlanner'
-import { activityStyle, VISIT_MINUTES } from '../lib/activityStyle'
 import { addMinutes, defaultStart, isSameDay } from '../lib/dates'
 import { calendarViews, DEFAULT_ZOOM, zoomLevels, type CalendarRange, type CalendarView } from '../lib/views'
 import { useActivities, useCreateActivity, useUpdateActivity } from '../queries'
@@ -45,7 +45,6 @@ export function CalendarPage() {
   const { data: activities, isLoading, error } = useActivities()
   const { data: customers = [] } = useCustomers()
   const update = useUpdateActivity()
-  const create = useCreateActivity()
   const calendarRef = useRef<CalendarRef>(null)
   const [startView] = useState(initialView)
   const [range, setRange] = useState<CalendarRange | null>(null)
@@ -71,15 +70,9 @@ export function CalendarPage() {
     : forRep
   const visible = forRep.filter((a) => !type || a.type === type)
 
-  const chips: FilterChip<ActivityType | null>[] = [
-    { value: null, label: t('map.all'), count: inRange.length },
-    ...activityTypes.map((value) => ({
-      value,
-      label: t(`calendar.types.${value}`),
-      count: inRange.filter((a) => a.type === value).length,
-      color: activityStyle[value].color,
-    })),
-  ]
+  const counts = Object.fromEntries(
+    activityTypes.map((value) => [value, inRange.filter((a) => a.type === value).length]),
+  ) as Partial<Record<ActivityType, number>>
 
   // The day being viewed in Day view, otherwise today; always one person's route.
   const today = new Date()
@@ -139,27 +132,17 @@ export function CalendarPage() {
   }
 
   function pickCustomer(customerId: string) {
-    const start = defaultStart()
-    setDialog({ draft: { type: 'visit', customerId, title: '', start, end: addMinutes(start, VISIT_MINUTES) } })
+    setDialog({ drop: { customerId, start: defaultStart() } })
   }
 
   function dropCustomer(el: HTMLElement, date: Date, allDay: boolean) {
-    const customer = customerById.get(el.dataset.customerId ?? '')
-    if (!customer) return
-    const start = allDay ? atWorkStart(date) : date
-    if (type && type !== 'visit') setType(null)
-    create.mutate({
-      ...planFor,
-      type: 'visit',
-      customerId: customer.id,
-      title: t('calendar.defaultTitle.visit', { customer: customer.name }),
-      start: start.toISOString(),
-      end: addMinutes(start, VISIT_MINUTES).toISOString(),
-      status: 'planned',
-    })
+    const customerId = el.dataset.customerId ?? ''
+    if (!customerById.has(customerId)) return
+    setDialog({ drop: { customerId, start: allDay ? atWorkStart(date) : date } })
   }
 
   const open = dialog && 'id' in dialog ? activities?.find((a) => a.id === dialog.id) : undefined
+  const dropped = dialog && 'drop' in dialog ? customerById.get(dialog.drop.customerId) : undefined
   const closeDialog = () => setDialog(null)
 
   return (
@@ -210,18 +193,15 @@ export function CalendarPage() {
         }
       />
 
-      <div className="mb-3">
-        <FilterChips chips={chips} value={type} onChange={setType} aria-label={t('calendar.fields.type')} />
-      </div>
-
-      {(error ?? create.error) && (
+      {error && (
         <div className="alert alert-danger" role="alert">
-          {t('common.error', { message: (error ?? create.error)!.message })}
+          {t('common.error', { message: error.message })}
         </div>
       )}
 
       <div className={`card ${styles.card}`}>
         <div className="card-body d-flex flex-column gap-3 p-2 p-sm-3">
+          <ActionButtons variant="filter" label={t('calendar.fields.type')} value={type} counts={counts} onChange={setType} />
           <CalendarToolbar
             title={range?.title ?? ''}
             view={range?.view ?? startView}
@@ -272,6 +252,9 @@ export function CalendarPage() {
       {open && <ActivityDialog key={open.id} activity={open} customers={customers} onClose={closeDialog} />}
       {dialog && 'draft' in dialog && (
         <ActivityEditDialog draft={dialog.draft} owner={planFor} customers={customers} onClose={closeDialog} />
+      )}
+      {dialog && 'drop' in dialog && dropped && (
+        <DropActionDialog customer={dropped} start={dialog.drop.start} owner={planFor} onClose={closeDialog} />
       )}
     </section>
   )
