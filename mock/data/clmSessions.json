@@ -1,602 +1,2798 @@
 [
   {
-    "id": "1",
+    "id": "g62",
+    "deckId": "5",
+    "customerId": "73",
+    "customerName": "EOPYY Thessaloniki",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-09-08T08:30:00Z",
+    "endedAt": "2026-09-08T08:34:03Z",
+    "slides": [
+      {
+        "slideId": "d5s1",
+        "seconds": 80,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d5s2",
+        "seconds": 73,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d5s3",
+        "seconds": 56,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d5s4",
+        "seconds": 34,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g31",
     "deckId": "1",
-    "customerId": "3",
-    "customerName": "Hygeia Medical Clinic",
-    "repName": "Sofia Georgiou",
-    "startedAt": "2026-10-28T09:05:00Z",
-    "endedAt": "2026-10-28T09:12:00Z",
+    "customerId": "55",
+    "customerName": "Alimos Pharmacy",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-09-08T09:30:00Z",
+    "endedAt": "2026-09-08T09:34:25Z",
     "slides": [
       {
         "slideId": "d1s1",
-        "seconds": 35,
+        "seconds": 61,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 38,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 27,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 58,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d1s5",
+        "seconds": 81,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g15",
+    "deckId": "12",
+    "customerId": "3",
+    "customerName": "Hygeia Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-09T07:00:00Z",
+    "endedAt": "2026-09-09T07:02:52Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 54,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 51,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 67,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g78",
+    "deckId": "12",
+    "customerId": "7",
+    "customerName": "Larissa Care Clinic",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-09-09T07:30:00Z",
+    "endedAt": "2026-09-09T07:34:05Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 39,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 30,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 59,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d12s4",
+        "seconds": 60,
         "reaction": "interested",
         "feedback": "Asked how this fits their current choice."
       },
       {
-        "slideId": "d1s2",
+        "slideId": "d12s5",
+        "seconds": 57,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": true,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g93",
+    "deckId": "12",
+    "customerId": "17",
+    "customerName": "Konstantinidis Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-09-09T09:00:00Z",
+    "endedAt": "2026-09-09T09:02:40Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
         "seconds": 80,
         "reaction": "question",
         "feedback": "Wanted the dosing line repeated."
       },
       {
-        "slideId": "d1s3",
-        "seconds": 70,
-        "reaction": "concern",
-        "feedback": "Raised a safety point and paused."
-      },
-      {
-        "slideId": "d1s4",
-        "seconds": 55,
+        "slideId": "d12s2",
+        "seconds": 25,
         "reaction": "neutral",
         "feedback": "Listened, no question."
       },
       {
-        "slideId": "d1s5",
-        "seconds": 40,
+        "slideId": "d12s3",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "g109",
+    "deckId": "3",
+    "customerId": "16",
+    "customerName": "Rhodes Family Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-09T10:00:00Z",
+    "endedAt": "2026-09-09T10:04:32Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 70,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 49,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 30,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d3s4",
+        "seconds": 63,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d3s5",
+        "seconds": 60,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g16",
+    "deckId": "3",
+    "customerId": "52",
+    "customerName": "Chalandri Pharmacy",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-10T07:00:00Z",
+    "endedAt": "2026-09-10T07:02:43Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 64,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 70,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 29,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      }
+    ],
+    "followUp": true,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g79",
+    "deckId": "11",
+    "customerId": "37",
+    "customerName": "Larissa General Hospital",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-09-10T07:30:00Z",
+    "endedAt": "2026-09-10T07:32:52Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 49,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 33,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 38,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 52,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g47",
+    "deckId": "7",
+    "customerId": "68",
+    "customerName": "EOPYY Western Athens",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-09-11T07:00:00Z",
+    "endedAt": "2026-09-11T07:04:07Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 80,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d7s2",
+        "seconds": 79,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 53,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d7s4",
+        "seconds": 35,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      }
+    ],
+    "followUp": true,
+    "note": "Ask about the second shelf card next visit."
+  },
+  {
+    "id": "g80",
+    "deckId": "2",
+    "customerId": "79",
+    "customerName": "EOPYY Ioannina",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-09-11T07:30:00Z",
+    "endedAt": "2026-09-11T07:32:09Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 37,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 45,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 47,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g1",
+    "deckId": "4",
+    "customerId": "46",
+    "customerName": "Galanis Pharmacy",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-09-11T08:00:00Z",
+    "endedAt": "2026-09-11T08:02:58Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 81,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 39,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d4s4",
+        "seconds": 30,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g17",
+    "deckId": "10",
+    "customerId": "63",
+    "customerName": "EOPYY Northern Athens",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-11T08:00:00Z",
+    "endedAt": "2026-09-11T08:03:09Z",
+    "slides": [
+      {
+        "slideId": "d10s1",
+        "seconds": 90,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d10s2",
+        "seconds": 63,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d10s3",
+        "seconds": 36,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g110",
+    "deckId": "7",
+    "customerId": "24",
+    "customerName": "Vlachos Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-11T09:00:00Z",
+    "endedAt": "2026-09-11T09:05:10Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 51,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d7s2",
+        "seconds": 56,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 31,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d7s4",
+        "seconds": 86,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d7s5",
+        "seconds": 86,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g94",
+    "deckId": "4",
+    "customerId": "75",
+    "customerName": "EOPYY Patras",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-09-14T10:00:00Z",
+    "endedAt": "2026-09-14T10:04:02Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 72,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 71,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 36,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d4s4",
+        "seconds": 63,
         "reaction": "interested",
         "feedback": "Agreed the next step."
       }
     ],
     "followUp": true,
-    "note": "Wants the resistance card before the next clinic meeting."
+    "note": "Wants the card before the next morning clinic."
   },
   {
-    "id": "2",
-    "deckId": "2",
-    "customerId": "7",
-    "customerName": "Larissa Care Clinic",
-    "repName": "Petros Lazaridis",
-    "startedAt": "2026-10-29T11:20:00Z",
-    "endedAt": "2026-10-29T11:26:00Z",
+    "id": "g48",
+    "deckId": "12",
+    "customerId": "58",
+    "customerName": "Aigaleo Pharmacy",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-09-15T08:30:00Z",
+    "endedAt": "2026-09-15T08:35:25Z",
     "slides": [
       {
-        "slideId": "d2s1",
-        "seconds": 20,
+        "slideId": "d12s1",
+        "seconds": 77,
         "reaction": "interested",
         "feedback": "Asked how this fits their current choice."
       },
       {
-        "slideId": "d2s2",
-        "seconds": 90,
+        "slideId": "d12s2",
+        "seconds": 30,
         "reaction": "question",
         "feedback": "Wanted the dosing line repeated."
       },
       {
-        "slideId": "d2s4",
-        "seconds": 60,
+        "slideId": "d12s3",
+        "seconds": 88,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d12s4",
+        "seconds": 69,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d12s5",
+        "seconds": 61,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g18",
+    "deckId": "1",
+    "customerId": "52",
+    "customerName": "Chalandri Pharmacy",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-15T10:00:00Z",
+    "endedAt": "2026-09-15T10:03:21Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 50,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 41,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 42,
         "reaction": "concern",
         "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 29,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d1s5",
+        "seconds": 39,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
       }
     ],
     "followUp": false,
-    "note": "Stopped after the safety slide. No ask."
+    "note": "Delivery question, not a clinical one."
   },
   {
-    "id": "3",
-    "deckId": "3",
-    "customerId": "1",
-    "customerName": "Athens Central Pharmacy",
-    "repName": "Sofia Georgiou",
-    "startedAt": "2026-10-30T16:00:00Z",
-    "endedAt": "2026-10-30T16:07:00Z",
+    "id": "g2",
+    "deckId": "8",
+    "customerId": "61",
+    "customerName": "Aretaieio Hospital",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-09-16T07:00:00Z",
+    "endedAt": "2026-09-16T07:02:22Z",
     "slides": [
       {
-        "slideId": "d3s1",
-        "seconds": 25,
-        "reaction": "interested",
-        "feedback": "Asked how this fits their current choice."
-      },
-      {
-        "slideId": "d3s2",
-        "seconds": 50,
+        "slideId": "d8s1",
+        "seconds": 61,
         "reaction": "question",
         "feedback": "Wanted the dosing line repeated."
       },
       {
-        "slideId": "d3s3",
-        "seconds": 80,
+        "slideId": "d8s2",
+        "seconds": 31,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d8s3",
+        "seconds": 25,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d8s4",
+        "seconds": 25,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g32",
+    "deckId": "12",
+    "customerId": "67",
+    "customerName": "Glyfada Medical Center",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-09-16T07:00:00Z",
+    "endedAt": "2026-09-16T07:05:44Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 63,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 87,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 84,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d12s4",
+        "seconds": 42,
         "reaction": "concern",
         "feedback": "Raised a safety point and paused."
       },
       {
+        "slideId": "d12s5",
+        "seconds": 68,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g63",
+    "deckId": "3",
+    "customerId": "32",
+    "customerName": "Thessaloniki Central Pharmacy",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-09-16T07:00:00Z",
+    "endedAt": "2026-09-16T07:03:44Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 86,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 34,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 34,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
         "slideId": "d3s4",
+        "seconds": 70,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g111",
+    "deckId": "11",
+    "customerId": "24",
+    "customerName": "Vlachos Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-16T07:30:00Z",
+    "endedAt": "2026-09-16T07:32:00Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 33,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 26,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 61,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g19",
+    "deckId": "2",
+    "customerId": "63",
+    "customerName": "EOPYY Northern Athens",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-16T09:00:00Z",
+    "endedAt": "2026-09-16T09:04:46Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 65,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 77,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d2s4",
+        "seconds": 89,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g81",
+    "deckId": "1",
+    "customerId": "42",
+    "customerName": "Ioannina Plus Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-09-16T09:30:00Z",
+    "endedAt": "2026-09-16T09:33:26Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 44,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 85,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 77,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g49",
+    "deckId": "12",
+    "customerId": "70",
+    "customerName": "Ilion Health Center",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-09-17T07:30:00Z",
+    "endedAt": "2026-09-17T07:33:28Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 42,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 78,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 37,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d12s4",
+        "seconds": 51,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g82",
+    "deckId": "8",
+    "customerId": "26",
+    "customerName": "Petrou Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-09-17T07:30:00Z",
+    "endedAt": "2026-09-17T07:34:14Z",
+    "slides": [
+      {
+        "slideId": "d8s1",
         "seconds": 45,
         "reaction": "neutral",
         "feedback": "Listened, no question."
       },
       {
-        "slideId": "d3s5",
-        "seconds": 30,
-        "reaction": "interested",
-        "feedback": "Agreed the next step."
-      }
-    ],
-    "followUp": true,
-    "note": "Seasonal display goes up Thursday. Second shelf card requested."
-  },
-  {
-    "id": "4",
-    "deckId": "4",
-    "customerId": "4",
-    "customerName": "Patras Family Pharmacy",
-    "repName": "Petros Lazaridis",
-    "startedAt": "2026-11-02T10:15:00Z",
-    "endedAt": "2026-11-02T10:20:00Z",
-    "slides": [
+        "slideId": "d8s2",
+        "seconds": 58,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
       {
-        "slideId": "d4s1",
-        "seconds": 30,
+        "slideId": "d8s3",
+        "seconds": 42,
         "reaction": "interested",
         "feedback": "Asked how this fits their current choice."
       },
       {
-        "slideId": "d4s2",
-        "seconds": 70,
-        "reaction": "question",
-        "feedback": "Wanted the dosing line repeated."
+        "slideId": "d8s4",
+        "seconds": 41,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
       },
       {
-        "slideId": "d4s4",
-        "seconds": 50,
-        "reaction": "concern",
-        "feedback": "Raised a safety point and paused."
+        "slideId": "d8s5",
+        "seconds": 68,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
       }
     ],
     "followUp": true,
-    "note": "Asked to be told when the replacement aid is approved."
+    "note": "Ask about the second shelf card next visit."
   },
   {
-    "id": "5",
-    "deckId": "1",
-    "customerId": "5",
-    "customerName": "Heraklion General Hospital",
-    "repName": "Demo User",
-    "startedAt": "2026-11-03T08:40:00Z",
-    "endedAt": "2026-11-03T08:46:00Z",
-    "slides": [
-      {
-        "slideId": "d1s1",
-        "seconds": 20,
-        "reaction": "interested",
-        "feedback": "Asked how this fits their current choice."
-      },
-      {
-        "slideId": "d1s2",
-        "seconds": 100,
-        "reaction": "question",
-        "feedback": "Wanted the dosing line repeated."
-      },
-      {
-        "slideId": "d1s3",
-        "seconds": 40,
-        "reaction": "concern",
-        "feedback": "Raised a safety point and paused."
-      }
-    ],
-    "followUp": false,
-    "note": "Outpatient clinic only. Did not reach the close."
-  },
-  {
-    "id": "6",
-    "deckId": "1",
-    "customerId": "13",
-    "customerName": "Marousi Medical Clinic",
+    "id": "g64",
+    "deckId": "11",
+    "customerId": "33",
+    "customerName": "Thessaloniki Care Clinic",
     "repName": "Anna Dimou",
-    "startedAt": "2026-11-01T08:40:00.000Z",
-    "endedAt": "2026-11-01T08:48:00.000Z",
+    "startedAt": "2026-09-18T07:00:00Z",
+    "endedAt": "2026-09-18T07:03:56Z",
     "slides": [
       {
-        "slideId": "d1s1",
-        "seconds": 28,
-        "reaction": "interested",
-        "feedback": "Wanted a copy of this slide."
-      },
-      {
-        "slideId": "d1s2",
-        "seconds": 55,
+        "slideId": "d11s1",
+        "seconds": 60,
         "reaction": "question",
-        "feedback": "Asked how long to wait before review."
+        "feedback": "Asked who else in the city is using it."
       },
       {
-        "slideId": "d1s3",
-        "seconds": 75,
-        "reaction": "neutral",
-        "feedback": "Took the card and did not discuss it."
-      },
-      {
-        "slideId": "d1s4",
-        "seconds": 42,
-        "reaction": "interested",
-        "feedback": "Asked for the leave-behind."
-      }
-    ],
-    "followUp": true,
-    "note": "Wants the one-page card before the next clinic morning."
-  },
-  {
-    "id": "7",
-    "deckId": "2",
-    "customerId": "10",
-    "customerName": "Thessaloniki Regional Hospital",
-    "repName": "Nikos Konstantinou",
-    "startedAt": "2026-10-22T11:10:00.000Z",
-    "endedAt": "2026-10-22T11:17:00.000Z",
-    "slides": [
-      {
-        "slideId": "d2s1",
-        "seconds": 28,
-        "reaction": "neutral",
-        "feedback": "No comment, asked for the next slide."
-      },
-      {
-        "slideId": "d2s2",
-        "seconds": 55,
-        "reaction": "question",
-        "feedback": "Wanted the difference from their current option."
-      },
-      {
-        "slideId": "d2s3",
-        "seconds": 75,
+        "slideId": "d11s2",
+        "seconds": 29,
         "reaction": "concern",
-        "feedback": "Pushed back on presenting past the warning."
+        "feedback": "Raised a safety point and paused."
       },
       {
-        "slideId": "d2s4",
-        "seconds": 42,
+        "slideId": "d11s3",
+        "seconds": 67,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 80,
         "reaction": "neutral",
         "feedback": "Listened, no question."
       }
     ],
     "followUp": false,
-    "note": "Stopped after the safety slide. Will revisit in the next cycle."
+    "note": "Happy with the message. No follow-up needed."
   },
   {
-    "id": "8",
-    "deckId": "3",
-    "customerId": "6",
-    "customerName": "Piraeus Port Pharmacy",
-    "repName": "Anna Dimou",
-    "startedAt": "2026-10-18T15:05:00.000Z",
-    "endedAt": "2026-10-18T15:11:00.000Z",
+    "id": "g95",
+    "deckId": "10",
+    "customerId": "20",
+    "customerName": "Papadopoulou Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-09-18T08:00:00Z",
+    "endedAt": "2026-09-18T08:04:44Z",
     "slides": [
       {
-        "slideId": "d3s1",
-        "seconds": 28,
-        "reaction": "interested",
-        "feedback": "Agreed to try it with the next suitable patient."
+        "slideId": "d10s1",
+        "seconds": 58,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
       },
       {
-        "slideId": "d3s2",
+        "slideId": "d10s2",
+        "seconds": 74,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d10s3",
         "seconds": 55,
-        "reaction": "interested",
-        "feedback": "Asked for the leave-behind."
-      },
-      {
-        "slideId": "d3s3",
-        "seconds": 75,
         "reaction": "question",
         "feedback": "Wanted the dosing line repeated."
       },
       {
-        "slideId": "d3s4",
-        "seconds": 42,
-        "reaction": "neutral",
-        "feedback": "Nodded and moved on."
+        "slideId": "d10s4",
+        "seconds": 61,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
       },
       {
-        "slideId": "d3s5",
+        "slideId": "d10s5",
         "seconds": 36,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g20",
+    "deckId": "2",
+    "customerId": "3",
+    "customerName": "Hygeia Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-18T09:00:00Z",
+    "endedAt": "2026-09-18T09:03:12Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 85,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 46,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 27,
         "reaction": "interested",
-        "feedback": "Said this matches how they already start."
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d2s4",
+        "seconds": 34,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g50",
+    "deckId": "11",
+    "customerId": "69",
+    "customerName": "Aigaleo General Hospital",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-09-18T09:00:00Z",
+    "endedAt": "2026-09-18T09:02:27Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 48,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 45,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 54,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
       }
     ],
     "followUp": true,
-    "note": "Shelf card requested for the allergy bay."
+    "note": "Happy with the message. No follow-up needed."
   },
   {
-    "id": "9",
-    "deckId": "4",
-    "customerId": "8",
-    "customerName": "Ioannina Lake Pharmacy",
+    "id": "g96",
+    "deckId": "6",
+    "customerId": "17",
+    "customerName": "Konstantinidis Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-09-21T07:00:00Z",
+    "endedAt": "2026-09-21T07:05:38Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 59,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 48,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 90,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d6s4",
+        "seconds": 88,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d6s5",
+        "seconds": 53,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g112",
+    "deckId": "9",
+    "customerId": "36",
+    "customerName": "Heraklion Square Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-21T10:00:00Z",
+    "endedAt": "2026-09-21T10:03:31Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 43,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 46,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 60,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d9s4",
+        "seconds": 62,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g113",
+    "deckId": "12",
+    "customerId": "76",
+    "customerName": "EOPYY Heraklion",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-22T07:00:00Z",
+    "endedAt": "2026-09-22T07:03:59Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 30,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 47,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 57,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d12s4",
+        "seconds": 61,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d12s5",
+        "seconds": 44,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": true,
+    "note": "Ask about the second shelf card next visit."
+  },
+  {
+    "id": "g3",
+    "deckId": "8",
+    "customerId": "61",
+    "customerName": "Aretaieio Hospital",
     "repName": "Nikos Konstantinou",
-    "startedAt": "2026-10-15T09:30:00.000Z",
-    "endedAt": "2026-10-15T09:35:00.000Z",
+    "startedAt": "2026-09-22T07:30:00Z",
+    "endedAt": "2026-09-22T07:34:59Z",
+    "slides": [
+      {
+        "slideId": "d8s1",
+        "seconds": 70,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d8s2",
+        "seconds": 86,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d8s3",
+        "seconds": 62,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d8s4",
+        "seconds": 36,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d8s5",
+        "seconds": 45,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g114",
+    "deckId": "9",
+    "customerId": "41",
+    "customerName": "Alexiou Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-23T08:00:00Z",
+    "endedAt": "2026-09-23T08:03:19Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 44,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 35,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 53,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d9s4",
+        "seconds": 67,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g21",
+    "deckId": "12",
+    "customerId": "63",
+    "customerName": "EOPYY Northern Athens",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-23T08:30:00Z",
+    "endedAt": "2026-09-23T08:35:42Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 73,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 83,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 85,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d12s4",
+        "seconds": 70,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d12s5",
+        "seconds": 31,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      }
+    ],
+    "followUp": true,
+    "note": "Ask about the second shelf card next visit."
+  },
+  {
+    "id": "g33",
+    "deckId": "4",
+    "customerId": "56",
+    "customerName": "Nea Smyrni Clinic",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-09-23T08:30:00Z",
+    "endedAt": "2026-09-23T08:32:22Z",
     "slides": [
       {
         "slideId": "d4s1",
-        "seconds": 28,
-        "reaction": "neutral",
-        "feedback": "Heard it, no decision."
+        "seconds": 56,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
       },
       {
         "slideId": "d4s2",
-        "seconds": 55,
+        "seconds": 54,
         "reaction": "neutral",
         "feedback": "Listened, no question."
       },
       {
         "slideId": "d4s3",
-        "seconds": 75,
-        "reaction": "concern",
-        "feedback": "Worried about patients who already take something else."
+        "seconds": 32,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
       }
     ],
     "followUp": false,
-    "note": "Busy counter. Did not reach the close."
+    "note": "Happy with the message. No follow-up needed."
   },
   {
-    "id": "10",
-    "deckId": "5",
-    "customerId": "3",
-    "customerName": "Hygeia Medical Clinic",
-    "repName": "Nikos Konstantinou",
-    "startedAt": "2026-10-27T10:00:00.000Z",
-    "endedAt": "2026-10-27T10:09:00.000Z",
+    "id": "g51",
+    "deckId": "11",
+    "customerId": "9",
+    "customerName": "Piraeus Care Pharmacy",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-09-23T09:00:00Z",
+    "endedAt": "2026-09-23T09:03:08Z",
     "slides": [
       {
-        "slideId": "d5s1",
-        "seconds": 28,
+        "slideId": "d11s1",
+        "seconds": 57,
         "reaction": "interested",
         "feedback": "Asked how this fits their current choice."
       },
       {
-        "slideId": "d5s2",
-        "seconds": 55,
-        "reaction": "question",
-        "feedback": "Asked which patients to skip."
-      },
-      {
-        "slideId": "d5s3",
-        "seconds": 75,
-        "reaction": "neutral",
-        "feedback": "No comment, asked for the next slide."
-      },
-      {
-        "slideId": "d5s4",
-        "seconds": 42,
+        "slideId": "d11s2",
+        "seconds": 25,
         "reaction": "concern",
-        "feedback": "Asked what to do if the patient does not improve."
+        "feedback": "Worried about the reimbursement line."
       },
       {
-        "slideId": "d5s5",
-        "seconds": 36,
-        "reaction": "interested",
-        "feedback": "Asked for the leave-behind."
+        "slideId": "d11s3",
+        "seconds": 48,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 58,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
       }
     ],
     "followUp": true,
-    "note": "Will review the morning dose at the next visit."
+    "note": "Bring the target card and book a follow-up."
   },
   {
-    "id": "11",
-    "deckId": "5",
-    "customerId": "7",
-    "customerName": "Larissa Care Clinic",
+    "id": "g65",
+    "deckId": "4",
+    "customerId": "73",
+    "customerName": "EOPYY Thessaloniki",
     "repName": "Anna Dimou",
-    "startedAt": "2026-10-20T13:15:00.000Z",
-    "endedAt": "2026-10-20T13:21:00.000Z",
+    "startedAt": "2026-09-23T09:30:00Z",
+    "endedAt": "2026-09-23T09:33:33Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 63,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 84,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 66,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g22",
+    "deckId": "6",
+    "customerId": "13",
+    "customerName": "Marousi Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-24T07:30:00Z",
+    "endedAt": "2026-09-24T07:33:06Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 45,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 62,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 33,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d6s4",
+        "seconds": 46,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g115",
+    "deckId": "1",
+    "customerId": "5",
+    "customerName": "Heraklion General Hospital",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-24T08:30:00Z",
+    "endedAt": "2026-09-24T08:32:46Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 54,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 29,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 44,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 39,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      }
+    ],
+    "followUp": true,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g34",
+    "deckId": "5",
+    "customerId": "54",
+    "customerName": "Glyfada Pharmacy",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-09-25T07:00:00Z",
+    "endedAt": "2026-09-25T07:03:53Z",
     "slides": [
       {
         "slideId": "d5s1",
-        "seconds": 28,
+        "seconds": 79,
         "reaction": "question",
         "feedback": "Wanted the dosing line repeated."
       },
       {
         "slideId": "d5s2",
-        "seconds": 55,
-        "reaction": "question",
-        "feedback": "Asked which patients to skip."
+        "seconds": 68,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
       },
       {
         "slideId": "d5s3",
-        "seconds": 75,
-        "reaction": "concern",
-        "feedback": "Said the safety line needs to come earlier."
-      }
-    ],
-    "followUp": false,
-    "note": "Asked for the dosing line in writing."
-  },
-  {
-    "id": "12",
-    "deckId": "6",
-    "customerId": "5",
-    "customerName": "Heraklion General Hospital",
-    "repName": "Nikos Konstantinou",
-    "startedAt": "2026-10-30T08:20:00.000Z",
-    "endedAt": "2026-10-30T08:30:00.000Z",
-    "slides": [
-      {
-        "slideId": "d6s1",
-        "seconds": 28,
+        "seconds": 86,
         "reaction": "neutral",
-        "feedback": "Nodded and moved on."
-      },
-      {
-        "slideId": "d6s2",
-        "seconds": 55,
-        "reaction": "concern",
-        "feedback": "Said the safety line needs to come earlier."
-      },
-      {
-        "slideId": "d6s3",
-        "seconds": 75,
-        "reaction": "concern",
-        "feedback": "Asked what to do if the patient does not improve."
-      },
-      {
-        "slideId": "d6s4",
-        "seconds": 42,
-        "reaction": "question",
-        "feedback": "Asked what to say at the counter."
+        "feedback": "Listened, no question."
       }
     ],
     "followUp": true,
-    "note": "Safety slide raised a question about patients already on treatment."
+    "note": "Wants the card before the next morning clinic."
   },
   {
-    "id": "13",
+    "id": "g4",
     "deckId": "6",
-    "customerId": "13",
-    "customerName": "Marousi Medical Clinic",
-    "repName": "Anna Dimou",
-    "startedAt": "2026-10-16T09:50:00.000Z",
-    "endedAt": "2026-10-16T09:57:00.000Z",
+    "customerId": "60",
+    "customerName": "Evangelismos General Hospital",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-09-28T07:30:00Z",
+    "endedAt": "2026-09-28T07:35:00Z",
     "slides": [
       {
         "slideId": "d6s1",
-        "seconds": 28,
-        "reaction": "interested",
-        "feedback": "Wanted a copy of this slide."
-      },
-      {
-        "slideId": "d6s2",
-        "seconds": 55,
-        "reaction": "neutral",
-        "feedback": "No comment, asked for the next slide."
-      },
-      {
-        "slideId": "d6s3",
-        "seconds": 75,
-        "reaction": "question",
-        "feedback": "Wanted the difference from their current option."
-      },
-      {
-        "slideId": "d6s4",
-        "seconds": 42,
-        "reaction": "neutral",
-        "feedback": "Heard it, no decision."
-      },
-      {
-        "slideId": "d6s5",
         "seconds": 36,
-        "reaction": "interested",
-        "feedback": "Asked how this fits their current choice."
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 90,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 88,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d6s4",
+        "seconds": 86,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
       }
     ],
     "followUp": false,
-    "note": "Agreed the target card is enough for now."
+    "note": "Happy with the message. No follow-up needed."
   },
   {
-    "id": "14",
+    "id": "g97",
     "deckId": "7",
-    "customerId": "1",
-    "customerName": "Athens Central Pharmacy",
-    "repName": "Anna Dimou",
-    "startedAt": "2026-11-02T16:10:00.000Z",
-    "endedAt": "2026-11-02T16:15:00.000Z",
+    "customerId": "80",
+    "customerName": "Kalamata General Hospital",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-09-28T09:00:00Z",
+    "endedAt": "2026-09-28T09:04:58Z",
     "slides": [
       {
         "slideId": "d7s1",
-        "seconds": 28,
+        "seconds": 53,
         "reaction": "interested",
-        "feedback": "Said this matches how they already start."
+        "feedback": "Wanted a leave-behind for the shelf."
       },
       {
         "slideId": "d7s2",
-        "seconds": 55,
-        "reaction": "question",
-        "feedback": "Wanted the difference from their current option."
+        "seconds": 80,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
       },
       {
         "slideId": "d7s3",
-        "seconds": 75,
-        "reaction": "neutral",
-        "feedback": "Heard it, no decision."
-      },
-      {
-        "slideId": "d7s4",
-        "seconds": 42,
-        "reaction": "interested",
-        "feedback": "Asked how this fits their current choice."
-      }
-    ],
-    "followUp": true,
-    "note": "Will ask who the tablet is for before the next recommendation."
-  },
-  {
-    "id": "15",
-    "deckId": "7",
-    "customerId": "4",
-    "customerName": "Patras Family Pharmacy",
-    "repName": "Nikos Konstantinou",
-    "startedAt": "2026-10-24T12:00:00.000Z",
-    "endedAt": "2026-10-24T12:06:00.000Z",
-    "slides": [
-      {
-        "slideId": "d7s1",
-        "seconds": 28,
-        "reaction": "neutral",
-        "feedback": "No comment, asked for the next slide."
-      },
-      {
-        "slideId": "d7s2",
         "seconds": 55,
-        "reaction": "interested",
-        "feedback": "Agreed to try it with the next suitable patient."
-      },
-      {
-        "slideId": "d7s3",
-        "seconds": 75,
-        "reaction": "concern",
-        "feedback": "Pushed back on presenting past the warning."
-      },
-      {
-        "slideId": "d7s4",
-        "seconds": 42,
         "reaction": "neutral",
         "feedback": "Listened, no question."
       },
       {
+        "slideId": "d7s4",
+        "seconds": 45,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
         "slideId": "d7s5",
-        "seconds": 36,
-        "reaction": "interested",
-        "feedback": "Wanted a copy of this slide."
+        "seconds": 65,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
       }
     ],
     "followUp": false,
-    "note": "Food line was the only point they wanted repeated."
+    "note": "Happy with the message. No follow-up needed."
   },
   {
-    "id": "16",
-    "deckId": "8",
-    "customerId": "2",
-    "customerName": "Thessaloniki Health Pharmacy",
+    "id": "g66",
+    "deckId": "3",
+    "customerId": "33",
+    "customerName": "Thessaloniki Care Clinic",
     "repName": "Anna Dimou",
-    "startedAt": "2026-10-21T17:40:00.000Z",
-    "endedAt": "2026-10-21T17:44:00.000Z",
+    "startedAt": "2026-09-28T09:30:00Z",
+    "endedAt": "2026-09-28T09:32:36Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 59,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 40,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 57,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": true,
+    "note": "Ask about the second shelf card next visit."
+  },
+  {
+    "id": "g116",
+    "deckId": "8",
+    "customerId": "76",
+    "customerName": "EOPYY Heraklion",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-28T09:30:00Z",
+    "endedAt": "2026-09-28T09:34:31Z",
     "slides": [
       {
         "slideId": "d8s1",
-        "seconds": 28,
-        "reaction": "neutral",
-        "feedback": "Took the card and did not discuss it."
+        "seconds": 69,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
       },
       {
         "slideId": "d8s2",
-        "seconds": 55,
+        "seconds": 67,
         "reaction": "question",
-        "feedback": "Asked what to say at the counter."
+        "feedback": "Wanted the dosing line repeated."
       },
       {
         "slideId": "d8s3",
+        "seconds": 71,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d8s4",
+        "seconds": 64,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      }
+    ],
+    "followUp": true,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g83",
+    "deckId": "11",
+    "customerId": "15",
+    "customerName": "Galani Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-09-28T10:00:00Z",
+    "endedAt": "2026-09-28T10:04:55Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 48,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 84,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 85,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 78,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g23",
+    "deckId": "12",
+    "customerId": "63",
+    "customerName": "EOPYY Northern Athens",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-29T07:30:00Z",
+    "endedAt": "2026-09-29T07:33:00Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 80,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 39,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 61,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g5",
+    "deckId": "11",
+    "customerId": "61",
+    "customerName": "Aretaieio Hospital",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-09-29T08:00:00Z",
+    "endedAt": "2026-09-29T08:05:38Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 79,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 71,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 83,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 51,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d11s5",
+        "seconds": 54,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g117",
+    "deckId": "10",
+    "customerId": "47",
+    "customerName": "Chania General Hospital",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-29T09:00:00Z",
+    "endedAt": "2026-09-29T09:02:57Z",
+    "slides": [
+      {
+        "slideId": "d10s1",
+        "seconds": 37,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d10s2",
+        "seconds": 81,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d10s3",
+        "seconds": 59,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": true,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g35",
+    "deckId": "4",
+    "customerId": "66",
+    "customerName": "EOPYY South Athens",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-09-29T10:00:00Z",
+    "endedAt": "2026-09-29T10:02:58Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 54,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 47,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 77,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "g118",
+    "deckId": "1",
+    "customerId": "14",
+    "customerName": "Papageorgiou Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-09-30T07:00:00Z",
+    "endedAt": "2026-09-30T07:04:31Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 65,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d1s2",
         "seconds": 75,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 47,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 40,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d1s5",
+        "seconds": 44,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g24",
+    "deckId": "7",
+    "customerId": "53",
+    "customerName": "Kifisia Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-09-30T08:00:00Z",
+    "endedAt": "2026-09-30T08:03:16Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 56,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d7s2",
+        "seconds": 52,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 88,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": true,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g67",
+    "deckId": "5",
+    "customerId": "27",
+    "customerName": "Kavala Plus Pharmacy",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-09-30T10:00:00Z",
+    "endedAt": "2026-09-30T10:05:09Z",
+    "slides": [
+      {
+        "slideId": "d5s1",
+        "seconds": 53,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d5s2",
+        "seconds": 78,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d5s3",
+        "seconds": 45,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d5s4",
+        "seconds": 43,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d5s5",
+        "seconds": 90,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g68",
+    "deckId": "3",
+    "customerId": "73",
+    "customerName": "EOPYY Thessaloniki",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-01T07:00:00Z",
+    "endedAt": "2026-10-01T07:02:22Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 31,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 29,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 82,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "g36",
+    "deckId": "10",
+    "customerId": "66",
+    "customerName": "EOPYY South Athens",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-01T08:00:00Z",
+    "endedAt": "2026-10-01T08:03:58Z",
+    "slides": [
+      {
+        "slideId": "d10s1",
+        "seconds": 26,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d10s2",
+        "seconds": 54,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d10s3",
+        "seconds": 39,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d10s4",
+        "seconds": 46,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d10s5",
+        "seconds": 73,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "g119",
+    "deckId": "9",
+    "customerId": "22",
+    "customerName": "Chania Care Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-01T08:00:00Z",
+    "endedAt": "2026-10-01T08:03:47Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 76,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 58,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 26,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d9s4",
+        "seconds": 67,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g98",
+    "deckId": "4",
+    "customerId": "23",
+    "customerName": "Patras Care Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-02T08:00:00Z",
+    "endedAt": "2026-10-02T08:03:16Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 28,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 85,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 83,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g84",
+    "deckId": "5",
+    "customerId": "79",
+    "customerName": "EOPYY Ioannina",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-02T09:00:00Z",
+    "endedAt": "2026-10-02T09:02:37Z",
+    "slides": [
+      {
+        "slideId": "d5s1",
+        "seconds": 84,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d5s2",
+        "seconds": 43,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d5s3",
+        "seconds": 30,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": true,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g52",
+    "deckId": "10",
+    "customerId": "59",
+    "customerName": "Ilion Health Pharmacy",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-02T09:30:00Z",
+    "endedAt": "2026-10-02T09:33:24Z",
+    "slides": [
+      {
+        "slideId": "d10s1",
+        "seconds": 59,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d10s2",
+        "seconds": 57,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d10s3",
+        "seconds": 88,
         "reaction": "concern",
         "feedback": "Raised a safety point and paused."
       }
     ],
     "followUp": false,
-    "note": "Counter was busy. Fever question only."
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g25",
+    "deckId": "6",
+    "customerId": "51",
+    "customerName": "Kifisia Square Pharmacy",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-05T07:30:00Z",
+    "endedAt": "2026-10-05T07:34:48Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 81,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 65,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 30,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d6s4",
+        "seconds": 59,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d6s5",
+        "seconds": 53,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g85",
+    "deckId": "11",
+    "customerId": "37",
+    "customerName": "Larissa General Hospital",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-05T07:30:00Z",
+    "endedAt": "2026-10-05T07:33:21Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 90,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 62,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 49,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": true,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g99",
+    "deckId": "1",
+    "customerId": "20",
+    "customerName": "Papadopoulou Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-05T08:30:00Z",
+    "endedAt": "2026-10-05T08:34:22Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 85,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 88,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 89,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "g120",
+    "deckId": "2",
+    "customerId": "36",
+    "customerName": "Heraklion Square Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-05T09:00:00Z",
+    "endedAt": "2026-10-05T09:03:50Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 27,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 64,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 74,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d2s4",
+        "seconds": 65,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g6",
+    "deckId": "12",
+    "customerId": "62",
+    "customerName": "EOPYY Athens Center",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-06T07:00:00Z",
+    "endedAt": "2026-10-06T07:01:32Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 35,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 28,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 29,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": true,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g53",
+    "deckId": "4",
+    "customerId": "69",
+    "customerName": "Aigaleo General Hospital",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-06T07:30:00Z",
+    "endedAt": "2026-10-06T07:32:09Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 44,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 50,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 35,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": true,
+    "note": "Ask about the second shelf card next visit."
+  },
+  {
+    "id": "g100",
+    "deckId": "7",
+    "customerId": "17",
+    "customerName": "Konstantinidis Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-06T08:00:00Z",
+    "endedAt": "2026-10-06T08:04:28Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 84,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d7s2",
+        "seconds": 59,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 35,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d7s4",
+        "seconds": 90,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g26",
+    "deckId": "1",
+    "customerId": "65",
+    "customerName": "Chalandri Diagnostic Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-06T09:30:00Z",
+    "endedAt": "2026-10-06T09:34:34Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 32,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 83,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 77,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 29,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d1s5",
+        "seconds": 53,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": true,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g86",
+    "deckId": "4",
+    "customerId": "15",
+    "customerName": "Galani Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-06T10:00:00Z",
+    "endedAt": "2026-10-06T10:03:29Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 30,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 74,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 74,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d4s4",
+        "seconds": 31,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g7",
+    "deckId": "4",
+    "customerId": "62",
+    "customerName": "EOPYY Athens Center",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-07T08:00:00Z",
+    "endedAt": "2026-10-07T08:04:30Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 86,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 64,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 38,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d4s4",
+        "seconds": 82,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g54",
+    "deckId": "9",
+    "customerId": "69",
+    "customerName": "Aigaleo General Hospital",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-07T08:30:00Z",
+    "endedAt": "2026-10-07T08:34:07Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 35,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 33,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 88,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d9s4",
+        "seconds": 61,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d9s5",
+        "seconds": 30,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g8",
+    "deckId": "2",
+    "customerId": "1",
+    "customerName": "Athens Central Pharmacy",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-08T08:00:00Z",
+    "endedAt": "2026-10-08T08:03:02Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 30,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 81,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 71,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g121",
+    "deckId": "8",
+    "customerId": "19",
+    "customerName": "Corfu Care Clinic",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-08T08:00:00Z",
+    "endedAt": "2026-10-08T08:02:48Z",
+    "slides": [
+      {
+        "slideId": "d8s1",
+        "seconds": 59,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d8s2",
+        "seconds": 26,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d8s3",
+        "seconds": 83,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g101",
+    "deckId": "2",
+    "customerId": "20",
+    "customerName": "Papadopoulou Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-09T07:00:00Z",
+    "endedAt": "2026-10-09T07:02:39Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 40,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 51,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 68,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g69",
+    "deckId": "2",
+    "customerId": "45",
+    "customerName": "Thessaloniki Care Pharmacy",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-09T07:30:00Z",
+    "endedAt": "2026-10-09T07:33:45Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 35,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 31,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d2s4",
+        "seconds": 57,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d2s5",
+        "seconds": 74,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "g122",
+    "deckId": "11",
+    "customerId": "40",
+    "customerName": "Chania Family Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-09T07:30:00Z",
+    "endedAt": "2026-10-09T07:33:43Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 32,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 64,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 48,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 52,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d11s5",
+        "seconds": 27,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g9",
+    "deckId": "11",
+    "customerId": "60",
+    "customerName": "Evangelismos General Hospital",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-09T09:00:00Z",
+    "endedAt": "2026-10-09T09:04:15Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 53,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 74,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 74,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 54,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g87",
+    "deckId": "6",
+    "customerId": "42",
+    "customerName": "Ioannina Plus Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-09T09:30:00Z",
+    "endedAt": "2026-10-09T09:34:19Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 66,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 67,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 85,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d6s4",
+        "seconds": 41,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
   },
   {
     "id": "17",
     "deckId": "8",
     "customerId": "16",
     "customerName": "Rhodes Family Pharmacy",
-    "repName": "Nikos Konstantinou",
+    "repName": "Dimitris Markakis",
     "startedAt": "2026-10-11T10:25:00.000Z",
     "endedAt": "2026-10-11T10:31:00.000Z",
     "slides": [
@@ -635,48 +2831,369 @@
     "note": "Asked for a second shelf card before the weekend."
   },
   {
-    "id": "18",
-    "deckId": "9",
+    "id": "g70",
+    "deckId": "4",
+    "customerId": "74",
+    "customerName": "Thessaloniki Interbalkan Hospital",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-12T07:30:00Z",
+    "endedAt": "2026-10-12T07:34:43Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 29,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 65,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 76,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d4s4",
+        "seconds": 70,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d4s5",
+        "seconds": 43,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g88",
+    "deckId": "8",
+    "customerId": "18",
+    "customerName": "Georgiou Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-12T09:00:00Z",
+    "endedAt": "2026-10-12T09:04:05Z",
+    "slides": [
+      {
+        "slideId": "d8s1",
+        "seconds": 83,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d8s2",
+        "seconds": 39,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d8s3",
+        "seconds": 44,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d8s4",
+        "seconds": 79,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": true,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g27",
+    "deckId": "3",
+    "customerId": "51",
+    "customerName": "Kifisia Square Pharmacy",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-12T09:30:00Z",
+    "endedAt": "2026-10-12T09:33:15Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 88,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 42,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 65,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "25",
+    "deckId": "12",
     "customerId": "19",
     "customerName": "Corfu Care Clinic",
-    "repName": "Nikos Konstantinou",
-    "startedAt": "2026-10-29T11:05:00.000Z",
-    "endedAt": "2026-10-29T11:13:00.000Z",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-12T13:00:00.000Z",
+    "endedAt": "2026-10-12T13:06:00.000Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "No comment, asked for the next slide."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Wanted the difference from their current option."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 75,
+        "reaction": "concern",
+        "feedback": "Pushed back on presenting past the warning."
+      }
+    ],
+    "followUp": false,
+    "note": "Device check only. Did not reach the close."
+  },
+  {
+    "id": "g71",
+    "deckId": "7",
+    "customerId": "27",
+    "customerName": "Kavala Plus Pharmacy",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-13T07:00:00Z",
+    "endedAt": "2026-10-13T07:03:16Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 47,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d7s2",
+        "seconds": 52,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 71,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d7s4",
+        "seconds": 26,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g123",
+    "deckId": "7",
+    "customerId": "5",
+    "customerName": "Heraklion General Hospital",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-13T07:30:00Z",
+    "endedAt": "2026-10-13T07:33:52Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 60,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d7s2",
+        "seconds": 89,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 83,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g37",
+    "deckId": "3",
+    "customerId": "54",
+    "customerName": "Glyfada Pharmacy",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-13T08:00:00Z",
+    "endedAt": "2026-10-13T08:02:32Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 26,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 80,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 46,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g102",
+    "deckId": "9",
+    "customerId": "23",
+    "customerName": "Patras Care Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-13T09:00:00Z",
+    "endedAt": "2026-10-13T09:03:25Z",
     "slides": [
       {
         "slideId": "d9s1",
-        "seconds": 28,
-        "reaction": "interested",
-        "feedback": "Asked for the leave-behind."
+        "seconds": 66,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
       },
       {
         "slideId": "d9s2",
-        "seconds": 55,
+        "seconds": 51,
         "reaction": "question",
         "feedback": "Wanted the dosing line repeated."
       },
       {
         "slideId": "d9s3",
-        "seconds": 75,
+        "seconds": 88,
         "reaction": "neutral",
-        "feedback": "Nodded and moved on."
+        "feedback": "No objection, no commitment."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g72",
+    "deckId": "7",
+    "customerId": "2",
+    "customerName": "Thessaloniki Health Pharmacy",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-14T07:00:00Z",
+    "endedAt": "2026-10-14T07:04:25Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 56,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
       },
       {
-        "slideId": "d9s4",
-        "seconds": 42,
+        "slideId": "d7s2",
+        "seconds": 56,
         "reaction": "concern",
-        "feedback": "Said the safety line needs to come earlier."
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 45,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d7s4",
+        "seconds": 54,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d7s5",
+        "seconds": 54,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
       }
     ],
     "followUp": true,
-    "note": "One change only. Review booked for four weeks."
+    "note": "Ask about the second shelf card next visit."
+  },
+  {
+    "id": "g38",
+    "deckId": "4",
+    "customerId": "66",
+    "customerName": "EOPYY South Athens",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-14T08:00:00Z",
+    "endedAt": "2026-10-14T08:04:58Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 34,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 90,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 49,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d4s4",
+        "seconds": 72,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d4s5",
+        "seconds": 53,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
   },
   {
     "id": "19",
     "deckId": "9",
     "customerId": "7",
     "customerName": "Larissa Care Clinic",
-    "repName": "Anna Dimou",
+    "repName": "Petros Lazaridis",
     "startedAt": "2026-10-14T14:30:00.000Z",
     "endedAt": "2026-10-14T14:35:00.000Z",
     "slides": [
@@ -697,54 +3214,554 @@
     "note": "Short visit. Did not reach safety."
   },
   {
-    "id": "20",
-    "deckId": "10",
-    "customerId": "3",
-    "customerName": "Hygeia Medical Clinic",
-    "repName": "Anna Dimou",
-    "startedAt": "2026-10-26T09:15:00.000Z",
-    "endedAt": "2026-10-26T09:23:00.000Z",
+    "id": "g10",
+    "deckId": "1",
+    "customerId": "60",
+    "customerName": "Evangelismos General Hospital",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-15T08:00:00Z",
+    "endedAt": "2026-10-15T08:03:07Z",
     "slides": [
       {
-        "slideId": "d10s1",
+        "slideId": "d1s1",
+        "seconds": 46,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 31,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 59,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 51,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g28",
+    "deckId": "5",
+    "customerId": "3",
+    "customerName": "Hygeia Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-15T08:00:00Z",
+    "endedAt": "2026-10-15T08:03:49Z",
+    "slides": [
+      {
+        "slideId": "d5s1",
+        "seconds": 49,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d5s2",
+        "seconds": 40,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d5s3",
+        "seconds": 69,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d5s4",
+        "seconds": 71,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "9",
+    "deckId": "4",
+    "customerId": "8",
+    "customerName": "Ioannina Lake Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-15T09:30:00.000Z",
+    "endedAt": "2026-10-15T09:35:00.000Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
         "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "Heard it, no decision."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 55,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 75,
+        "reaction": "concern",
+        "feedback": "Worried about patients who already take something else."
+      }
+    ],
+    "followUp": false,
+    "note": "Busy counter. Did not reach the close."
+  },
+  {
+    "id": "g39",
+    "deckId": "5",
+    "customerId": "67",
+    "customerName": "Glyfada Medical Center",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-16T07:00:00Z",
+    "endedAt": "2026-10-16T07:03:59Z",
+    "slides": [
+      {
+        "slideId": "d5s1",
+        "seconds": 90,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d5s2",
+        "seconds": 52,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d5s3",
+        "seconds": 72,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d5s4",
+        "seconds": 25,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g103",
+    "deckId": "11",
+    "customerId": "4",
+    "customerName": "Patras Family Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-16T07:00:00Z",
+    "endedAt": "2026-10-16T07:04:27Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 77,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 34,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 70,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 86,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g124",
+    "deckId": "1",
+    "customerId": "36",
+    "customerName": "Heraklion Square Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-16T07:30:00Z",
+    "endedAt": "2026-10-16T07:32:48Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 27,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 88,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 53,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": true,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "28",
+    "deckId": "6",
+    "customerId": "13",
+    "customerName": "Marousi Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-16T08:00:00.000Z",
+    "endedAt": "2026-10-16T08:08:00.000Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 35,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 60,
+        "reaction": "interested",
+        "feedback": "Asked for the one-page target card."
+      }
+    ],
+    "followUp": true,
+    "note": "Φέρτε την κάρτα στόχου και κλείστε ημερομηνία επανελέγχου."
+  },
+  {
+    "id": "g55",
+    "deckId": "3",
+    "customerId": "70",
+    "customerName": "Ilion Health Center",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-16T08:30:00Z",
+    "endedAt": "2026-10-16T08:32:42Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 65,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 68,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 29,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g29",
+    "deckId": "3",
+    "customerId": "53",
+    "customerName": "Kifisia Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-16T09:00:00Z",
+    "endedAt": "2026-10-16T09:03:50Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 46,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 36,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 46,
         "reaction": "question",
         "feedback": "Wanted the dosing line repeated."
       },
       {
-        "slideId": "d10s2",
-        "seconds": 55,
-        "reaction": "concern",
-        "feedback": "Worried about patients who already take something else."
-      },
-      {
-        "slideId": "d10s3",
-        "seconds": 75,
-        "reaction": "concern",
-        "feedback": "Said the safety line needs to come earlier."
-      },
-      {
-        "slideId": "d10s4",
-        "seconds": 42,
+        "slideId": "d3s4",
+        "seconds": 30,
         "reaction": "neutral",
-        "feedback": "Took the card and did not discuss it."
+        "feedback": "Listened, no question."
       },
       {
-        "slideId": "d10s5",
-        "seconds": 36,
-        "reaction": "interested",
-        "feedback": "Asked for the leave-behind."
+        "slideId": "d3s5",
+        "seconds": 72,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g73",
+    "deckId": "6",
+    "customerId": "31",
+    "customerName": "Athanasiou Pharmacy",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-16T09:00:00Z",
+    "endedAt": "2026-10-16T09:03:06Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 84,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 37,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 65,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
       }
     ],
     "followUp": true,
-    "note": "Wants the short-course card before the next clinic meeting."
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "13",
+    "deckId": "6",
+    "customerId": "13",
+    "customerName": "Marousi Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-16T09:50:00.000Z",
+    "endedAt": "2026-10-16T09:57:00.000Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Wanted a copy of this slide."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 55,
+        "reaction": "neutral",
+        "feedback": "No comment, asked for the next slide."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 75,
+        "reaction": "question",
+        "feedback": "Wanted the difference from their current option."
+      },
+      {
+        "slideId": "d6s4",
+        "seconds": 42,
+        "reaction": "neutral",
+        "feedback": "Heard it, no decision."
+      },
+      {
+        "slideId": "d6s5",
+        "seconds": 36,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Agreed the target card is enough for now."
+  },
+  {
+    "id": "23",
+    "deckId": "11",
+    "customerId": "15",
+    "customerName": "Galani Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-17T11:40:00.000Z",
+    "endedAt": "2026-10-17T11:45:00.000Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "Nodded and moved on."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Asked how long to wait before review."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 75,
+        "reaction": "neutral",
+        "feedback": "Took the card and did not discuss it."
+      }
+    ],
+    "followUp": false,
+    "note": "Listened. No follow-up asked."
+  },
+  {
+    "id": "8",
+    "deckId": "3",
+    "customerId": "6",
+    "customerName": "Piraeus Port Pharmacy",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-18T15:05:00.000Z",
+    "endedAt": "2026-10-18T15:11:00.000Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Agreed to try it with the next suitable patient."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 55,
+        "reaction": "interested",
+        "feedback": "Asked for the leave-behind."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 75,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d3s4",
+        "seconds": 42,
+        "reaction": "neutral",
+        "feedback": "Nodded and moved on."
+      },
+      {
+        "slideId": "d3s5",
+        "seconds": 36,
+        "reaction": "interested",
+        "feedback": "Said this matches how they already start."
+      }
+    ],
+    "followUp": true,
+    "note": "Shelf card requested for the allergy bay."
+  },
+  {
+    "id": "g30",
+    "deckId": "12",
+    "customerId": "51",
+    "customerName": "Kifisia Square Pharmacy",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-19T08:00:00Z",
+    "endedAt": "2026-10-19T08:04:35Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 27,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 50,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 71,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d12s4",
+        "seconds": 90,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d12s5",
+        "seconds": 37,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g56",
+    "deckId": "9",
+    "customerId": "59",
+    "customerName": "Ilion Health Pharmacy",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-19T08:00:00Z",
+    "endedAt": "2026-10-19T08:04:15Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 26,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 46,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 53,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d9s4",
+        "seconds": 66,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d9s5",
+        "seconds": 64,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
   },
   {
     "id": "21",
     "deckId": "10",
     "customerId": "5",
     "customerName": "Heraklion General Hospital",
-    "repName": "Nikos Konstantinou",
+    "repName": "Dimitris Markakis",
     "startedAt": "2026-10-19T08:45:00.000Z",
     "endedAt": "2026-10-19T08:52:00.000Z",
     "slides": [
@@ -771,78 +3788,584 @@
     "note": "Stayed on the safety line. No close."
   },
   {
-    "id": "22",
-    "deckId": "11",
-    "customerId": "16",
-    "customerName": "Rhodes Family Pharmacy",
-    "repName": "Anna Dimou",
-    "startedAt": "2026-10-31T15:20:00.000Z",
-    "endedAt": "2026-10-31T15:26:00.000Z",
+    "id": "g104",
+    "deckId": "6",
+    "customerId": "23",
+    "customerName": "Patras Care Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-19T09:00:00Z",
+    "endedAt": "2026-10-19T09:02:48Z",
     "slides": [
       {
-        "slideId": "d11s1",
-        "seconds": 28,
+        "slideId": "d6s1",
+        "seconds": 52,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 59,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 25,
         "reaction": "interested",
-        "feedback": "Wanted a copy of this slide."
+        "feedback": "Asked how this fits their current choice."
       },
       {
-        "slideId": "d11s2",
-        "seconds": 55,
+        "slideId": "d6s4",
+        "seconds": 32,
         "reaction": "interested",
-        "feedback": "Said this matches how they already start."
-      },
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g40",
+    "deckId": "1",
+    "customerId": "66",
+    "customerName": "EOPYY South Athens",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-19T09:30:00Z",
+    "endedAt": "2026-10-19T09:34:49Z",
+    "slides": [
       {
-        "slideId": "d11s3",
-        "seconds": 75,
-        "reaction": "neutral",
-        "feedback": "Took the card and did not discuss it."
-      },
-      {
-        "slideId": "d11s4",
+        "slideId": "d1s1",
         "seconds": 42,
         "reaction": "question",
-        "feedback": "Asked what to say at the counter."
+        "feedback": "Asked who else in the city is using it."
       },
       {
-        "slideId": "d11s5",
-        "seconds": 36,
+        "slideId": "d1s2",
+        "seconds": 88,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 53,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 79,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d1s5",
+        "seconds": 27,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g11",
+    "deckId": "9",
+    "customerId": "62",
+    "customerName": "EOPYY Athens Center",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-19T10:00:00Z",
+    "endedAt": "2026-10-19T10:04:40Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 51,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 32,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 75,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d9s4",
+        "seconds": 40,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d9s5",
+        "seconds": 82,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g57",
+    "deckId": "4",
+    "customerId": "58",
+    "customerName": "Aigaleo Pharmacy",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-20T08:30:00Z",
+    "endedAt": "2026-10-20T08:33:04Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 29,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 85,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 70,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": true,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g74",
+    "deckId": "4",
+    "customerId": "73",
+    "customerName": "EOPYY Thessaloniki",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-20T08:30:00Z",
+    "endedAt": "2026-10-20T08:32:18Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 63,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 44,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 31,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "11",
+    "deckId": "5",
+    "customerId": "7",
+    "customerName": "Larissa Care Clinic",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-20T13:15:00.000Z",
+    "endedAt": "2026-10-20T13:21:00.000Z",
+    "slides": [
+      {
+        "slideId": "d5s1",
+        "seconds": 28,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d5s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Asked which patients to skip."
+      },
+      {
+        "slideId": "d5s3",
+        "seconds": 75,
+        "reaction": "concern",
+        "feedback": "Said the safety line needs to come earlier."
+      }
+    ],
+    "followUp": false,
+    "note": "Asked for the dosing line in writing."
+  },
+  {
+    "id": "g41",
+    "deckId": "12",
+    "customerId": "67",
+    "customerName": "Glyfada Medical Center",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-21T09:30:00Z",
+    "endedAt": "2026-10-21T09:32:27Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 26,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 67,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 54,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g75",
+    "deckId": "9",
+    "customerId": "10",
+    "customerName": "Thessaloniki Regional Hospital",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-21T09:30:00Z",
+    "endedAt": "2026-10-21T09:32:31Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 29,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 57,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 65,
         "reaction": "interested",
         "feedback": "Asked how this fits their current choice."
       }
     ],
-    "followUp": true,
-    "note": "Daytime allergy bay. Shelf card goes up this week."
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
   },
   {
-    "id": "23",
-    "deckId": "11",
-    "customerId": "15",
-    "customerName": "Galani Pharmacy",
-    "repName": "Nikos Konstantinou",
-    "startedAt": "2026-10-17T11:40:00.000Z",
-    "endedAt": "2026-10-17T11:45:00.000Z",
+    "id": "16",
+    "deckId": "8",
+    "customerId": "2",
+    "customerName": "Thessaloniki Health Pharmacy",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-21T17:40:00.000Z",
+    "endedAt": "2026-10-21T17:44:00.000Z",
     "slides": [
       {
-        "slideId": "d11s1",
+        "slideId": "d8s1",
         "seconds": 28,
         "reaction": "neutral",
-        "feedback": "Nodded and moved on."
+        "feedback": "Took the card and did not discuss it."
       },
       {
-        "slideId": "d11s2",
+        "slideId": "d8s2",
         "seconds": 55,
         "reaction": "question",
-        "feedback": "Asked how long to wait before review."
+        "feedback": "Asked what to say at the counter."
       },
       {
-        "slideId": "d11s3",
+        "slideId": "d8s3",
         "seconds": 75,
-        "reaction": "neutral",
-        "feedback": "Took the card and did not discuss it."
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
       }
     ],
     "followUp": false,
-    "note": "Listened. No follow-up asked."
+    "note": "Counter was busy. Fever question only."
+  },
+  {
+    "id": "g42",
+    "deckId": "3",
+    "customerId": "66",
+    "customerName": "EOPYY South Athens",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-22T07:00:00Z",
+    "endedAt": "2026-10-22T07:04:24Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 51,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 71,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 42,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s4",
+        "seconds": 35,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d3s5",
+        "seconds": 65,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g89",
+    "deckId": "1",
+    "customerId": "48",
+    "customerName": "Ioannina Health Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-22T08:30:00Z",
+    "endedAt": "2026-10-22T08:32:18Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 33,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 56,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 49,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "7",
+    "deckId": "2",
+    "customerId": "10",
+    "customerName": "Thessaloniki Regional Hospital",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-22T11:10:00.000Z",
+    "endedAt": "2026-10-22T11:17:00.000Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "No comment, asked for the next slide."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Wanted the difference from their current option."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 75,
+        "reaction": "concern",
+        "feedback": "Pushed back on presenting past the warning."
+      },
+      {
+        "slideId": "d2s4",
+        "seconds": 42,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": false,
+    "note": "Stopped after the safety slide. Will revisit in the next cycle."
+  },
+  {
+    "id": "g12",
+    "deckId": "8",
+    "customerId": "62",
+    "customerName": "EOPYY Athens Center",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-23T09:30:00Z",
+    "endedAt": "2026-10-23T09:33:54Z",
+    "slides": [
+      {
+        "slideId": "d8s1",
+        "seconds": 38,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d8s2",
+        "seconds": 41,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d8s3",
+        "seconds": 49,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d8s4",
+        "seconds": 58,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d8s5",
+        "seconds": 48,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "g43",
+    "deckId": "1",
+    "customerId": "67",
+    "customerName": "Glyfada Medical Center",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-23T10:00:00Z",
+    "endedAt": "2026-10-23T10:03:53Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 65,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 73,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 47,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 48,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g105",
+    "deckId": "2",
+    "customerId": "23",
+    "customerName": "Patras Care Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-23T10:00:00Z",
+    "endedAt": "2026-10-23T10:03:41Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 90,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 25,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d2s3",
+        "seconds": 63,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d2s4",
+        "seconds": 43,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "15",
+    "deckId": "7",
+    "customerId": "4",
+    "customerName": "Patras Family Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-24T12:00:00.000Z",
+    "endedAt": "2026-10-24T12:06:00.000Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "No comment, asked for the next slide."
+      },
+      {
+        "slideId": "d7s2",
+        "seconds": 55,
+        "reaction": "interested",
+        "feedback": "Agreed to try it with the next suitable patient."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 75,
+        "reaction": "concern",
+        "feedback": "Pushed back on presenting past the warning."
+      },
+      {
+        "slideId": "d7s4",
+        "seconds": 42,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d7s5",
+        "seconds": 36,
+        "reaction": "interested",
+        "feedback": "Wanted a copy of this slide."
+      }
+    ],
+    "followUp": false,
+    "note": "Food line was the only point they wanted repeated."
   },
   {
     "id": "24",
@@ -888,42 +4411,288 @@
     "note": "Technique check booked with the asthma clinic."
   },
   {
-    "id": "25",
+    "id": "g44",
+    "deckId": "8",
+    "customerId": "54",
+    "customerName": "Glyfada Pharmacy",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-26T07:00:00Z",
+    "endedAt": "2026-10-26T07:05:46Z",
+    "slides": [
+      {
+        "slideId": "d8s1",
+        "seconds": 49,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d8s2",
+        "seconds": 85,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d8s3",
+        "seconds": 38,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d8s4",
+        "seconds": 87,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d8s5",
+        "seconds": 87,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "20",
+    "deckId": "10",
+    "customerId": "3",
+    "customerName": "Hygeia Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-26T09:15:00.000Z",
+    "endedAt": "2026-10-26T09:23:00.000Z",
+    "slides": [
+      {
+        "slideId": "d10s1",
+        "seconds": 28,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d10s2",
+        "seconds": 55,
+        "reaction": "concern",
+        "feedback": "Worried about patients who already take something else."
+      },
+      {
+        "slideId": "d10s3",
+        "seconds": 75,
+        "reaction": "concern",
+        "feedback": "Said the safety line needs to come earlier."
+      },
+      {
+        "slideId": "d10s4",
+        "seconds": 42,
+        "reaction": "neutral",
+        "feedback": "Took the card and did not discuss it."
+      },
+      {
+        "slideId": "d10s5",
+        "seconds": 36,
+        "reaction": "interested",
+        "feedback": "Asked for the leave-behind."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the short-course card before the next clinic meeting."
+  },
+  {
+    "id": "g13",
     "deckId": "12",
-    "customerId": "19",
-    "customerName": "Corfu Care Clinic",
+    "customerId": "46",
+    "customerName": "Galanis Pharmacy",
     "repName": "Nikos Konstantinou",
-    "startedAt": "2026-10-12T13:00:00.000Z",
-    "endedAt": "2026-10-12T13:06:00.000Z",
+    "startedAt": "2026-10-26T10:00:00Z",
+    "endedAt": "2026-10-26T10:02:12Z",
     "slides": [
       {
         "slideId": "d12s1",
+        "seconds": 43,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 48,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 41,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": true,
+    "note": "Ask about the second shelf card next visit."
+  },
+  {
+    "id": "10",
+    "deckId": "5",
+    "customerId": "3",
+    "customerName": "Hygeia Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-27T10:00:00.000Z",
+    "endedAt": "2026-10-27T10:09:00.000Z",
+    "slides": [
+      {
+        "slideId": "d5s1",
         "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d5s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Asked which patients to skip."
+      },
+      {
+        "slideId": "d5s3",
+        "seconds": 75,
         "reaction": "neutral",
         "feedback": "No comment, asked for the next slide."
       },
       {
-        "slideId": "d12s2",
-        "seconds": 55,
-        "reaction": "question",
-        "feedback": "Wanted the difference from their current option."
+        "slideId": "d5s4",
+        "seconds": 42,
+        "reaction": "concern",
+        "feedback": "Asked what to do if the patient does not improve."
       },
       {
-        "slideId": "d12s3",
-        "seconds": 75,
+        "slideId": "d5s5",
+        "seconds": 36,
+        "reaction": "interested",
+        "feedback": "Asked for the leave-behind."
+      }
+    ],
+    "followUp": true,
+    "note": "Will review the morning dose at the next visit."
+  },
+  {
+    "id": "g106",
+    "deckId": "8",
+    "customerId": "80",
+    "customerName": "Kalamata General Hospital",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-27T10:00:00Z",
+    "endedAt": "2026-10-27T10:02:29Z",
+    "slides": [
+      {
+        "slideId": "d8s1",
+        "seconds": 28,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d8s2",
+        "seconds": 45,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d8s3",
+        "seconds": 76,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": true,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g76",
+    "deckId": "3",
+    "customerId": "45",
+    "customerName": "Thessaloniki Care Pharmacy",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-28T08:00:00Z",
+    "endedAt": "2026-10-28T08:04:24Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 30,
         "reaction": "concern",
-        "feedback": "Pushed back on presenting past the warning."
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 35,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 89,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d3s4",
+        "seconds": 67,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d3s5",
+        "seconds": 43,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
       }
     ],
     "followUp": false,
-    "note": "Device check only. Did not reach the close."
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "1",
+    "deckId": "1",
+    "customerId": "3",
+    "customerName": "Hygeia Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-10-28T09:05:00Z",
+    "endedAt": "2026-10-28T09:12:00Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 35,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 80,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 70,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 55,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d1s5",
+        "seconds": 40,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the resistance card before the next clinic meeting."
   },
   {
     "id": "26",
     "deckId": "1",
     "customerId": "3",
     "customerName": "Hygeia Medical Clinic",
-    "repName": "Demo User",
+    "repName": "Christina Nikolaou",
     "startedAt": "2026-10-28T09:10:00.000Z",
     "endedAt": "2026-10-28T09:18:00.000Z",
     "slides": [
@@ -950,11 +4719,412 @@
     "note": "Φέρτε την κάρτα αντοχής πριν το επόμενο πρωινό της κλινικής."
   },
   {
+    "id": "g14",
+    "deckId": "11",
+    "customerId": "43",
+    "customerName": "Athens Health Pharmacy",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-28T09:30:00Z",
+    "endedAt": "2026-10-28T09:34:37Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 86,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 46,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "Took the card and moved on."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 76,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d11s5",
+        "seconds": 41,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g77",
+    "deckId": "9",
+    "customerId": "73",
+    "customerName": "EOPYY Thessaloniki",
+    "repName": "Anna Dimou",
+    "startedAt": "2026-10-29T09:30:00Z",
+    "endedAt": "2026-10-29T09:33:01Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 82,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 40,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 59,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g90",
+    "deckId": "9",
+    "customerId": "26",
+    "customerName": "Petrou Pharmacy",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-29T09:30:00Z",
+    "endedAt": "2026-10-29T09:32:17Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 37,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 44,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 56,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "g107",
+    "deckId": "3",
+    "customerId": "23",
+    "customerName": "Patras Care Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-10-29T09:30:00Z",
+    "endedAt": "2026-10-29T09:34:03Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 64,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 32,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 29,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d3s4",
+        "seconds": 47,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d3s5",
+        "seconds": 71,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g58",
+    "deckId": "6",
+    "customerId": "71",
+    "customerName": "Piraeus General Hospital",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-29T10:00:00Z",
+    "endedAt": "2026-10-29T10:03:56Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 44,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 80,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 31,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d6s4",
+        "seconds": 81,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "18",
+    "deckId": "9",
+    "customerId": "19",
+    "customerName": "Corfu Care Clinic",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-29T11:05:00.000Z",
+    "endedAt": "2026-10-29T11:13:00.000Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Asked for the leave-behind."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 75,
+        "reaction": "neutral",
+        "feedback": "Nodded and moved on."
+      },
+      {
+        "slideId": "d9s4",
+        "seconds": 42,
+        "reaction": "concern",
+        "feedback": "Said the safety line needs to come earlier."
+      }
+    ],
+    "followUp": true,
+    "note": "One change only. Review booked for four weeks."
+  },
+  {
+    "id": "2",
+    "deckId": "2",
+    "customerId": "7",
+    "customerName": "Larissa Care Clinic",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-29T11:20:00Z",
+    "endedAt": "2026-10-29T11:26:00Z",
+    "slides": [
+      {
+        "slideId": "d2s1",
+        "seconds": 20,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d2s2",
+        "seconds": 90,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d2s4",
+        "seconds": 60,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": false,
+    "note": "Stopped after the safety slide. No ask."
+  },
+  {
+    "id": "g45",
+    "deckId": "3",
+    "customerId": "56",
+    "customerName": "Nea Smyrni Clinic",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-10-30T07:00:00Z",
+    "endedAt": "2026-10-30T07:03:53Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 28,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 29,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 65,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s4",
+        "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s5",
+        "seconds": 83,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": false,
+    "note": "Happy with the message. No follow-up needed."
+  },
+  {
+    "id": "12",
+    "deckId": "6",
+    "customerId": "5",
+    "customerName": "Heraklion General Hospital",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-30T08:20:00.000Z",
+    "endedAt": "2026-10-30T08:30:00.000Z",
+    "slides": [
+      {
+        "slideId": "d6s1",
+        "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "Nodded and moved on."
+      },
+      {
+        "slideId": "d6s2",
+        "seconds": 55,
+        "reaction": "concern",
+        "feedback": "Said the safety line needs to come earlier."
+      },
+      {
+        "slideId": "d6s3",
+        "seconds": 75,
+        "reaction": "concern",
+        "feedback": "Asked what to do if the patient does not improve."
+      },
+      {
+        "slideId": "d6s4",
+        "seconds": 42,
+        "reaction": "question",
+        "feedback": "Asked what to say at the counter."
+      }
+    ],
+    "followUp": true,
+    "note": "Safety slide raised a question about patients already on treatment."
+  },
+  {
+    "id": "g59",
+    "deckId": "12",
+    "customerId": "57",
+    "customerName": "Peristeri Pharmacy",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-10-30T10:00:00Z",
+    "endedAt": "2026-10-30T10:03:33Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 68,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 62,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 83,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
+  },
+  {
+    "id": "g91",
+    "deckId": "4",
+    "customerId": "7",
+    "customerName": "Larissa Care Clinic",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-10-30T10:00:00Z",
+    "endedAt": "2026-10-30T10:04:09Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 28,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 55,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d4s3",
+        "seconds": 83,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d4s4",
+        "seconds": 83,
+        "reaction": "concern",
+        "feedback": "Said the price needs a second look."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
     "id": "27",
     "deckId": "4",
     "customerId": "1",
     "customerName": "Athens Central Pharmacy",
-    "repName": "Demo User",
+    "repName": "Nikos Konstantinou",
     "startedAt": "2026-10-30T15:00:00.000Z",
     "endedAt": "2026-10-30T15:07:00.000Z",
     "slides": [
@@ -975,28 +5145,410 @@
     "note": "Επιβεβαιώστε τη δεύτερη κάρτα ραφιού. Το βοήθημα λήγει στις 20 Νοε."
   },
   {
-    "id": "28",
-    "deckId": "6",
-    "customerId": "13",
-    "customerName": "Marousi Medical Clinic",
-    "repName": "Demo User",
-    "startedAt": "2026-10-16T08:00:00.000Z",
-    "endedAt": "2026-10-16T08:08:00.000Z",
+    "id": "3",
+    "deckId": "3",
+    "customerId": "1",
+    "customerName": "Athens Central Pharmacy",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-10-30T16:00:00Z",
+    "endedAt": "2026-10-30T16:07:00Z",
     "slides": [
       {
-        "slideId": "d6s1",
-        "seconds": 35,
+        "slideId": "d3s1",
+        "seconds": 25,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 50,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 80,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d3s4",
+        "seconds": 45,
         "reaction": "neutral",
         "feedback": "Listened, no question."
       },
       {
-        "slideId": "d6s2",
-        "seconds": 60,
+        "slideId": "d3s5",
+        "seconds": 30,
         "reaction": "interested",
-        "feedback": "Asked for the one-page target card."
+        "feedback": "Agreed the next step."
       }
     ],
     "followUp": true,
-    "note": "Φέρτε την κάρτα στόχου και κλείστε ημερομηνία επανελέγχου."
+    "note": "Seasonal display goes up Thursday. Second shelf card requested."
+  },
+  {
+    "id": "22",
+    "deckId": "11",
+    "customerId": "16",
+    "customerName": "Rhodes Family Pharmacy",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-10-31T15:20:00.000Z",
+    "endedAt": "2026-10-31T15:26:00.000Z",
+    "slides": [
+      {
+        "slideId": "d11s1",
+        "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Wanted a copy of this slide."
+      },
+      {
+        "slideId": "d11s2",
+        "seconds": 55,
+        "reaction": "interested",
+        "feedback": "Said this matches how they already start."
+      },
+      {
+        "slideId": "d11s3",
+        "seconds": 75,
+        "reaction": "neutral",
+        "feedback": "Took the card and did not discuss it."
+      },
+      {
+        "slideId": "d11s4",
+        "seconds": 42,
+        "reaction": "question",
+        "feedback": "Asked what to say at the counter."
+      },
+      {
+        "slideId": "d11s5",
+        "seconds": 36,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": true,
+    "note": "Daytime allergy bay. Shelf card goes up this week."
+  },
+  {
+    "id": "6",
+    "deckId": "1",
+    "customerId": "13",
+    "customerName": "Marousi Medical Clinic",
+    "repName": "Christina Nikolaou",
+    "startedAt": "2026-11-01T08:40:00.000Z",
+    "endedAt": "2026-11-01T08:48:00.000Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Wanted a copy of this slide."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Asked how long to wait before review."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 75,
+        "reaction": "neutral",
+        "feedback": "Took the card and did not discuss it."
+      },
+      {
+        "slideId": "d1s4",
+        "seconds": 42,
+        "reaction": "interested",
+        "feedback": "Asked for the leave-behind."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the one-page card before the next clinic morning."
+  },
+  {
+    "id": "g108",
+    "deckId": "10",
+    "customerId": "4",
+    "customerName": "Patras Family Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-11-02T07:00:00Z",
+    "endedAt": "2026-11-02T07:04:04Z",
+    "slides": [
+      {
+        "slideId": "d10s1",
+        "seconds": 71,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d10s2",
+        "seconds": 74,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d10s3",
+        "seconds": 44,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      },
+      {
+        "slideId": "d10s4",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "g92",
+    "deckId": "3",
+    "customerId": "77",
+    "customerName": "EOPYY Larissa",
+    "repName": "Petros Lazaridis",
+    "startedAt": "2026-11-02T08:00:00Z",
+    "endedAt": "2026-11-02T08:05:19Z",
+    "slides": [
+      {
+        "slideId": "d3s1",
+        "seconds": 85,
+        "reaction": "question",
+        "feedback": "Asked who else in the city is using it."
+      },
+      {
+        "slideId": "d3s2",
+        "seconds": 59,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d3s3",
+        "seconds": 76,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d3s4",
+        "seconds": 29,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d3s5",
+        "seconds": 70,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": true,
+    "note": "Ask about the second shelf card next visit."
+  },
+  {
+    "id": "4",
+    "deckId": "4",
+    "customerId": "4",
+    "customerName": "Patras Family Pharmacy",
+    "repName": "Sofia Georgiou",
+    "startedAt": "2026-11-02T10:15:00Z",
+    "endedAt": "2026-11-02T10:20:00Z",
+    "slides": [
+      {
+        "slideId": "d4s1",
+        "seconds": 30,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d4s2",
+        "seconds": 70,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d4s4",
+        "seconds": 50,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": true,
+    "note": "Asked to be told when the replacement aid is approved."
+  },
+  {
+    "id": "14",
+    "deckId": "7",
+    "customerId": "1",
+    "customerName": "Athens Central Pharmacy",
+    "repName": "Nikos Konstantinou",
+    "startedAt": "2026-11-02T16:10:00.000Z",
+    "endedAt": "2026-11-02T16:15:00.000Z",
+    "slides": [
+      {
+        "slideId": "d7s1",
+        "seconds": 28,
+        "reaction": "interested",
+        "feedback": "Said this matches how they already start."
+      },
+      {
+        "slideId": "d7s2",
+        "seconds": 55,
+        "reaction": "question",
+        "feedback": "Wanted the difference from their current option."
+      },
+      {
+        "slideId": "d7s3",
+        "seconds": 75,
+        "reaction": "neutral",
+        "feedback": "Heard it, no decision."
+      },
+      {
+        "slideId": "d7s4",
+        "seconds": 42,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      }
+    ],
+    "followUp": true,
+    "note": "Will ask who the tablet is for before the next recommendation."
+  },
+  {
+    "id": "g60",
+    "deckId": "9",
+    "customerId": "68",
+    "customerName": "EOPYY Western Athens",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-11-03T07:00:00Z",
+    "endedAt": "2026-11-03T07:02:46Z",
+    "slides": [
+      {
+        "slideId": "d9s1",
+        "seconds": 43,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d9s2",
+        "seconds": 66,
+        "reaction": "neutral",
+        "feedback": "No objection, no commitment."
+      },
+      {
+        "slideId": "d9s3",
+        "seconds": 57,
+        "reaction": "neutral",
+        "feedback": "Listened, no question."
+      }
+    ],
+    "followUp": true,
+    "note": "Bring the target card and book a follow-up."
+  },
+  {
+    "id": "5",
+    "deckId": "1",
+    "customerId": "5",
+    "customerName": "Heraklion General Hospital",
+    "repName": "Dimitris Markakis",
+    "startedAt": "2026-11-03T08:40:00Z",
+    "endedAt": "2026-11-03T08:46:00Z",
+    "slides": [
+      {
+        "slideId": "d1s1",
+        "seconds": 20,
+        "reaction": "interested",
+        "feedback": "Asked how this fits their current choice."
+      },
+      {
+        "slideId": "d1s2",
+        "seconds": 100,
+        "reaction": "question",
+        "feedback": "Wanted the dosing line repeated."
+      },
+      {
+        "slideId": "d1s3",
+        "seconds": 40,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      }
+    ],
+    "followUp": false,
+    "note": "Outpatient clinic only. Did not reach the close."
+  },
+  {
+    "id": "g46",
+    "deckId": "12",
+    "customerId": "67",
+    "customerName": "Glyfada Medical Center",
+    "repName": "Maria Alexiou",
+    "startedAt": "2026-11-04T07:30:00Z",
+    "endedAt": "2026-11-04T07:34:10Z",
+    "slides": [
+      {
+        "slideId": "d12s1",
+        "seconds": 79,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      },
+      {
+        "slideId": "d12s2",
+        "seconds": 28,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d12s3",
+        "seconds": 76,
+        "reaction": "question",
+        "feedback": "Asked about the pack size they already stock."
+      },
+      {
+        "slideId": "d12s4",
+        "seconds": 67,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      }
+    ],
+    "followUp": true,
+    "note": "Wants the card before the next morning clinic."
+  },
+  {
+    "id": "g61",
+    "deckId": "8",
+    "customerId": "58",
+    "customerName": "Aigaleo Pharmacy",
+    "repName": "Andreas Petroulias",
+    "startedAt": "2026-11-04T07:30:00Z",
+    "endedAt": "2026-11-04T07:34:01Z",
+    "slides": [
+      {
+        "slideId": "d8s1",
+        "seconds": 88,
+        "reaction": "concern",
+        "feedback": "Raised a safety point and paused."
+      },
+      {
+        "slideId": "d8s2",
+        "seconds": 51,
+        "reaction": "concern",
+        "feedback": "Worried about the reimbursement line."
+      },
+      {
+        "slideId": "d8s3",
+        "seconds": 65,
+        "reaction": "interested",
+        "feedback": "Agreed the next step."
+      },
+      {
+        "slideId": "d8s4",
+        "seconds": 37,
+        "reaction": "interested",
+        "feedback": "Wanted a leave-behind for the shelf."
+      }
+    ],
+    "followUp": false,
+    "note": "Delivery question, not a clinical one."
   }
 ]

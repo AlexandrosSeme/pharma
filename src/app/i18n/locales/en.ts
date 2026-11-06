@@ -21,7 +21,8 @@ export const en = {
   },
   medication: {
     title: "Medications",
-    subtitle: "Product information for visits: substances, use, supply and prices.",
+    subtitle:
+      "Product information for visits: substances, use, supply and prices.",
     kicker: "Visit briefing",
     catalogCount: "{{count}} medicines",
     atcFilter: "ATC group",
@@ -29,7 +30,8 @@ export const en = {
     sections: "Briefing sections",
     searchPlaceholder: "Search name, INN or ATC…",
     selectProduct: "Open a briefing from the catalog",
-    emptyHint: "Filter by ATC group or search by trade name, then pick a medicine.",
+    emptyHint:
+      "Filter by ATC group or search by trade name, then pick a medicine.",
     back: "Back to list",
     disclaimer:
       "Field reference only. Confirm indications, dosing and safety against the current SmPC before any discussion.",
@@ -207,21 +209,24 @@ export const en = {
   },
   branding: {
     title: "Company branding",
-    subtitle: "Add your company logo and name. They replace the PharmaSales logo across the app.",
+    subtitle:
+      "Add your company logo and name. They replace the PharmaSales logo across the app.",
     companyName: "Company name",
     companyNamePlaceholder: "e.g. Pharmasales S.A.",
-    companyNameHint: "Shown next to the logo in the sidebar and on the login page. Leave empty to show the logo only.",
+    companyNameHint:
+      "Shown next to the logo in the sidebar and on the login page. Leave empty to show the logo only.",
     logo: "Logo",
     uploadLogo: "Upload logo",
     replaceLogo: "Replace logo",
     removeLogo: "Remove",
-    logoHint: "PNG, JPG, WebP or SVG, up to {{size}} MB. Empty margins are trimmed automatically and every logo is shown at the same height. A transparent PNG or SVG works best.",
+    logoHint:
+      "PNG, JPG, WebP or SVG, up to {{size}} MB. Empty margins are trimmed automatically and every logo is shown at the same height. A transparent PNG or SVG works best.",
     onDark: {
       label: "Logo on dark backgrounds",
       original: "Original colors",
       white: "White",
       frame: "White background",
-      hint: "Used on the sidebar and top bar. The best option is picked automatically from your logo's colors. \"White\" suits single-color logos only.",
+      hint: 'Used on the sidebar and top bar. The best option is picked automatically from your logo\'s colors. "White" suits single-color logos only.',
     },
     preview: "Preview",
     previewDark: "Sidebar and top bar",
@@ -258,13 +263,20 @@ export const en = {
     teamOf: "{{name}}'s team",
     watch: "Whose records to open",
     wholeTeam: "Whole team",
+    searchPeople: "Search name or area…",
+    repCount_one: "{{count}} rep",
+    repCount_other: "{{count}} reps",
+    noMatch: "No one matches",
+    showReps: "Show reps",
+    hideReps: "Hide reps",
     planningFor: "Planning for {{name}}",
     watchingPerson: "{{name}} · {{role}} · {{territory}}",
     watchingTeam: "{{name}}'s team · {{territory}}",
     welcome: "Welcome back",
     subtitle: "Sign in to manage your accounts and orders.",
     tagline: "Field sales, made simple.",
-    taglineSub: "One place for pharmacies, clinics, orders and your sales pipeline.",
+    taglineSub:
+      "One place for pharmacies, clinics, orders and your sales pipeline.",
     features: {
       field: "Built for reps on the road",
       insights: "Real-time sales insights for managers",
@@ -299,7 +311,8 @@ export const en = {
     route: "Today's route",
     routeEmpty: "Nothing is booked today.",
     mapTitle: "Today on the map",
-    mapHint: "Stops follow today's plan, in order. Marking a stop done turns that pin and the line before it gray, so the colored line is what's next.",
+    mapHint:
+      "Stops follow today's plan, in order. Marking a stop done turns that pin and the line before it gray, so the colored line is what's next.",
     mapDone: "Visited",
     mapEmpty: "No visit or call today has an address.",
     mapMissing: "The map is unavailable.",
@@ -314,7 +327,8 @@ export const en = {
     ordersHint: "{{open}} still on the way",
     ordersEmpty: "None of your accounts has an order yet.",
     ordersChart: "Orders by month",
-    ordersChartHint: "How many orders in the last six months. Cancelled ones are left out.",
+    ordersChartHint:
+      "How many orders in the last six months. Cancelled ones are left out.",
     expiringTitle: "Aids running out",
     expiringEmpty: "No aid is close to its end date.",
     leadsTitle: "Leads near your accounts",
@@ -389,7 +403,8 @@ export const en = {
       hospital: "Hospital",
       eopyy: "EOPYY",
       caution: "Say this first",
-      fieldAid: "This is a field aid. Confirm the current SmPC before the visit.",
+      fieldAid:
+        "This is a field aid. Confirm the current SmPC before the visit.",
       openBriefing: "Open the briefing",
       aid: "Approved presentation",
       aidEmpty: "No approved presentation for this pack.",
@@ -478,9 +493,12 @@ export const en = {
   },
   map: {
     title: "Map",
-    subtitle: "Every account by location. Select a pin for details and directions.",
-    subtitleManager: "Your team's accounts by location. Select a pin for details and directions.",
-    subtitleRep: "Your accounts by location. Select a pin for details and directions.",
+    subtitle:
+      "Every account by location. Select a pin for details and directions.",
+    subtitleManager:
+      "Your team's accounts by location. Select a pin for details and directions.",
+    subtitleRep:
+      "Your accounts by location. Select a pin for details and directions.",
     all: "All",
     onMap_one: "{{count}} customer on the map",
     onMap_other: "{{count}} customers on the map",
@@ -496,8 +514,10 @@ export const en = {
     close: "Close",
     cluster: "{{count}} customers here. Select to zoom in.",
     unavailable: "The map isn't available",
-    missingKey: "Google Maps isn't set up yet. Add VITE_GOOGLE_MAPS_API_KEY to .env.local and restart the app.",
-    loadFailed: "Google Maps couldn't load. Check your internet connection, or ask your administrator to check the Google Maps API key.",
+    missingKey:
+      "Google Maps isn't set up yet. Add VITE_GOOGLE_MAPS_API_KEY to .env.local and restart the app.",
+    loadFailed:
+      "The map couldn't load. Check your internet connection and try again.",
   },
   location: {
     myLocation: "My location",
@@ -506,8 +526,10 @@ export const en = {
     errors: {
       unsupported: "This device can't share its location.",
       insecure: "Location only works when the app is opened over HTTPS.",
-      denied: "Location access is blocked. Allow location for this app in your browser or device settings.",
-      unavailable: "Your location isn't available right now. Check that location services are on.",
+      denied:
+        "Location access is blocked. Allow location for this app in your browser or device settings.",
+      unavailable:
+        "Your location isn't available right now. Check that location services are on.",
       timeout: "Finding your location took too long. Try again.",
     },
   },
@@ -536,9 +558,12 @@ export const en = {
   },
   calendar: {
     title: "Calendar",
-    subtitle: "Plan visits, calls and follow-ups across every team. Drag an activity to reschedule it.",
-    subtitleManager: "Plan visits, calls and follow-ups for your team. Drag an activity to reschedule it.",
-    subtitleRep: "Plan your visits, calls and follow-ups. Drag an activity to reschedule it.",
+    subtitle:
+      "Plan visits, calls and follow-ups across every team. Drag an activity to reschedule it.",
+    subtitleManager:
+      "Plan visits, calls and follow-ups for your team. Drag an activity to reschedule it.",
+    subtitleRep:
+      "Plan your visits, calls and follow-ups. Drag an activity to reschedule it.",
     newActivity: "New activity",
     editActivity: "Edit activity",
     prev: "Previous",
@@ -615,7 +640,8 @@ export const en = {
     delete: "Delete",
     keep: "Keep it",
     deleteTitle: "Delete activity?",
-    deleteConfirm: "\"{{title}}\" will be removed from the calendar. This can't be undone.",
+    deleteConfirm:
+      '"{{title}}" will be removed from the calendar. This can\'t be undone.',
     route: {
       today: "Today's route",
       day: "Route for {{date}}",
@@ -677,8 +703,10 @@ export const en = {
       reopen: "Reopen",
       next: {
         new: "Call them. Say who you are and which line you carry.",
-        contacted: "They have heard from you. Confirm the interest and who places the order.",
-        qualified: "They want the products. Agree the range and book the visit.",
+        contacted:
+          "They have heard from you. Confirm the interest and who places the order.",
+        qualified:
+          "They want the products. Agree the range and book the visit.",
         proposal: "The offer is with them. Call and ask what is still open.",
         lost: "Closed. Keep the reason, so the next conversation starts from it.",
       },

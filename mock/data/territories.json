@@ -53,7 +53,7 @@
       "el": "Νότια Αθήνα"
     },
     "managerId": "1",
-    "repId": "r1",
+    "repId": "r7",
     "cities": [
       "Glyfada",
       "Alimos",
@@ -105,47 +105,6 @@
       "9",
       "71",
       "72"
-    ]
-  },
-  {
-    "id": "south",
-    "name": {
-      "en": "Peloponnese and the islands",
-      "el": "Πελοπόννησος και νησιά"
-    },
-    "managerId": "1",
-    "repId": "r3",
-    "cities": [
-      "Patras",
-      "Kalamata",
-      "Heraklion",
-      "Chania",
-      "Rhodes",
-      "Corfu"
-    ],
-    "accountIds": [
-      "4",
-      "5",
-      "14",
-      "16",
-      "17",
-      "19",
-      "20",
-      "22",
-      "23",
-      "24",
-      "30",
-      "34",
-      "36",
-      "39",
-      "40",
-      "41",
-      "44",
-      "47",
-      "49",
-      "75",
-      "76",
-      "80"
     ]
   },
   {
@@ -204,6 +163,60 @@
       "77",
       "78",
       "79"
+    ]
+  },
+  {
+    "id": "peloponnese",
+    "name": {
+      "en": "Peloponnese",
+      "el": "Πελοπόννησος"
+    },
+    "managerId": "m2",
+    "repId": "r3",
+    "cities": [
+      "Patras",
+      "Kalamata"
+    ],
+    "accountIds": [
+      "4",
+      "17",
+      "20",
+      "23",
+      "75",
+      "80"
+    ]
+  },
+  {
+    "id": "islands",
+    "name": {
+      "en": "Crete and the islands",
+      "el": "Κρήτη και νησιά"
+    },
+    "managerId": "m2",
+    "repId": "r8",
+    "cities": [
+      "Heraklion",
+      "Chania",
+      "Rhodes",
+      "Corfu"
+    ],
+    "accountIds": [
+      "5",
+      "14",
+      "16",
+      "19",
+      "22",
+      "24",
+      "30",
+      "34",
+      "36",
+      "39",
+      "40",
+      "41",
+      "44",
+      "47",
+      "49",
+      "76"
     ]
   }
 ]

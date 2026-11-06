@@ -1,85 +1,104 @@
-import type { TeamMember } from './types'
+import type { TeamMember } from "./types";
 
 /** Demo directory. The password is not checked; any non-empty password matches the email. */
 export const roster: TeamMember[] = [
   {
-    id: 'd1',
-    name: 'Eleni Vasilaki',
-    email: 'eleni.vasilaki@pharmasales.gr',
-    role: 'director',
-    territory: { en: 'Greece', el: 'Ελλάδα' },
+    id: "d1",
+    name: "Eleni Vasilaki",
+    email: "eleni.vasilaki@pharmasales.gr",
+    role: "director",
+    territory: { en: "Greece", el: "Ελλάδα" },
   },
   {
-    id: '1',
-    name: 'Demo User',
-    email: 'demo.user@pharmasales.gr',
-    role: 'manager',
-    managerId: 'd1',
-    territory: { en: 'Attica and the south', el: 'Αττική και νότια' },
+    id: "1",
+    name: "Giannis Papadopoulos",
+    email: "giannis.papadopoulos@pharmasales.gr",
+    role: "manager",
+    managerId: "d1",
+    territory: { en: "Attica", el: "Αττική" },
   },
   {
-    id: 'm2',
-    name: 'Kostas Ioannou',
-    email: 'kostas.ioannou@pharmasales.gr',
-    role: 'manager',
-    managerId: 'd1',
-    territory: { en: 'Northern Greece', el: 'Βόρεια Ελλάδα' },
+    id: "m2",
+    name: "Kostas Ioannou",
+    email: "kostas.ioannou@pharmasales.gr",
+    role: "manager",
+    managerId: "d1",
+    territory: { en: "Outside Attica", el: "Εκτός Αττικής" },
   },
   {
-    id: 'r1',
-    name: 'Nikos Konstantinou',
-    email: 'nikos.konstantinou@pharmasales.gr',
-    role: 'rep',
-    managerId: '1',
-    territory: { en: 'Athens center and south', el: 'Κέντρο και νότια Αθήνα' },
+    id: "r1",
+    name: "Nikos Konstantinou",
+    email: "nikos.konstantinou@pharmasales.gr",
+    role: "rep",
+    managerId: "1",
+    territory: { en: "Athens center", el: "Κέντρο Αθήνας" },
   },
   {
-    id: 'r3',
-    name: 'Sofia Georgiou',
-    email: 'sofia.georgiou@pharmasales.gr',
-    role: 'rep',
-    managerId: '1',
-    territory: { en: 'Peloponnese and the islands', el: 'Πελοπόννησος και νησιά' },
+    id: "r7",
+    name: "Maria Alexiou",
+    email: "maria.alexiou@pharmasales.gr",
+    role: "rep",
+    managerId: "1",
+    territory: { en: "South Athens", el: "Νότια Αθήνα" },
   },
   {
-    id: 'r2',
-    name: 'Anna Dimou',
-    email: 'anna.dimou@pharmasales.gr',
-    role: 'rep',
-    managerId: 'm2',
-    territory: { en: 'Thessaloniki, Serres, Kavala', el: 'Θεσσαλονίκη, Σέρρες, Καβάλα' },
+    id: "r2",
+    name: "Anna Dimou",
+    email: "anna.dimou@pharmasales.gr",
+    role: "rep",
+    managerId: "m2",
+    territory: {
+      en: "Thessaloniki, Serres, Kavala",
+      el: "Θεσσαλονίκη, Σέρρες, Καβάλα",
+    },
   },
   {
-    id: 'r4',
-    name: 'Petros Lazaridis',
-    email: 'petros.lazaridis@pharmasales.gr',
-    role: 'rep',
-    managerId: 'm2',
-    territory: { en: 'Thessaly and Epirus', el: 'Θεσσαλία και Ήπειρος' },
+    id: "r4",
+    name: "Petros Lazaridis",
+    email: "petros.lazaridis@pharmasales.gr",
+    role: "rep",
+    managerId: "m2",
+    territory: { en: "Thessaly and Epirus", el: "Θεσσαλία και Ήπειρος" },
   },
   {
-    id: 'r5',
-    name: 'Christina Nikolaou',
-    email: 'christina.nikolaou@pharmasales.gr',
-    role: 'rep',
-    managerId: '1',
-    territory: { en: 'North Athens', el: 'Βόρεια Αθήνα' },
+    id: "r5",
+    name: "Christina Nikolaou",
+    email: "christina.nikolaou@pharmasales.gr",
+    role: "rep",
+    managerId: "1",
+    territory: { en: "North Athens", el: "Βόρεια Αθήνα" },
   },
   {
-    id: 'r6',
-    name: 'Andreas Petroulias',
-    email: 'andreas.petroulias@pharmasales.gr',
-    role: 'rep',
-    managerId: '1',
-    territory: { en: 'Piraeus and west Athens', el: 'Πειραιάς και δυτικά' },
+    id: "r6",
+    name: "Andreas Petroulias",
+    email: "andreas.petroulias@pharmasales.gr",
+    role: "rep",
+    managerId: "1",
+    territory: { en: "Piraeus and west Athens", el: "Πειραιάς και δυτικά" },
   },
-]
+  {
+    id: "r3",
+    name: "Sofia Georgiou",
+    email: "sofia.georgiou@pharmasales.gr",
+    role: "rep",
+    managerId: "m2",
+    territory: { en: "Peloponnese", el: "Πελοπόννησος" },
+  },
+  {
+    id: "r8",
+    name: "Dimitris Markakis",
+    email: "dimitris.markakis@pharmasales.gr",
+    role: "rep",
+    managerId: "m2",
+    territory: { en: "Crete and the islands", el: "Κρήτη και νησιά" },
+  },
+];
 
 export function memberById(id: string) {
-  return roster.find((member) => member.id === id)
+  return roster.find((member) => member.id === id);
 }
 
 export function memberByEmail(email: string) {
-  const needle = email.trim().toLowerCase()
-  return roster.find((member) => member.email.toLowerCase() === needle)
+  const needle = email.trim().toLowerCase();
+  return roster.find((member) => member.email.toLowerCase() === needle);
 }
